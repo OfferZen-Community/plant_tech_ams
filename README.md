@@ -36,7 +36,9 @@ You will receive a sandbox including:
 * Moisture sensor
 * Micro usb to usb cable
 * Rgb LED
-* Watering system
+* Watering pump
+* PVC tube
+* TIP 31C Transistor
 
 *Know somebody who would enjoy this course? Tell your friends to [register here.](https://forms.gle/fk8hYZLWES6fhCCg8)
 
