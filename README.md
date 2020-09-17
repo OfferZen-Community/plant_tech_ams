@@ -20,7 +20,9 @@ Makers that arrive well prepared get the most out of their experience. Before yo
 
 Time at a Make Day is valuable! Arrive well prepared to get the most out of it.
 
-- [ ] Read [Arduino Plant how-to](https://create.arduino.cc/projecthub/electropeak/complete-guide-to-use-soil-moisture-sensor-w-examples-756b1f)
+- [ ] Read [Soil Moisture Sensor Tutorial for Arduino, ESP8266 and ESP32](https://diyi0t.com/soil-moisture-sensor-tutorial-for-arduino-and-esp8266/)
+- [ ] Read [ESP8266 smart plant irrigation system](https://iot-playground.com/blog/2-uncategorised/94-esp8266-smart-plant-irrigation-system)
+- [ ] Read [ESP8266 smart plant irrigation system](https://iot-playground.com/blog/2-uncategorised/94-esp8266-smart-plant-irrigation-system)
 
 That's all, you're ready for Make Day!
 
