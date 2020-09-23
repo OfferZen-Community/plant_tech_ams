@@ -55,13 +55,16 @@ You may also need [the driver](https://www.silabs.com/products/development-tools
 
 ## Pinouts
 ESP8266:
-![ESP8266 Legend](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-ESP-12E-chip-pinout-gpio-pin.png?ssl=1)
+<img src="https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-ESP-12E-chip-pinout-gpio-pin.png?ssl=1" alt="ESP8266" width="250"/>
 
 Mini Submersible 5V Water Pump:
-![waterpump](https://potentiallabs.com/cart/image/cache/catalog/New%20Components-17/Mini%20Waterpump-800x800.png)
+<img src="https://potentiallabs.com/cart/image/cache/catalog/New%20Components-17/Mini%20Waterpump-800x800.png" alt="pump" width="250"/>
 
-TIP31C Transistor
-![TIP31C Transistor](https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif)
+TIP31C Transistor:
+<img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="250"/>
+
+Moisture Sensor:
+<img src="https://components101.com/sites/default/files/component_pin/Moisture-Sensor-Module-Pinout.jpg" alt="moisture" width="250"/>
 
 ## Manuals
 - [Soil Moisture Sensor Tutorial for Arduino, ESP8266 and ESP32](https://diyi0t.com/soil-moisture-sensor-tutorial-for-arduino-and-esp8266/)
@@ -76,7 +79,7 @@ If you coding isn't your strong suit, just use the code provided in the repo:
 
 
 # Useful resources
-- [OfferZen Make Subreddit](https://www.reddit.com/r/offerzenmake): check it out and upvote any answers you find useful. Feel free to add your own questions and comments!
+- [ ] Check out the [OfferZen Make Subreddit](https://www.reddit.com/r/offerzenmake) and upvote any answers you find useful. Feel free to add your own questions and comments! 
 - [ ] Join Make Slack, introduce yourself in #meet-and-greet, and check in with your team channel
 - [ ] Learn about the how, where and why of Make Days with the [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 
