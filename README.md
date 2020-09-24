@@ -68,6 +68,7 @@ Moisture Sensor:
 
 ## Manuals
 - [Soil Moisture Sensor Tutorial for Arduino, ESP8266 and ESP32](https://diyi0t.com/soil-moisture-sensor-tutorial-for-arduino-and-esp8266/)
+- [Soil Moisture Sensor Setup for Arduino](https://www.instructables.com/id/Arduino-Soil-Moisture-Sensor/)
 - [ESP8266 smart plant irrigation system](https://iot-playground.com/blog/2-uncategorised/94-esp8266-smart-plant-irrigation-system)
 
 ## Code
@@ -76,7 +77,9 @@ If you coding isn't your strong suit, just use the code provided in the repo:
 - [Complete Watering System](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/plant_watering_system.ino)
 
 # Further ideas
-
+- Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
+- Let your system update you via text on when to water your plants with the [MessageBird API](https://developers.messagebird.com/quickstarts/sms/send-sms-curl/)
+- Telling your plant to water itself - by speech! [Blogpost + code](https://codeburst.io/home-automation-using-google-assistant-dialogflow-firebase-esp8266-wemos-part-1-800c4dc15ad9)
 
 # Useful resources
 - [ ] Check out the [OfferZen Make Subreddit](https://www.reddit.com/r/offerzenmake) and upvote any answers you find useful. Feel free to add your own questions and comments! 
