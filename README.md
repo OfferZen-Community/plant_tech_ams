@@ -43,7 +43,7 @@ You may also need [the driver](https://www.silabs.com/products/development-tools
 
 # What will be available for you on the evening
 
-* ESP8266
+* ESP8266 module
 * Dopunt f-f wires (x10)
 * Moisture sensor
 * Micro usb to usb A cable
