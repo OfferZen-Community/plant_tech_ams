@@ -78,6 +78,7 @@ If you coding isn't your strong suit, just use the code provided in the repo:
 
 # Further ideas
 - Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
+- Send messages on [slack or telegram](http://blog.danishjoshi.com/2019/11/06/sending-messages-to-a-slack-or-telegram-channel-using-esp8266/).
 - Let your system update you via text on when to water your plants with the [MessageBird API](https://developers.messagebird.com/quickstarts/sms/send-sms-curl/)
 - Telling your plant to water itself - by speech! [Blogpost + code](https://codeburst.io/home-automation-using-google-assistant-dialogflow-firebase-esp8266-wemos-part-1-800c4dc15ad9)
 
