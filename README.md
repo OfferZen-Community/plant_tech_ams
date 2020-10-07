@@ -48,7 +48,7 @@ You may also need [the driver](https://www.silabs.com/products/development-tools
 * Moisture sensor
 * Micro usb to usb A cable
 * Watering pump
-* PVC tube + tie
+* PVC tube + cable tie
 * TIP31C Transistor
 
 # How to get started
