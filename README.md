@@ -120,4 +120,4 @@ If you are confident that your very own automated watering system is fully worki
 - [ ] Browse through the existing Slack channels, the place where all Makers get together to share ideas, projects, and help!
 - [ ] Learn about the how, where and why of Make Days with the [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 
-* Know somebody who would enjoy this course? Share their names with us and we'll send a Make @ Home Box their way!
+🎁 Know somebody who would enjoy this course? Share their names with us and we'll send a Make @ Home Box their way! 🎁
