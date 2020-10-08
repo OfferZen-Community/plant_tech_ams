@@ -8,7 +8,7 @@ The aim of Make Days is to explore and learn new things. You don't need to achie
 
 Makers that arrive well prepared get the most out of their experience. Before you attend your Make Day, there are a couple of activities to complete.
 
-## Prep
+## To do
 
 Here's a list of things you'll need to prep before you can set up your watering system. 
 
@@ -45,7 +45,7 @@ You may also need [the driver](https://www.silabs.com/products/development-tools
 
 ## What will be available for you on the evening
 
-<img src="https://media.giphy.com/media/ge91zAgmwUqLMqiH2c/giphy.gif" alt="ESP8266" width="300"/>
+<img src="https://media.giphy.com/media/ge91zAgmwUqLMqiH2c/giphy.gif" alt="seven" width="300"/>
 
 * ESP8266 module
 * Dopunt f-f wires (x10)
@@ -83,18 +83,18 @@ Add 300 ml water to the bag with pressed soil, forming ~1 liter of compost. Make
 
 ## Part 2 - Moisture Sensor
 
-Connect the moisture sensor with the LM393 chip (). The sensor has both an analog (0 for wet and 1023 for dry) and a digital (LOW for wet and HIGH for dry) output. Check the pinout for the sensor above and see where it would connect to the ESP8266 board (it has a A0, D0, GND, and needs a voltage).
+Connect the moisture sensor with the LM393 chip that comes in the same pack. The sensor has both an analog (0 for wet and 1023 for dry) and a digital (LOW for wet and HIGH for dry) output. Check the pinout for the sensor above and see where it would connect to the ESP8266 board (tip: it has a A0, D0, GND, and needs a voltage).
 
-Connect the ESP8266 with your PC and start up the Android IDE. Try getting the sensor up and running to print its moisture values (analog is more interesting here as it gives you a value from a wetness-range). If coding isn't your strong suit, you can use the code provided in this repo for the [Moisture Sensor](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/MoistureSensor.ino).
+Connect the ESP8266 with your PC and start up the Android IDE. Try writing a little programme to print the sensor's moisture values (analog is more interesting here as it gives you a value from a wetness-range). If coding isn't your strong suit, you can use the code provided in this repo for the [Moisture Sensor](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/MoistureSensor.ino).
 
-Upload your code to your system (cntrl-U / cmd-U), wait untill the upload is done - the terminal should read: "Leaving... Hard resetting via RTS pin..." - and open the monitor (Tools > Serial Monitor) to see your printed values. Make sure that the Baud rate in the program and your serial monitor window are the same.
+Upload your code to your system, wait untill the upload is done - the terminal should read: "Leaving... Hard resetting via RTS pin..." - and open the monitor (Tools > Serial Monitor) to see your printed values. Make sure that the Baud rate in the program and your serial monitor window are the same.
 
 Put your sensor (only the two large exposed pads) in the compost of your plant, or simply put it in a glass of water, to do some readings!
 
 ### Troubleshooting
 
 - Sometimes the ESP8266 does not show in your IDE. If so, look for the right USB-port (Tools > Port).
-- When using the code from the repo, select the 115200 BAUD option for upload speed, otherwise your readings are not properly displayed.
+- When using the code from the repo, select the 115200 BAUD option for upload speed, otherwise your readings are not printed.
 
 ## Part 3 - Mini Water Pump
 
@@ -102,11 +102,11 @@ The pump is water submersible, sucks in water from the hole on the opposite end 
 
 The pump has a GND output to be connected to the ESP8266 and receives power from the emitter pin of the transistor. The transistor gets it power through its collector pin from the ESP8266's 3V3 pin. Finally, connect the base to the D1 pin to be able to control the pump.
 
-Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and watch out for water spills ;)
+Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and please watch out for water spills ;)
 
 ## Part 4 - Time to play!
 
-Now that the basics of your system are up and running, it's time to play around a bit. You can put your moisture sensor in your plant and attach the PVC tubing to the water pump (potentially use the cable tie to prevent leaking) with one end, and lay the other end in the plant.
+Now that the basics of your system are up and running, it's time to play around a bit! You can put your moisture sensor in your plant and attach the PVC tubing to the water pump (potentially use the cable tie to prevent leaking) with one end, and lay the other end in the plant.
 
 See what analog value would be a good threshhold of dryness. Implement this in your code to start activating your pump as soon as this threshold is reached. Also try to implement some delays in your code to stop the pump after a few seconds, as it takes some time for the soil to get moist and the sensor to pick this up.
 
@@ -122,4 +122,6 @@ If you are confident that your very own automated watering system is fully worki
 - [ ] Browse through the existing Slack channels, the place where all Makers get together to share ideas, projects, and help!
 - [ ] Learn about the how, where and why of Make Days with the [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 
-🎁 Know somebody who would enjoy this course? Share their names with us and we'll send a Make @ Home Box their way! 🎁
+<img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
+
+### 🎁 We want to give you the gift of giving! Do you know any fellow Makers that would love to join the Make Community and receive their very own Make @ Home Box? Let us know their names and we'll ship a box their way! 🎁
