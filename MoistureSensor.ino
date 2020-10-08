@@ -11,7 +11,7 @@ void setup() {
   pinMode(ANA, INPUT);
   pinMode(DIGI, INPUT);
   Serial.begin(115200);
-  Serial.println("Paolo Test");
+  Serial.println("Test");
 }
 
 void loop() {
