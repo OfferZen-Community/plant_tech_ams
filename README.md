@@ -61,19 +61,19 @@ You may also need [the driver](https://www.silabs.com/products/development-tools
 ## Pinouts
 ESP8266:
 
-<img src="https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png?ssl=1" alt="ESP8266" width="250"/>
+<img src="https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png?ssl=1" alt="ESP8266" width="300"/>
 
 Mini Submersible 5V Water Pump:
 
-<img src="https://potentiallabs.com/cart/image/cache/catalog/New%20Components-17/Mini%20Waterpump-800x800.png" alt="pump" width="250"/>
+<img src="Screenshot 2020-10-08 at 09.59.51.png" alt="pump" width="300"/>
 
 TIP31C (NPN) Transistor:
 
-<img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="250"/>
+<img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="300"/>
 
 Moisture Sensor:
 
-<img src="https://components101.com/sites/default/files/component_pin/Moisture-Sensor-Module-Pinout.jpg" alt="moisture" width="250"/>
+<img src="https://components101.com/sites/default/files/component_pin/Moisture-Sensor-Module-Pinout.jpg" alt="moisture" width="300"/>
 
 ## Part 1 - Set up your plant!
 
@@ -111,17 +111,13 @@ See what analog value would be a good threshhold of dryness. Implement this in y
 If you are confident that your very own automated watering system is fully working, you can check out the repos below for some inspiration on how to communicate with your system via your phone :)
 
 ### Further ideas
-- Let your system update you via text on when to water your plants with the [MessageBird API](https://developers.messagebird.com/quickstarts/sms/send-sms-curl/)
-- Telling your plant to water itself - by speech! [Blogpost + code](https://codeburst.io/home-automation-using-google-assistant-dialogflow-firebase-esp8266-wemos-part-1-800c4dc15ad9)
-
-#### Sources
-- [Soil Moisture Sensor Tutorial for Arduino, ESP8266 and ESP32](https://diyi0t.com/soil-moisture-sensor-tutorial-for-arduino-and-esp8266/)
-- [Soil Moisture Sensor Setup for Arduino](https://www.instructables.com/id/Arduino-Soil-Moisture-Sensor/)
-- [ESP8266 smart plant irrigation system](https://iot-playground.com/blog/2-uncategorised/94-esp8266-smart-plant-irrigation-system)
+- Connect your ESP8266 with [your Wi-Fi](https://www.instructables.com/IoT-ESP8266-Series-1-Connect-to-WIFI-Router/)
+- Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/mariuspot/plant_tech_ams/blob/master/webcontrol.ino)
+- Let us know your crazy ideas so we can add them here!
 
 # Useful resources
 - [ ] Check out the [OfferZen Make Subreddit](https://www.reddit.com/r/offerzenmake) and upvote any answers you find useful. Feel free to add your own questions and comments! 
-- [ ] Join Make Slack, introduce yourself in #meet-and-greet, and check in with your team channel
+- [ ] Browse through the existing Slack channels, the place where all Makers get together to share ideas, projects, and help!
 - [ ] Learn about the how, where and why of Make Days with the [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 
 * Know somebody who would enjoy this course? Share their names with us and we'll send a Make @ Home Box their way!
