@@ -2,7 +2,7 @@
 
 We're excited to have you join this course, where you'll be working with plants, Arduino boards, moisture sensors and watering systems.
 
-The aim of Make Days is to explore and learn new thing. You don't need to achieve specific goals. The structure caters for varying levels of experience and different Makers will learn different things by playing with the same tools.
+The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
 
 # Preparing for the Make Day
 
