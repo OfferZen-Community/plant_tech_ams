@@ -41,7 +41,11 @@ Finally, re-open your Arduino IDE
 
 You may also need [the driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) for the usb-uart
 
-# What will be available for you on the evening
+# How to get started
+
+## What will be available for you on the evening
+
+<img src="https://media.giphy.com/media/ge91zAgmwUqLMqiH2c/giphy.gif" alt="ESP8266" width="300"/>
 
 * ESP8266 module
 * Dopunt f-f wires (x10)
@@ -51,12 +55,10 @@ You may also need [the driver](https://www.silabs.com/products/development-tools
 * PVC tube + cable tie
 * TIP31C Transistor
 
-# Bring your own:
+## Bring your own
 
 * Tall glass or container with water to test the sensor and water pump
 * Laptop/PC with USB-A port
-
-# How to get started
 
 ## Pinouts
 ESP8266:
@@ -77,7 +79,7 @@ Moisture Sensor:
 
 ## Part 1 - Set up your plant!
 
-Add 300 ml water to the bag with pressed soil, forming ~1 liter of compost. Make a few small holes in the soil and place the basil seeds in them, covering with a bit of loose soil.
+Add 300 ml water to the bag with pressed soil, forming ~1 liter of compost. Make a few small (1cm deep) holes in the soil and place the basil seeds in them, covering with a bit of loose soil.
 
 ## Part 2 - Moisture Sensor
 
@@ -85,14 +87,14 @@ Connect the moisture sensor with the LM393 chip (). The sensor has both an analo
 
 Connect the ESP8266 with your PC and start up the Android IDE. Try getting the sensor up and running to print its moisture values (analog is more interesting here as it gives you a value from a wetness-range). If coding isn't your strong suit, you can use the code provided in this repo for the [Moisture Sensor](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/MoistureSensor.ino).
 
-Upload your code to your system (cntrl-U / cmd-U), wait untill the upload is done - the terminal should read: "Leaving... Hard resetting via RTS pin..." - and open the monitor (Tools > Serial Monitor) to see your printed values.
+Upload your code to your system (cntrl-U / cmd-U), wait untill the upload is done - the terminal should read: "Leaving... Hard resetting via RTS pin..." - and open the monitor (Tools > Serial Monitor) to see your printed values. Make sure that the Baud rate in the program and your serial monitor window are the same.
 
 Put your sensor (only the two large exposed pads) in the compost of your plant, or simply put it in a glass of water, to do some readings!
 
 ### Troubleshooting
 
 - Sometimes the ESP8266 does not show in your IDE. If so, look for the right USB-port (Tools > Port).
-- Select the 115200 BAUD option for upload speed, otherwise your readings are not properly displayed.
+- When using the code from the repo, select the 115200 BAUD option for upload speed, otherwise your readings are not properly displayed.
 
 ## Part 3 - Mini Water Pump
 
