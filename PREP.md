@@ -27,6 +27,8 @@ Now it's time to plug the ESP8266 board in your computer, and see how to blink a
 - Clone (or download, or simply copy-paste to your Arduino IDE window) the [BlinkESP](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/BlinkESP.ino) code and run it in Arduino IDE by clicking 'Upload'.
 - After compiling and uploading, the LED on your ESP8266 board should start flashing. You did it!
 
+<img src="https://media.giphy.com/media/3ohryhNgUwwZyxgktq/giphy.gif" alt="seven" width="300"/>
+
 ### Troubleshooting
 
 If your USB port does not show up in Tools > Port, you may need [the driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) for the usb-uart.
