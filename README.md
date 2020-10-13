@@ -4,42 +4,7 @@ We're excited to have you join this course, where you'll be working with plants,
 
 The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
 
-# Preparing for the Make Day
-
-Makers that arrive well prepared get the most out of their experience. Before you attend your Make Day, there are a couple of activities to complete.
-
-## To do
-
-Here's a list of things you'll need to prep before you can set up your watering system. 
-
-- Install the [Arduino IDE](https://www.arduino.cc/en/main/software)
-- Read the [Quick Start to Nodemcu (ESP8266) on Arduino IDE](https://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/)
-
-Important: if you want to use the ESP8266 WEB Server in this example you will need to downloand the following two libraries. These libraries are not available in the library manager.
-
-### Installing the ESPAsyncWebServer library
-The ESPAsyncWebServer library is not available to install in the Arduino 
-Library Manager. So, you need to install it manually.
-
-Follow the next steps to install the ESPAsyncWebServer library:
-
-https://github.com/me-no-dev/ESPAsyncWebServer/archive/master.zip
-
-Unzip the .zip folder and you should get ESPAsyncWebServer-master folder
-Rename your folder from ESPAsyncWebServer-master to ESPAsyncWebServer
-Move the ESPAsyncWebServer folder to your Arduino IDE installation libraries folder
-
-### Installing the ESPAsync TCP Library
-The ESPAsyncWebServer library requires the ESPAsyncTCP library to work. Follow the next steps to install that library:
-
-https://github.com/me-no-dev/ESPAsyncTCP/archive/master.zip
-
-Unzip the .zip folder and you should get ESPAsyncTCP-master folder
-Rename your folder from ESPAsyncTCP-master to ESPAsyncTCP
-Move the ESPAsyncTCP folder to your Arduino IDE installation libraries folder
-Finally, re-open your Arduino IDE
-
-You may also need [the driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) for the usb-uart
+Make sure to do your prep! Go to the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/Prep.md), follow the steps, and don't stop before you got your LED blinking!!!
 
 # How to get started
 
