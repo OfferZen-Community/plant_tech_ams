@@ -4,7 +4,7 @@ We're excited to have you join this course, where you'll be working with plants,
 
 The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
 
-Make sure to do your prep! Go to the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/Prep.md), follow the steps, and don't stop before you got your LED blinking!!!
+Make sure to do your prep! Go to the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md), follow the steps, and don't stop before you got your LED blinking!!!
 
 # How to get started
 
@@ -13,7 +13,7 @@ Make sure to do your prep! Go to the [Make Preparation Manual](https://github.co
 <img src="https://media.giphy.com/media/ge91zAgmwUqLMqiH2c/giphy.gif" alt="seven" width="300"/>
 
 * ESP8266 module
-* Dopunt f-f wires (x10)
+* Dupont f-f wires (x10)
 * Moisture sensor
 * Micro usb to usb A cable
 * Watering pump
