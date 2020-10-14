@@ -93,4 +93,8 @@ If you are confident that your very own automated watering system is fully worki
 
 <img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
-### 🎁 We want to give you the gift of giving! Do you know any fellow Makers that would love to join the Make Community and receive their very own Make @ Home Box? Let us know their names and we'll ship a box their way! 🎁
+### Congratualtions on setting up your Automated Watering System. It was a pleasure hosting you!
+
+### Would you please let us know what you thought about this Make session? It will only take 3 minutes and we will be grateful forever: https://forms.gle/NZ6FT3DuhXuW6MuG9
+
+### 🎁 We want to give you the gift of giving! please refer people that you think would love to attend one of our next sessions and get the Make @ Home Box delivered to their door. You can do so via the same form! 🎁 
