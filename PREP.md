@@ -1,6 +1,6 @@
 # Preparing for the Make Day
 
-Makers that are well prepared get the most out of their experience. Before you attend your Make Day, there are a couple of activities to complete.
+Makers that are well prepared get the most out of their experience. Before you attend your Make Day, there are a couple of activities to complete. Please walk through the steps below and make sure to have a working system before the actual Make session starts. It should only take about 15 minutes!
 
 ## Step 1 - Arduino IDE
 
