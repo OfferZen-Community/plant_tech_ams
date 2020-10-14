@@ -28,7 +28,7 @@ Make sure to do your prep! Go to the [Make Preparation Manual](https://github.co
 ## Pinouts
 ESP8266:
 
-<img src="https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png?ssl=1" alt="ESP8266" width="300"/>
+<img src="https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png?ssl=1" alt="ESP8266" width="400"/>
 
 Mini Submersible 5V Water Pump:
 
@@ -40,7 +40,11 @@ TIP31C (NPN) Transistor:
 
 Moisture Sensor:
 
-<img src="https://components101.com/sites/default/files/component_pin/Moisture-Sensor-Module-Pinout.jpg" alt="moisture" width="300"/>
+<img src="https://www.circuitstoday.com/arduino-soil-moisture-sensor/pin-out" alt="moisture" width="500"/>
+
+The big picture:
+
+<img src="Screenshot 2020-10-08 at 21.19.22.png" alt="complete" width="900"/>
 
 ## Part 1 - Set up your plant!
 
