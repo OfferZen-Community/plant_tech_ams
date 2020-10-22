@@ -1,6 +1,6 @@
 #define ANA A0
-#define DIGI D0
-#define POMPOUT D1
+#define DIGI D4
+#define POMPOUT D6
 double analogValue = 0.0;
 int digitalValue = 0;
 double analogVolts = 0.0;
