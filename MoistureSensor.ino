@@ -1,5 +1,5 @@
-#define ANA 26
-#define DIGI 25
+#define ANA A0
+#define DIGI D4
 
 double analogValue = 0.0;
 int digitalValue = 0;
