@@ -44,7 +44,7 @@ Moisture Sensor:
 
 The big picture:
 
-<img src="MoistureSensor.png" alt="complete" width="900"/>
+<img src="MoistureSensor_bb.png" alt="complete" width="900"/>
 
 ## Part 1 - Set up your plant!
 
