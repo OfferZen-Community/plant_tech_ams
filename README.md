@@ -19,6 +19,7 @@ Make sure to do your prep! Go to the [Make Preparation Manual](https://github.co
 * Watering pump
 * PVC tube + cable tie
 * TIP31C Transistor
+* Connector
 
 ## Bring your own
 
@@ -44,7 +45,7 @@ Moisture Sensor:
 
 The big picture:
 
-<img src="MoistureSensor.png" alt="complete" width="900"/>
+<img src="MoistureSensor_bb.png" alt="complete" width="900"/>
 
 ## Part 1 - Set up your plant!
 
@@ -67,9 +68,9 @@ Put your sensor (only the two large exposed pads) in the compost of your plant, 
 
 ## Part 3 - Mini Water Pump
 
-The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor.
+The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor. Use the connector (white block with four inlets) to do so. The two wires of the pump go in one side, the other side takes your Dupont wires. By gently pulling off the plastic bit of one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
 
-The pump has a GND output to be connected to the ESP8266 and receives power from the emitter pin of the transistor. The transistor gets it power through its collector pin from the ESP8266's 3V3 pin. Finally, connect the base to the D1 pin to be able to control the pump.
+The pump has a GND output to be connected to the ESP8266 and receives power from the emitter pin of the transistor. The transistor gets its power through its collector pin from the ESP8266's 3V3 pin. Finally, connect the base to the D1 pin to be able to control the pump.
 
 Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and please watch out for water spills ;)
 
