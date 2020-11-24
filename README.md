@@ -24,7 +24,7 @@ Make sure to do your prep! Go to the [Make Preparation Manual](https://github.co
 ## Bring your own
 
 * Tall glass or container with water to test the sensor and water pump
-* Laptop/PC with USB-A port
+* Laptop/PC with USB-A port or adaptor
 
 ## Pinouts
 ESP8266:
@@ -47,11 +47,18 @@ The big picture:
 
 <img src="MoistureSensor_bb.png" alt="complete" width="900"/>
 
-## Part 1 - Set up your plant!
+## Part 1 - Set up your plant 🌱
+
+## 🇳🇱 Netherlands Teams
 
 Add 300 ml water to the bag with pressed soil, forming ~1 liter of compost. Make a few small (1cm deep) holes in the soil and place the basil seeds in them, covering with a bit of loose soil.
 
-## Part 2 - Moisture Sensor
+## 🇿🇦 South African Teams
+- Fill your pot most of the way with soil
+- Sprinkle your seeds on top
+- Cover with ±1 cm soil
+
+## Part 2 - Moisture Sensor 💦
 
 Connect the moisture sensor with the LM393 chip that comes in the same pack. The sensor has both an analog (0 for wet and 1023 for dry) and a digital (LOW for wet and HIGH for dry) output. Check the pinout for the sensor above and see where it would connect to the ESP8266 board (tip: it has a A0, D0, GND, and needs a voltage).
 
@@ -63,7 +70,7 @@ Upload your code to your system, wait untill the upload is done - the terminal s
 
 Put your sensor (only the two large exposed pads) in the compost of your plant, or simply put it in a glass of water, to do some readings!
 
-## Part 3 - Mini Water Pump
+## Part 3 - Mini Water Pump ⛽️
 
 The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor. Use the connector (white block with four inlets) to do so. The two wires of the pump go in one side, the other side takes your Dupont wires. By gently pulling off the plastic bit of one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
 
@@ -71,7 +78,7 @@ The pump has a GND output to be connected to the ESP8266 and receives power from
 
 Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and please watch out for water spills ;)
 
-## Part 4 - Time to play!
+## Part 4 - Time to play! 🥳
 
 Now that the basics of your system are up and running, it's time to play around a bit! You can put your moisture sensor in your plant and attach the PVC tubing to the water pump (potentially use the cable tie to prevent leaking) with one end, and lay the other end in the plant.
 
@@ -93,6 +100,8 @@ If you are confident that your very own automated watering system is fully worki
 
 ### Congratualtions on setting up your Automated Watering System. It was a pleasure hosting you!
 
-### Would you please let us know what you thought about this Make session? It will only take 3 minutes and we will be grateful forever: https://forms.gle/NZ6FT3DuhXuW6MuG9
+### We only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
+- [🇳🇱 Netherlands](https://forms.gle/NZ6FT3DuhXuW6MuG9)
+- [🇿🇦 South Africa Feedback](https://docs.google.com/forms/d/e/1FAIpQLSc-JSOmKebYERO_tBQ18r8Ns89_u6GeP27yr6w9Vfl6dzV8sw/viewform)
 
-### 🎁 We want to give you the gift of giving! please refer people that you think would love to attend one of our next sessions and get the Make @ Home Box delivered to their door. You can do so via the same form! 🎁 
+🎁 We want to give you the gift of giving! please refer people that you think would love to attend one of our next sessions and get the Make @ Home Box delivered to their door. You can do so via the same form! 🎁 
