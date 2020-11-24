@@ -17,9 +17,9 @@ Make sure to do your prep! Go to the [Make Preparation Manual](https://github.co
 
 ## What will be available for you on the evening
 
-<img src="https://media.giphy.com/media/ge91zAgmwUqLMqiH2c/giphy.gif" alt="seven" width="300"/>
+<img src="MoistureSensor_bb.png" alt="complete" width="900"/>
 
-Pictured
+In the diagram
 1. ESP8266 module
 2. Dupont f-f wires (x10)
 3. Moisture sensor
@@ -30,8 +30,6 @@ Additionally
 * Micro usb to usb A cable
 * PVC tube + cable tie
 * Connector
-
-<img src="MoistureSensor_bb.png" alt="complete" width="900"/>
 
 ## Part 1 - Set up your plant 🌱
 
