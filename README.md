@@ -49,11 +49,11 @@ The big picture:
 
 ## Part 1 - Set up your plant 🌱
 
-## 🇳🇱 Netherlands Teams
+### 🇳🇱 Netherlands Teams
 
 Add 300 ml water to the bag with pressed soil, forming ~1 liter of compost. Make a few small (1cm deep) holes in the soil and place the basil seeds in them, covering with a bit of loose soil.
 
-## 🇿🇦 South African Teams
+### 🇿🇦 South African Teams
 - Fill your pot most of the way with soil
 - Sprinkle your seeds on top
 - Cover with ±1 cm soil
