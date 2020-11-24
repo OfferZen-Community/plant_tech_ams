@@ -1,12 +1,19 @@
 # Plant Tech 🌱
 
+# Before the event
+
 We're excited to have you join this course, where you'll be working with plants, Arduino boards, moisture sensors and watering systems.
 
 The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
 
 Make sure to do your prep! Go to the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md), follow the steps, and don't stop before you got your LED blinking!!!
 
-# How to get started
+# At the event
+
+## Bring your own
+
+* Tall glass or container with water to test the sensor and water pump
+* Laptop/PC with USB-A port or adaptor
 
 ## What will be available for you on the evening
 
@@ -20,21 +27,6 @@ Make sure to do your prep! Go to the [Make Preparation Manual](https://github.co
 * PVC tube + cable tie
 * TIP31C Transistor
 * Connector
-
-## Bring your own
-
-* Tall glass or container with water to test the sensor and water pump
-* Laptop/PC with USB-A port or adaptor
-
-## Pinouts
-
-Mini Submersible 5V Water Pump:
-
-
-
-TIP31C (NPN) Transistor:
-
-The big picture:
 
 <img src="MoistureSensor_bb.png" alt="complete" width="900"/>
 
