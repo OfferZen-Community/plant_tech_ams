@@ -19,13 +19,16 @@ Make sure to do your prep! Go to the [Make Preparation Manual](https://github.co
 
 <img src="https://media.giphy.com/media/ge91zAgmwUqLMqiH2c/giphy.gif" alt="seven" width="300"/>
 
-* ESP8266 module
-* Dupont f-f wires (x10)
-* Moisture sensor
+Pictured
+1. ESP8266 module
+2. Dupont f-f wires (x10)
+3. Moisture sensor
+4. Watering pump
+5. TIP31C Transistor
+
+Additionally
 * Micro usb to usb A cable
-* Watering pump
 * PVC tube + cable tie
-* TIP31C Transistor
 * Connector
 
 <img src="MoistureSensor_bb.png" alt="complete" width="900"/>
