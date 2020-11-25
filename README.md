@@ -83,6 +83,7 @@ If you are confident that your very own automated watering system is fully worki
 
 # Useful resources
 
+- [ ] [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams/wiki)
 - [ ] Check out #project-adruino-plant on Slack
 - [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 
