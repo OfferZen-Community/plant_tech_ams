@@ -87,6 +87,33 @@ If you are confident that your very own automated watering system is fully worki
 - [ ] Check out #project-adruino-plant on Slack
 - [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 
+Important: if you want to use the ESP8266 WEB Server in this example you will need to downloand the following two libraries. These libraries are not available in the library manager.
+
+<h2>Installing the ESPAsyncWebServer library</h2>
+The ESPAsyncWebServer library is not available to install in the Arduino IDE Library Manager. So, you need to install it manually.
+
+Follow the next steps to install the ESPAsyncWebServer library:
+
+https://github.com/me-no-dev/ESPAsyncWebServer/archive/master.zip
+
+Unzip the .zip folder and you should get ESPAsyncWebServer-master folder
+Rename your folder from ESPAsyncWebServer-master to ESPAsyncWebServer
+Move the ESPAsyncWebServer folder to your Arduino IDE installation libraries folder
+
+<h2>Installing the ESPAsync TCP Library</h2>
+The ESPAsyncWebServer library requires the ESPAsyncTCP library to work. Follow the next steps to install that library:
+
+https://github.com/me-no-dev/ESPAsyncTCP/archive/master.zip
+
+Unzip the .zip folder and you should get ESPAsyncTCP-master folder
+Rename your folder from ESPAsyncTCP-master to ESPAsyncTCP
+Move the ESPAsyncTCP folder to your Arduino IDE installation libraries folder
+Finally, re-open your Arduino IDE
+
+Example
+https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/
+
+
 <img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
 # Congrats! You're (almost) done! Please help...
