@@ -41,5 +41,5 @@ void setupServer() {
 }
 
 void handleRoot() {
-  server.send(200, "text/plain", "Hello from Make");
+  server.send(200, "text/plain", "Hello from Make 💦🌱");
 }
