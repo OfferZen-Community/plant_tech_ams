@@ -90,7 +90,7 @@ https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-
 
 Important: if you want to use the ESP8266 WEB Server in this example you will need to downloand the following two libraries. These libraries are not available in the library manager.
 
-<h2>Installing the ESPAsyncWebServer library</h2>
+#### Installing the ESPAsyncWebServer library
 The ESPAsyncWebServer library is not available to install in the Arduino IDE Library Manager. So, you need to install it manually.
 
 Follow the next steps to install the ESPAsyncWebServer library:
@@ -101,7 +101,7 @@ Unzip the .zip folder and you should get ESPAsyncWebServer-master folder
 Rename your folder from ESPAsyncWebServer-master to ESPAsyncWebServer
 Move the ESPAsyncWebServer folder to your Arduino IDE installation libraries folder
 
-<h2>Installing the ESPAsync TCP Library</h2>
+#### Installing the ESPAsync TCP Library
 The ESPAsyncWebServer library requires the ESPAsyncTCP library to work. Follow the next steps to install that library:
 
 https://github.com/me-no-dev/ESPAsyncTCP/archive/master.zip
