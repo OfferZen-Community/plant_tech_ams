@@ -88,9 +88,9 @@ If you are confident that your very own automated watering system is fully worki
 
 <img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
-### Congratualtions on setting up your Automated Watering System. It was a pleasure hosting you!
+# Congrats! You're (almost) done! Pleae help...
 
-### We only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
+We only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
 - [🇳🇱 Netherlands](https://forms.gle/NZ6FT3DuhXuW6MuG9)
 - [🇿🇦 South Africa Feedback](https://docs.google.com/forms/d/e/1FAIpQLSc-JSOmKebYERO_tBQ18r8Ns89_u6GeP27yr6w9Vfl6dzV8sw/viewform)
 
