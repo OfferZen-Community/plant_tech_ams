@@ -82,9 +82,9 @@ If you are confident that your very own automated watering system is fully worki
 - Let us know your crazy ideas so we can add them here!
 
 # Useful resources
-- [ ] Check out the [OfferZen Make Subreddit](https://www.reddit.com/r/offerzenmake) and upvote any answers you find useful. Feel free to add your own questions and comments! 
-- [ ] Browse through the existing Slack channels, the place where all Makers get together to share ideas, projects, and help!
-- [ ] Learn about the how, where and why of Make Days with the [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
+
+- [ ] Check out #project-adruino-plant on Slack
+- [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 
 <img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
