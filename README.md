@@ -88,7 +88,7 @@ If you are confident that your very own automated watering system is fully worki
 
 <img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
-# Congrats! You're (almost) done! Pleae help...
+# Congrats! You're (almost) done! Please help...
 
 We only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
 - [🇳🇱 Netherlands](https://forms.gle/NZ6FT3DuhXuW6MuG9)
