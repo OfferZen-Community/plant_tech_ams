@@ -88,8 +88,11 @@ Connect your ESP8266 with [your Wi-Fi](https://www.instructables.com/IoT-ESP8266
 ### Build a chatbot
 Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/mariuspot/plant_tech_ams/blob/master/webcontrol.ino)
 
+Send messages on [slack or telegram](http://blog.danishjoshi.com/2019/11/06/sending-messages-to-a-slack-or-telegram-channel-using-esp8266/).
 
-### Web server
+Telling your plant to water itself - by speech! [Blogpost + code](https://codeburst.io/home-automation-using-google-assistant-dialogflow-firebase-esp8266-wemos-part-1-800c4dc15ad9)	- Telling your plant to water itself - by speech! [Blogpost + code](https://codeburst.io/home-automation-using-google-assistant-dialogflow-firebase-esp8266-wemos-part-1-800c4dc15ad9)
+
+### Set up a web server
 
 Example
 https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/
@@ -116,6 +119,9 @@ Unzip the .zip folder and you should get ESPAsyncTCP-master folder
 Rename your folder from ESPAsyncTCP-master to ESPAsyncTCP
 Move the ESPAsyncTCP folder to your Arduino IDE installation libraries folder
 Finally, re-open your Arduino IDE
+
+### RGB LED
+Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
 
 # Useful resources
 
