@@ -76,16 +76,17 @@ See what analog value would be a good threshhold of dryness. Implement this in y
 
 If you are confident that your very own automated watering system is fully working, you can check out the repos below for some inspiration on how to communicate with your system via your phone :)
 
-### Further ideas
+<img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
+
+## Further ideas
 - Connect your ESP8266 with [your Wi-Fi](https://www.instructables.com/IoT-ESP8266-Series-1-Connect-to-WIFI-Router/)
 - Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/mariuspot/plant_tech_ams/blob/master/webcontrol.ino)
 - Let us know your crazy ideas so we can add them here!
 
-# Useful resources
+### Web server
 
-- [ ] [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams/wiki)
-- [ ] Check out #project-adruino-plant on Slack
-- [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
+Example
+https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/
 
 Important: if you want to use the ESP8266 WEB Server in this example you will need to downloand the following two libraries. These libraries are not available in the library manager.
 
@@ -110,11 +111,11 @@ Rename your folder from ESPAsyncTCP-master to ESPAsyncTCP
 Move the ESPAsyncTCP folder to your Arduino IDE installation libraries folder
 Finally, re-open your Arduino IDE
 
-Example
-https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/
+# Useful resources
 
-
-<img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
+- [ ] [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams/wiki)
+- [ ] Check out #project-adruino-plant on Slack
+- [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 
 # Congrats! You're (almost) done! Please help...
 
