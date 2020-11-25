@@ -79,9 +79,15 @@ If you are confident that your very own automated watering system is fully worki
 <img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
 ## Further ideas
-- Connect your ESP8266 with [your Wi-Fi](https://www.instructables.com/IoT-ESP8266-Series-1-Connect-to-WIFI-Router/)
-- Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/mariuspot/plant_tech_ams/blob/master/webcontrol.ino)
-- Let us know your crazy ideas so we can add them here!
+
+Come up with your own ideas and add them here!
+
+### Connect to the WiFi
+Connect your ESP8266 with [your Wi-Fi](https://www.instructables.com/IoT-ESP8266-Series-1-Connect-to-WIFI-Router/)
+
+### Build a chatbot
+Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/mariuspot/plant_tech_ams/blob/master/webcontrol.ino)
+
 
 ### Web server
 
