@@ -128,6 +128,10 @@ Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/ard
 - [ ] [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams/wiki)
 - [ ] Check out #project-adruino-plant on Slack
 - [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
+- [ ] [Arduino IDE for Visual Studio (Visual Micro) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)
+
+## Windows users
+
 
 # Congrats! You're (almost) done! Please help...
 
