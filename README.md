@@ -20,7 +20,7 @@ Make sure to do your prep! Go to the [Make Preparation Manual](https://github.co
 <img src="MoistureSensor_bb.png" alt="complete" width="900"/>
 
 **In the diagram**
-1. ESP8266 module
+1. ESP8266 module - [how it works](https://lastminuteengineers.com/esp8266-nodemcu-arduino-tutorial/)
 2. Dupont f-f wires (x10)
 3. Moisture sensor
 4. Watering pump
