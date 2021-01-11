@@ -1,4 +1,12 @@
-# Plant Tech 🌱
+# Plant Tech
+
+**🌱 Table of Contents 🌱**
+- [Before the event](https://github.com/OfferZen-Make/plant_tech_ams#before-the-event)
+- [At the event](https://github.com/OfferZen-Make/plant_tech_ams#at-the-event)
+- [Giving Feedback After the Event](https://github.com/OfferZen-Make/plant_tech_ams#giving-feedback-after-the-event)
+- [Project extensions](https://github.com/OfferZen-Make/plant_tech_ams#project-extensions)
+- [Community Contributions](https://github.com/OfferZen-Make/plant_tech_ams#community-contributions)
+- [Useful resources](https://github.com/OfferZen-Make/plant_tech_ams#useful-resources)
 
 ## Before the event
 
@@ -78,28 +86,36 @@ If you are confident that your very own automated watering system is fully worki
 
 <img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
-### Further ideas
+## Giving Feedback After the Event
 
-Come up with your own ideas and add them here!
+We only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
+- [🇳🇱 Netherlands](https://forms.gle/NZ6FT3DuhXuW6MuG9)
+- [🇿🇦 South Africa Feedback](https://docs.google.com/forms/d/e/1FAIpQLSc-JSOmKebYERO_tBQ18r8Ns89_u6GeP27yr6w9Vfl6dzV8sw/viewform)
 
-#### Connect to the WiFi
+🎁 We want to give you the gift of giving! please refer people that you think would love to attend one of our next sessions and get the Make @ Home Box delivered to their door. You can do so via the same form! 🎁 
+
+## Project extensions
+
+You can find extensions for the project here.
+
+### Connect to the WiFi
 Connect your ESP8266 with [your Wi-Fi](https://www.instructables.com/IoT-ESP8266-Series-1-Connect-to-WIFI-Router/)
 
-#### Build a chatbot
+### Build a chatbot
 Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/mariuspot/plant_tech_ams/blob/master/webcontrol.ino)
 
 Send messages on [slack or telegram](http://blog.danishjoshi.com/2019/11/06/sending-messages-to-a-slack-or-telegram-channel-using-esp8266/).
 
 Telling your plant to water itself - by speech! [Blogpost + code](https://codeburst.io/home-automation-using-google-assistant-dialogflow-firebase-esp8266-wemos-part-1-800c4dc15ad9)
 
-#### Set up a web server
+### Set up a web server
 
 Example
 https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/
 
 Important: if you want to use the ESP8266 WEB Server in this example you will need to downloand the following two libraries. These libraries are not available in the library manager.
 
-##### Installing the ESPAsyncWebServer library
+#### Installing the ESPAsyncWebServer library
 The ESPAsyncWebServer library is not available to install in the Arduino IDE Library Manager. So, you need to install it manually.
 
 Follow the next steps to install the ESPAsyncWebServer library:
@@ -110,7 +126,7 @@ Unzip the .zip folder and you should get ESPAsyncWebServer-master folder
 Rename your folder from ESPAsyncWebServer-master to ESPAsyncWebServer
 Move the ESPAsyncWebServer folder to your Arduino IDE installation libraries folder
 
-##### Installing the ESPAsync TCP Library
+#### Installing the ESPAsync TCP Library
 The ESPAsyncWebServer library requires the ESPAsyncTCP library to work. Follow the next steps to install that library:
 
 https://github.com/me-no-dev/ESPAsyncTCP/archive/master.zip
@@ -120,8 +136,20 @@ Rename your folder from ESPAsyncTCP-master to ESPAsyncTCP
 Move the ESPAsyncTCP folder to your Arduino IDE installation libraries folder
 Finally, re-open your Arduino IDE
 
-#### RGB LED
+### RGB LED
 Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
+
+## Community Contributions
+
+You can find code and projects submitted by the community here. Please submit your code for inclusion :)
+
+### [Automatic pid water portion control](https://github.com/ikilledmypc/plantwaterer) by @ikilledmypc
+
+This project uses 2 humidity levels one for the night/morning and one for the afternoon/midday. You can set your timezone-offset and humidity levels in the web interface. I'm in the process of testing it on a live plant though so I won't take any blame for drowned plants. It does have a watchdog timer for safety.
+
+### [Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje) by @ronaldf2000
+
+First attempt playing with the arduino enviroment working with embedded c++
 
 ## Useful resources
 
@@ -130,16 +158,5 @@ Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/ard
 - [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 - [ ] [Arduino IDE for Visual Studio (Visual Micro) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)
 
-### Windows users
-
-
-## Congrats! You're (almost) done! Please help...
-
-We only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
-- [🇳🇱 Netherlands](https://forms.gle/NZ6FT3DuhXuW6MuG9)
-- [🇿🇦 South Africa Feedback](https://docs.google.com/forms/d/e/1FAIpQLSc-JSOmKebYERO_tBQ18r8Ns89_u6GeP27yr6w9Vfl6dzV8sw/viewform)
-
-🎁 We want to give you the gift of giving! please refer people that you think would love to attend one of our next sessions and get the Make @ Home Box delivered to their door. You can do so via the same form! 🎁 
-
-## Additional equipment
+### Additional equipment
 - [I2C Soil Moisture Sensor](https://www.whiteboxes.ch/shop/i2c-soil-moisture-sensor/)
