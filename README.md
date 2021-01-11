@@ -3,7 +3,8 @@
 **🌱 Table of Contents 🌱**
 - [Before the event](#before-the-event)
 - [At the event](#at-the-event)
-- [Giving Feedback After the Event](#giving-feedback-after-the-event)
+- [After the event](#after-the-event)
+  - [NB! Giving feedback](#nb!-giving-feedback)
 - [Project extensions](#project-extensions)
 - [Community Contributions](#community-contributions)
 - [Useful resources](#useful-resources)
@@ -86,9 +87,11 @@ If you are confident that your very own automated watering system is fully worki
 
 <img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
-## Giving Feedback After the Event
+## After the event
 
-We only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
+### NB! Giving feedback
+
+After the event we only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
 - [🇳🇱 Netherlands](https://forms.gle/NZ6FT3DuhXuW6MuG9)
 - [🇿🇦 South Africa Feedback](https://docs.google.com/forms/d/e/1FAIpQLSc-JSOmKebYERO_tBQ18r8Ns89_u6GeP27yr6w9Vfl6dzV8sw/viewform)
 
