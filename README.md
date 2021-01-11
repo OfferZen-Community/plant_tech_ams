@@ -1,12 +1,12 @@
 # Plant Tech
 
 **🌱 Table of Contents 🌱**
-- [Before the event](https://github.com/OfferZen-Make/plant_tech_ams#before-the-event)
-- [At the event](https://github.com/OfferZen-Make/plant_tech_ams#at-the-event)
-- [Giving Feedback After the Event](https://github.com/OfferZen-Make/plant_tech_ams#giving-feedback-after-the-event)
-- [Project extensions](https://github.com/OfferZen-Make/plant_tech_ams#project-extensions)
-- [Community Contributions](https://github.com/OfferZen-Make/plant_tech_ams#community-contributions)
-- [Useful resources](https://github.com/OfferZen-Make/plant_tech_ams#useful-resources)
+- [Before the event](#before-the-event)
+- [At the event](#at-the-event)
+- [Giving Feedback After the Event](#giving-feedback-after-the-event)
+- [Project extensions](#project-extensions)
+- [Community Contributions](#community-contributions)
+- [Useful resources](#useful-resources)
 
 ## Before the event
 
