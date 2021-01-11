@@ -4,7 +4,7 @@
 - [Before the event](#before-the-event)
 - [At the event](#at-the-event)
 - [After the event](#after-the-event)
-  - [NB! Giving feedback](#nb!-giving-feedback)
+  - [NB! Giving feedback](#nb-giving-feedback)
 - [Project extensions](#project-extensions)
 - [Community Contributions](#community-contributions)
 - [Useful resources](#useful-resources)
