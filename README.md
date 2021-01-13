@@ -161,5 +161,16 @@ First attempt playing with the arduino enviroment working with embedded c++
 - [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 - [ ] [Arduino IDE for Visual Studio (Visual Micro) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)
 
+### Micropython submitted by Michiel Erasmus
+
+I've ditched the Arduino IDE. Not going back there anytime soon 😊
+Micropython = Python 3.4. No need to recompile your code.
+Run your code by pressing F5 (in Thonny) to run.
+Runs on ESP8266, ESP32-platforms
+Has a filesystem so you can copy files to it from Mac/Win/Linux.
+Interfaces with a huuuuuuge number of sensors.
+BTW CircuitPython is a fork of Micropython.
+Go check out Micropython. Lotsa tutorials online available, otherwise let me know if/how I can help. Use https://thonny.org as editor.
+
 ### Additional equipment
 - [I2C Soil Moisture Sensor](https://www.whiteboxes.ch/shop/i2c-soil-moisture-sensor/)
