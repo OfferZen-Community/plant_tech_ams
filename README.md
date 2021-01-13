@@ -160,6 +160,7 @@ First attempt playing with the arduino enviroment working with embedded c++
 - [ ] Check out #project-adruino-plant on Slack
 - [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 - [ ] [Arduino IDE for Visual Studio (Visual Micro) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)
+- [ ] [Node-RED](https://nodered.org/) - Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
 
 ### Micropython submitted by Michiel Erasmus
 
