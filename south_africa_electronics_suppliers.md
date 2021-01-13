@@ -5,3 +5,4 @@ South African Electronics Suppliers List
 - [Botshop](https://www.botshop.co.za/)
 - [Mantech](https://www.mantech.co.za/)
 - [Netram](https://www.netram.co.za/)
+- [Robotics](https://www.robotics.org.za/)
