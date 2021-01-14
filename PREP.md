@@ -1,10 +1,10 @@
-# Preparing for the Make Day
+# Preparing for the Make Event
 
 Makers that are well prepared get the most out of their experience. Before you attend your Make Day, there are a couple of activities to complete. Please walk through the steps below and make sure to have a working system before the actual Make session starts. It should only take about 15 minutes!
 
 ## Step 1 - Arduino IDE
 
-Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software)
+Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software). Alternatively you can use [Micropython](https://github.com/OfferZen-Make/plant_tech_ams#micropython-submitted-by-michiel-erasmus)
 
 ## Step 2 - Set up your system
 
