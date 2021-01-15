@@ -41,10 +41,10 @@ Here's a fabulous example from @hendrikdelarey
 
 [<img src="https://i.imgur.com/seoUZT8.png"/>](https://twitter.com/hendrikdelarey/status/1336696671556825091?s=20)
 
-If you don't have Twitter you can [share it on LinkedIn](http://www.linkedin.com/shareArticle?mini=true&url=&title=I'm%20setup%20and%20ready%20to%20go%20for%20my%20%23offerzenmake%20event%20with%20%40offerzen!).
+If you don't have Twitter you can share it on LinkedIn. Here's some text to add to your photo `I'm setup and ready to go for my #offerzenmake event with @offerzen! `. [Click here to share on LinkedIn now](https://www.linkedin.com/sharing/share-offsite/?url=www.offerzen.com)
 
 Do both if you're a super star 🌟
 
 And if you abore all social medias and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂
 
-Thank you and see you soon <3
+Thank you, it really helps to keep the lights on 💡. See you soon <3
