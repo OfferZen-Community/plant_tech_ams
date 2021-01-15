@@ -39,7 +39,7 @@ Confirm you are ready by sharing your setup on Twitter using the [#offerzenmake]
 
 Here's a fabulous example from @hendrikdelarey
 
-<img src="https://i.imgur.com/seoUZT8.png"/>
+[<img src="https://i.imgur.com/seoUZT8.png"/>](https://twitter.com/hendrikdelarey/status/1336696671556825091?s=20)
 
 If you don't have Twitter you can share it on LinkedIn using the [#offerzenmake](https://www.linkedin.com/search/results/all/?keywords=%23offerzenmake&origin=GLOBAL_SEARCH_HEADER) hashtag...
 
