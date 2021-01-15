@@ -35,13 +35,18 @@ All project troubleshooting is here https://github.com/OfferZen-Make/plant_tech_
 
 ## Step 4 - Take a photo of your setup and share it!
 
-[📸 Share a photo of your setup on Twitter.](https://twitter.com/intent/tweet?url=&text=I'm%20setup%20and%20ready%20to%20go%20for%20my%20%23offerzenmake%20event%20with%20%40offerzen!)
+[📸  -> Share a photo of your setup on Twitter](https://twitter.com/intent/tweet?url=&text=I'm%20setup%20and%20ready%20to%20go%20for%20my%20%23offerzenmake%20event%20with%20%40offerzen!)
 
 Here's a fabulous example from @hendrikdelarey
 
 [<img src="https://i.imgur.com/seoUZT8.png"/>](https://twitter.com/hendrikdelarey/status/1336696671556825091?s=20)
 
-If you don't have Twitter you can share it on LinkedIn. Here's some text to add to your photo `I'm setup and ready to go for my #offerzenmake event with @offerzen! `. [Click here to share on LinkedIn now](https://www.linkedin.com/sharing/share-offsite/?url=www.offerzen.com)
+
+
+
+If you don't have Twitter you can share it on LinkedIn. Steps:
+* Copy this message: `I'm setup and ready to go for my #offerzenmake event with @offerzen! `.
+* Upload a photo of your setup and the message above to [LinkedIn](https://www.linkedin.com/).
 
 Do both if you're a super star 🌟
 
