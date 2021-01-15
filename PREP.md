@@ -45,6 +45,6 @@ If you don't have Twitter you can share it on LinkedIn. Here's some text to add 
 
 Do both if you're a super star 🌟
 
-And if you abore all social medias and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂
+And if you abhor all social medias and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂
 
 Thank you, it really helps to keep the lights on 💡. See you soon <3
