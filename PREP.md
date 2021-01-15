@@ -35,12 +35,16 @@ All project troubleshooting is here https://github.com/OfferZen-Make/plant_tech_
 
 ## Step 4 - Take a photo of your setup and share it!
 
-Confirm you are ready by sharing your setup on Twitter using the [#offerzenmake](https://twitter.com/search?q=%23offerzenmake&src=typed_query) hashtag.
+[📸 Share a photo of your setup on Twitter.](https://twitter.com/intent/tweet?text=I'm%20setup%20and%20ready%20to%20go%20for%20my%20%23offerzenmake%20event%20with%20%40offerzen!)
 
 Here's a fabulous example from @hendrikdelarey
 
 [<img src="https://i.imgur.com/seoUZT8.png"/>](https://twitter.com/hendrikdelarey/status/1336696671556825091?s=20)
 
-If you don't have Twitter you can share it on LinkedIn using the [#offerzenmake](https://www.linkedin.com/search/results/all/?keywords=%23offerzenmake&origin=GLOBAL_SEARCH_HEADER) hashtag...
+If you don't have Twitter you can [share it on LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=I'm%20setup%20and%20ready%20to%20go%20for%20my%20%23offerzenmake%20event%20with%20%40offerzen!&title=&summary=&source=).
+
+Do both if you're a super star 🌟
 
 And if you abore all social medias and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂
+
+Thank you and see you soon <3
