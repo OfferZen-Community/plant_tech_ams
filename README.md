@@ -11,11 +11,11 @@
 
 ## Before the event
 
-We're excited to have you join this course, where you'll be working with plants, Arduino boards, moisture sensors and watering systems.
+We're excited to have you join this course, where you'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
 
-The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
+Start by completing the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md) to get your LED blinking and ensure you are ready at the start of the event.
 
-Make sure to do your prep! Go to the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md), follow the steps, and don't stop before you got your LED blinking!!!
+Please see [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams/wiki) if you run into issues.
 
 ## At the event
 
@@ -144,7 +144,7 @@ Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/ard
 
 ## Community Contributions
 
-You can find code and projects submitted by the community here. Please submit your code for inclusion :)
+You can find code and projects and advice submitted by the community here. Please submit your code for inclusion :)
 
 ### [Automatic pid water portion control](https://github.com/ikilledmypc/plantwaterer) by @ikilledmypc
 
@@ -154,24 +154,17 @@ This project uses 2 humidity levels one for the night/morning and one for the af
 
 First attempt playing with the arduino enviroment working with embedded c++
 
+### Micropython submitted by Michiel Erasmus
+
+I've ditched the Arduino IDE. Not going back there anytime soon 😊 Micropython = Python 3.4. No need to recompile your code. Run your code by pressing F5 (in Thonny) to run. Runs on ESP8266, ESP32-platforms. Has a filesystem so you can copy files to it from Mac/Win/Linux. Interfaces with a huuuuuuge number of sensors.
+BTW CircuitPython is a fork of Micropython. Go check out Micropython. Lotsa tutorials online available, otherwise let me know if/how I can help. Use https://thonny.org as editor.
+
 ## Useful resources
 
-- [ ] [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams/wiki)
 - [ ] Check out #project-adruino-plant on Slack
 - [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 - [ ] [Arduino IDE for Visual Studio (Visual Micro) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)
 - [ ] [Node-RED](https://nodered.org/) - Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
-
-### Micropython submitted by Michiel Erasmus
-
-I've ditched the Arduino IDE. Not going back there anytime soon 😊
-Micropython = Python 3.4. No need to recompile your code.
-Run your code by pressing F5 (in Thonny) to run.
-Runs on ESP8266, ESP32-platforms
-Has a filesystem so you can copy files to it from Mac/Win/Linux.
-Interfaces with a huuuuuuge number of sensors.
-BTW CircuitPython is a fork of Micropython.
-Go check out Micropython. Lotsa tutorials online available, otherwise let me know if/how I can help. Use https://thonny.org as editor.
 
 ### Additional equipment
 - [I2C Soil Moisture Sensor](https://www.whiteboxes.ch/shop/i2c-soil-moisture-sensor/)
