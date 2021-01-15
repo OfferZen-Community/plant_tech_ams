@@ -32,3 +32,15 @@ Now it's time to plug the ESP8266 board in your computer, and see how to blink a
 ### Troubleshooting
 
 All project troubleshooting is here https://github.com/OfferZen-Make/plant_tech_ams/wiki
+
+## Step 4 - Take a photo of your setup and share it!
+
+Confirm you are ready by sharing your setup on Twitter using the [#offerzenmake](https://twitter.com/search?q=%23offerzenmake&src=typed_query) hashtag.
+
+Here's a fabulous example from @hendrikdelarey
+
+<img src="https://i.imgur.com/seoUZT8.png"/>
+
+If you don't have Twitter you can share it on LinkedIn using the [#offerzenmake](https://www.linkedin.com/search/results/all/?keywords=%23offerzenmake&origin=GLOBAL_SEARCH_HEADER) hashtag...
+
+And if you abore all social medias and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂
