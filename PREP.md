@@ -53,3 +53,9 @@ Do both if you're a super star 🌟
 And if you abhor all social medias and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂
 
 Thank you, it really helps to keep the lights on 💡. See you soon <3
+
+## Step 5 - Chart a course for self-watering plant mastery
+
+Read through the [Plant Tech readme](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md) including [project extensions](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md#project-extensions), [community contributions](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md#community-contributions) and [useful resources](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md#useful-resources) to get an ideas for where you want to take your self-watering plant project on the evening of the event.
+
+Please edit or add to the docs as you go!
