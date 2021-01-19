@@ -35,24 +35,28 @@ All project troubleshooting is here https://github.com/OfferZen-Make/plant_tech_
 
 ## Step 4 - Take a photo of your setup and share it!
 
-[📸  -> Share a photo of your setup on Twitter](https://twitter.com/intent/tweet?url=&text=I'm%20setup%20and%20ready%20to%20go%20for%20my%20%23offerzenmake%20event%20with%20%40offerzen!)
+Please help us spread the word about Make events so that we can grow the community and keep helping devs learn new tech 🚀 💦 🌱.
 
-Here's a fabulous example from @hendrikdelarey
+### Share photo on Twitter
 
-[<img src="https://i.imgur.com/seoUZT8.png"/>](https://twitter.com/hendrikdelarey/status/1336696671556825091?s=20)
+1. Take a photo of your set up
+2. Click here to [📸  -> Share on Twitter](https://twitter.com/intent/tweet?url=&text=I'm%20setup%20and%20ready%20to%20go%20for%20my%20%23offerzenmake%20event%20with%20%40offerzen!) with a message
 
-
-
+### && / || Share photo on LinkedIn
 
 If you don't have Twitter you can share it on LinkedIn. Steps:
 * Copy this message: `I'm setup and ready to go for my #offerzenmake event with @offerzen! `.
 * Upload a photo of your setup and the message above to [LinkedIn](https://www.linkedin.com/).
 
-Do both if you're a super star 🌟
+### Fabulous example
 
-And if you abhor all social medias and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂
+Here's a fabulous example from @hendrikdelarey
 
-Thank you, it really helps to keep the lights on 💡. See you soon <3
+[<img src="https://i.imgur.com/seoUZT8.png"/>](https://twitter.com/hendrikdelarey/status/1336696671556825091?s=20)
+
+### If you don't do social media...
+
+And if you abhor all social medias and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂 Thank you, it really helps to keep the lights on 💡. See you soon <3
 
 ## Step 5 - Chart a course for self-watering plant mastery
 
