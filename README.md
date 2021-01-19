@@ -141,6 +141,11 @@ Finally, re-open your Arduino IDE
 ### RGB LED
 Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
 
+### 3D printed enclosure
+
+[<img src="https://cdn.thingiverse.com/assets/d4/de/02/49/e8/featured_preview_Planter.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
+[<img src="https://cdn.thingiverse.com/assets/d4/de/02/49/e8/featured_preview_Planter.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
+
 ## Community Contributions
 
 You can find code and projects and advice submitted by the community here. Please submit your code for inclusion :)
