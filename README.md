@@ -182,6 +182,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 | [Capacitive analog moisture sensor](https://s.click.aliexpress.com/e/_Ao5xVH)      | No metal parts touching the water so no corrosion problems causing inaccuracy in the long run       |
 | [Linear Voltage Regulator](https://za.rs-online.com/web/p/linear-voltage-regulators/2988508/?cm_mmc=ZA-PLA-DS3A-_-google-_-PLA_ZA_EN_Semiconductors_Whoop-_-(ZA:Whoop!)+Linear+Voltage+Regulators-_-2988508&matchtype=&pla-302356913516&gclid=CjwKCAiAo5qABhBdEiwAOtGmbg7tuEvVQIAG1wTDop1IJoNiwtXcKgqFSBNvbamjBCqnsQrGesIdEBoCXyoQAvD_BwE&gclsrc=aw.ds)      | add description...       |
 |[JOY-IT DPS 5005 DPS](https://www.reichelt.com/nl/de/dps-labornetzgeraet-0-50-v-0-5-a-joy-it-dps-5005-p239863.html?r=1)|This programmable module for controlling voltage with a constant voltage and constant current.|
+|[Adafruit STEMMA Soil Sensor - I2C Capacitive Moisture Sensor](https://www.adafruit.com/product/4026)|Alternative moisture sensor, multiple can be connected if using ESP2866.|
 
 ## Troubleshooting
 
