@@ -184,3 +184,76 @@ First attempt playing with the arduino enviroment working with embedded c++
 | [I2C Soil Moisture Sensor](https://www.whiteboxes.ch/shop/i2c-soil-moisture-sensor/)      | add description...       |
 | [Capacitive analog moisture sensor](https://s.click.aliexpress.com/e/_Ao5xVH)      | No metal parts touching the water so no corrosion problems causing inaccuracy in the long run       |
 | [Linear Voltage Regulator](https://za.rs-online.com/web/p/linear-voltage-regulators/2988508/?cm_mmc=ZA-PLA-DS3A-_-google-_-PLA_ZA_EN_Semiconductors_Whoop-_-(ZA:Whoop!)+Linear+Voltage+Regulators-_-2988508&matchtype=&pla-302356913516&gclid=CjwKCAiAo5qABhBdEiwAOtGmbg7tuEvVQIAG1wTDop1IJoNiwtXcKgqFSBNvbamjBCqnsQrGesIdEBoCXyoQAvD_BwE&gclsrc=aw.ds)      | add description...       |
+
+### Troubleshooting
+
+
+#### Prep troubleshooting
+- If your USB port does not show up in Tools > Port, you may need the driver.
+  - If your board has a square chip next to the USB port then use [this driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) for the usb-uart. (CP2102 Chipset)
+  - If your board has a rectangular chip next to the USB port then use [this driver](https://sparks.gogo.co.nz/ch340.html) for the usb-uart. (CH340 Chipset)
+  - When that doesn't solve the problem, (this seems to happen when using a MacBook with an USB-C adapter) check this [forum](https://apple.stackexchange.com/questions/334311/connection-of-esp32-esp8266-not-recognized-using-macbook-pro).
+  - If you're still stuck, let us know in the Slack Channel so we can help you get it to work!
+- If you see a `Fatal Error Failed to connect to ESP8266: Timed out waiting for packet header` (this might not happen on the first time but in subsequent uploads): disconnect the external board and upload again, connecting the wires after this. [Reference](https://github.com/espressif/esptool/issues/490).
+  - For some people this does not work, as an alternative, you need to force the label (D4) to a [low state](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/), or maybe use a different label
+
+
+#### Struggling to connect to Wifi
+
+The Arduino's Wifi antenna is very small and not very strong, so you might need to move it closer to the Wifi.
+
+You can use [this program](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/examples/WiFi/list_wifi.ino) to find SSID's and check signal strength.
+
+#### Mac users unable to get your Hello World up and running
+
+Solution submitted by Alex Siega
+
+1. Under Tools > Board, make sure to select "Generic ESP8266 Module." Mine defaults to "Arduino Uno" without actively selecting the right board.
+2. Install the drivers from the OfferZen Prep page. Make sure to give the drivers the correct permissions in the Security & Privacy area in System Preferences; it's at the end of the "General" tab.
+3. In Tools > Port, select /dev/cu.usbserial-1420 at the port. (No mention of "right" USB port, but hey, it works! :smile:)
+4. Last step -- when you go to upload blinkESP.ino, you may get a 'D4' was not declared in this scope error. Change D4 to 2 , making the first line # define LED 2
+
+This results in a blue light flashing every second, which I believe is the "hello world" described in the prep document!
+
+Paolo Brizzolari > @Alex Siega it’s cool that you got it working. Just a couple of points:
+
+Using the generic 8266 doesn’t guarantee that all the pins will have the right numbers so I’d advise choosing the NodeMCU board once you’ve added the json url to the boards manager
+The alias D4 that disappeared was because of the above. For each board there is an import happening in the background
+If you check the esp8266 libraries you can go into variants/nodemcu/pins_arduino.h [and see the following](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/snippets/pins_arduino.h).
+
+#### Mac OSX: Big Sur upload errors
+
+If when trying to upload a sketch to your board you get the following error, then try the steps below.
+
+**pyserial or esptool directories not found next to this upload.py tool.
+
+1. Open ~/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/pyserial/serial/tools/list_ports_osx.py
+2. Comment out lines 29 and 30 and append these lines:
+```
+iokit = ctypes.cdll.LoadLibrary('/System/Library/Frameworks/IOKit.framework/IOKit')
+cf = ctypes.cdll.LoadLibrary('/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation')
+```
+
+If the error is still occurring.
+1. Edit ~/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/esptool/esptool.py
+2. Find the block of code below and comment it out by adding # to the start of each line:
+```
+#try:
+#    import serial.tools.list_ports as list_ports
+#except ImportError:
+#    print("The installed version (%s) of pyserial appears to be too old for esptool.py (Python interpreter %s). "
+#          "Check the README for installation instructions." % (sys.VERSION, sys.executable))
+#    raise
+```
+
+#### Windows: USB Driver issues
+
+**Problem**
+Can’t seem to find any that work for me. The ones recommended on the guide don’t help and the “port” option stays grayed out in the arduino ide.
+
+**Solution - Adam Hillier**
+I had the same issue. I installed the driver from here: https://sparks.gogo.co.nz/ch340.html. It worked for me.
+
+## My pump isn't working
+
+Try connect it to a 3V+ battery to test it.
