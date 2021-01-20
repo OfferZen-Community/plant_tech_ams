@@ -26,7 +26,7 @@ Please see [Troubleshooting](#troubleshooting) if you run into issues.
 
 ### What will be available for you on the evening
 
-<img src="MoistureSensor_bb.png" alt="complete" width="900"/>
+<img src="big_picture.png" alt="complete" width="900"/>
 
 **In the diagram**
 1. ESP8266 module - [how it works](https://lastminuteengineers.com/esp8266-nodemcu-arduino-tutorial/)
