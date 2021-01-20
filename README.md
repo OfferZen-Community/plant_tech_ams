@@ -186,10 +186,10 @@ First attempt playing with the arduino enviroment working with embedded c++
 | [Capacitive analog moisture sensor](https://s.click.aliexpress.com/e/_Ao5xVH)      | No metal parts touching the water so no corrosion problems causing inaccuracy in the long run       |
 | [Linear Voltage Regulator](https://za.rs-online.com/web/p/linear-voltage-regulators/2988508/?cm_mmc=ZA-PLA-DS3A-_-google-_-PLA_ZA_EN_Semiconductors_Whoop-_-(ZA:Whoop!)+Linear+Voltage+Regulators-_-2988508&matchtype=&pla-302356913516&gclid=CjwKCAiAo5qABhBdEiwAOtGmbg7tuEvVQIAG1wTDop1IJoNiwtXcKgqFSBNvbamjBCqnsQrGesIdEBoCXyoQAvD_BwE&gclsrc=aw.ds)      | add description...       |
 
-### Troubleshooting
+## Troubleshooting
 
 
-#### Prep troubleshooting
+### Prep troubleshooting
 - If your USB port does not show up in Tools > Port, you may need the driver.
   - If your board has a square chip next to the USB port then use [this driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) for the usb-uart. (CP2102 Chipset)
   - If your board has a rectangular chip next to the USB port then use [this driver](https://sparks.gogo.co.nz/ch340.html) for the usb-uart. (CH340 Chipset)
@@ -199,13 +199,13 @@ First attempt playing with the arduino enviroment working with embedded c++
   - For some people this does not work, as an alternative, you need to force the label (D4) to a [low state](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/), or maybe use a different label
 
 
-#### Struggling to connect to Wifi
+### Struggling to connect to Wifi
 
 The Arduino's Wifi antenna is very small and not very strong, so you might need to move it closer to the Wifi.
 
 You can use [this program](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/examples/WiFi/list_wifi.ino) to find SSID's and check signal strength.
 
-#### Mac users unable to get your Hello World up and running
+### Mac users unable to get your Hello World up and running
 
 Solution submitted by Alex Siega
 
@@ -222,7 +222,7 @@ Using the generic 8266 doesn’t guarantee that all the pins will have the right
 The alias D4 that disappeared was because of the above. For each board there is an import happening in the background
 If you check the esp8266 libraries you can go into variants/nodemcu/pins_arduino.h [and see the following](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/snippets/pins_arduino.h).
 
-#### Mac OSX: Big Sur upload errors
+### Mac OSX: Big Sur upload errors
 
 If when trying to upload a sketch to your board you get the following error, then try the steps below.
 
@@ -247,7 +247,7 @@ If the error is still occurring.
 #    raise
 ```
 
-#### Windows: USB Driver issues
+### Windows: USB Driver issues
 
 **Problem**
 Can’t seem to find any that work for me. The ones recommended on the guide don’t help and the “port” option stays grayed out in the arduino ide.
@@ -255,6 +255,6 @@ Can’t seem to find any that work for me. The ones recommended on the guide don
 **Solution - Adam Hillier**
 I had the same issue. I installed the driver from here: https://sparks.gogo.co.nz/ch340.html. It worked for me.
 
-#### My pump isn't working
+### My pump isn't working
 
 Try connect it to a 3V+ battery to test it.
