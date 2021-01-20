@@ -153,7 +153,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 
 * [Automatic pid water portion control](https://github.com/ikilledmypc/plantwaterer) by @ikilledmypc. This project uses 2 humidity levels one for the night/morning and one for the afternoon/midday. You can set your timezone-offset and humidity levels in the web interface. I'm in the process of testing it on a live plant though so I won't take any blame for drowned plants. It does have a watchdog timer for safety.
 * [Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje) by @ronaldf2000. First attempt playing with the arduino enviroment working with embedded c++ 
-* [OfferZen Plantfeeder](https://github.com/rvt/offerzen-plantfeeder) submitted by @ries
+* [OfferZen Plantfeeder](https://github.com/rvt/offerzen-plantfeeder) submitted by @ries. Has a web interface for MQTT configuration as well as WIFI configuration. 
 
 
 ## Useful resources
