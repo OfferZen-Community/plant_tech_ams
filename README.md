@@ -8,6 +8,7 @@
 - [Project extensions](#project-extensions)
 - [Community Contributions](#community-contributions)
 - [Useful resources](#useful-resources)
+- [Troubleshooting](#troubleshooting)
 
 ## Before the event
 We're excited to have you join this course, where you'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
@@ -254,6 +255,6 @@ Can’t seem to find any that work for me. The ones recommended on the guide don
 **Solution - Adam Hillier**
 I had the same issue. I installed the driver from here: https://sparks.gogo.co.nz/ch340.html. It worked for me.
 
-## My pump isn't working
+#### My pump isn't working
 
 Try connect it to a 3V+ battery to test it.
