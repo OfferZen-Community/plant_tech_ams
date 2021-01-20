@@ -15,7 +15,7 @@ We're excited to have you join this course, where you'll be working with plants,
 
 **👉 Before the event, complete the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md) to get your LED blinking and ensure you are setup for the event.**
 
-Please see [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams/wiki) if you run into issues.
+Please see [Troubleshooting](#troubleshooting) if you run into issues.
 
 ## At the event
 
