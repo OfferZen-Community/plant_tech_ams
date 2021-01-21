@@ -2,16 +2,19 @@
 
 **🌱 Table of Contents 🌱**
 - [Before the event](#before-the-event)
+  - [Preparing for the Make Event][preparing-for-the-make-event
 - [At the event](#at-the-event)
 - [After the event](#after-the-event)
   - [NB! Giving feedback](#nb-giving-feedback)
 - [Project extensions](#project-extensions)
-- [Community Contributions](#community-contributions)
+- [Community Contributions](#community-project-repos)
 - [Useful resources](#useful-resources)
 - [Troubleshooting](#troubleshooting)
 
 ## Before the event
 We're excited to have you join this course, where you'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
+
+### Preparing for the Make Event
 
 **👉 Before the event, complete the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md) to get your LED blinking and ensure you are setup for the event.**
 
