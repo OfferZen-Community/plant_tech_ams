@@ -147,14 +147,16 @@ Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/ard
 [<img src="https://cdn.thingiverse.com/assets/d4/de/02/49/e8/featured_preview_Planter.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
 [<img src="https://cdn.thingiverse.com/assets/38/d4/28/c7/98/featured_preview_Frame_1-min_1.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
 
-## Community Contributions
+## Community Project Repos
 
 You can find code and projects and advice submitted by the community here. Please submit your code for inclusion :)
 
-* [Automatic pid water portion control](https://github.com/ikilledmypc/plantwaterer) by @ikilledmypc. This project uses 2 humidity levels one for the night/morning and one for the afternoon/midday. You can set your timezone-offset and humidity levels in the web interface. I'm in the process of testing it on a live plant though so I won't take any blame for drowned plants. It does have a watchdog timer for safety.
-* [Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje) by @ronaldf2000. First attempt playing with the arduino enviroment working with embedded c++ 
-* [OfferZen Plantfeeder](https://github.com/rvt/offerzen-plantfeeder) submitted by @ries. Has a web interface for MQTT configuration as well as WIFI configuration. 
-* [Self watering plant](https://github.com/cokceken/Self-watering-plant) submitted by @semih çokçeken . Code for Connecting to local wifi, Creating a web server, Managing MQTT connection, Managing sensors.
+| Repo      | Description | Author |
+| ----------- | ----------- | ----------- |
+|[Automatic pid water portion control](https://github.com/ikilledmypc/plantwaterer)|This project uses 2 humidity levels one for the night/morning and one for the afternoon/midday. You can set your timezone-offset and humidity levels in the web interface. I'm in the process of testing it on a live plant though so I won't take any blame for drowned plants. It does have a watchdog timer for safety.|by @ikilledmypc.|
+|[Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje)|First attempt playing with the arduino enviroment working with embedded c++ |by @ronaldf2000.|
+|[OfferZen Plantfeeder](https://github.com/rvt/offerzen-plantfeeder)|Has a web interface for MQTT configuration as well as WIFI configuration. |by @ries.|
+|[Self watering plant](https://github.com/cokceken/Self-watering-plant)|Code for Connecting to local wifi, Creating a web server, Managing MQTT connection, Managing sensors.|by @semih çokçeken|
 
 
 ## Useful resources
