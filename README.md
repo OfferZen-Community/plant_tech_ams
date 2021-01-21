@@ -2,7 +2,7 @@
 
 **🌱 Table of Contents 🌱**
 - [Before the event](#before-the-event)
-  - [Preparing for the Make Event][preparing-for-the-make-event
+  - [Preparing for the Make Event](#preparing-for-the-make-event)
 - [At the event](#at-the-event)
 - [After the event](#after-the-event)
   - [NB! Giving feedback](#nb-giving-feedback)
