@@ -2,19 +2,23 @@
 
 **🌱 Table of Contents 🌱**
 - [Before the event](#before-the-event)
+  - [Preparing for the Make Event](#preparing-for-the-make-event)
 - [At the event](#at-the-event)
 - [After the event](#after-the-event)
   - [NB! Giving feedback](#nb-giving-feedback)
 - [Project extensions](#project-extensions)
-- [Community Contributions](#community-contributions)
+- [Community Contributions](#community-project-repos)
 - [Useful resources](#useful-resources)
+- [Troubleshooting](#troubleshooting)
 
 ## Before the event
 We're excited to have you join this course, where you'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
 
+### Preparing for the Make Event
+
 **👉 Before the event, complete the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md) to get your LED blinking and ensure you are setup for the event.**
 
-Please see [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams/wiki) if you run into issues.
+Please see [Troubleshooting](#troubleshooting) if you run into issues.
 
 ## At the event
 
@@ -25,7 +29,7 @@ Please see [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams/wik
 
 ### What will be available for you on the evening
 
-<img src="MoistureSensor_bb.png" alt="complete" width="900"/>
+<img src="big_picture.png" alt="complete" width="900"/>
 
 **In the diagram**
 1. ESP8266 module - [how it works](https://lastminuteengineers.com/esp8266-nodemcu-arduino-tutorial/)
@@ -146,17 +150,16 @@ Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/ard
 [<img src="https://cdn.thingiverse.com/assets/d4/de/02/49/e8/featured_preview_Planter.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
 [<img src="https://cdn.thingiverse.com/assets/38/d4/28/c7/98/featured_preview_Frame_1-min_1.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
 
-## Community Contributions
+## Community Project Repos
 
 You can find code and projects and advice submitted by the community here. Please submit your code for inclusion :)
 
-### [Automatic pid water portion control](https://github.com/ikilledmypc/plantwaterer) by @ikilledmypc
-
-This project uses 2 humidity levels one for the night/morning and one for the afternoon/midday. You can set your timezone-offset and humidity levels in the web interface. I'm in the process of testing it on a live plant though so I won't take any blame for drowned plants. It does have a watchdog timer for safety.
-
-### [Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje) by @ronaldf2000
-
-First attempt playing with the arduino enviroment working with embedded c++
+| Repo      | Description | Author |
+| ----------- | ----------- | ----------- |
+|[Automatic pid water portion control](https://github.com/ikilledmypc/plantwaterer)|This project uses 2 humidity levels one for the night/morning and one for the afternoon/midday. You can set your timezone-offset and humidity levels in the web interface. I'm in the process of testing it on a live plant though so I won't take any blame for drowned plants. It does have a watchdog timer for safety.|by @ikilledmypc.|
+|[Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje)|First attempt playing with the arduino enviroment working with embedded c++ |by @ronaldf2000.|
+|[OfferZen Plantfeeder](https://github.com/rvt/offerzen-plantfeeder)|Has a web interface for MQTT configuration as well as WIFI configuration. |by @ries.|
+|[Self watering plant](https://github.com/cokceken/Self-watering-plant)|Code for Connecting to local wifi, Creating a web server, Managing MQTT connection, Managing sensors.|by @semih çokçeken|
 
 
 ## Useful resources
@@ -184,6 +187,11 @@ First attempt playing with the arduino enviroment working with embedded c++
 | [I2C Soil Moisture Sensor](https://www.whiteboxes.ch/shop/i2c-soil-moisture-sensor/)      | add description...       |
 | [Capacitive analog moisture sensor](https://s.click.aliexpress.com/e/_Ao5xVH)      | No metal parts touching the water so no corrosion problems causing inaccuracy in the long run       |
 | [Linear Voltage Regulator](https://za.rs-online.com/web/p/linear-voltage-regulators/2988508/?cm_mmc=ZA-PLA-DS3A-_-google-_-PLA_ZA_EN_Semiconductors_Whoop-_-(ZA:Whoop!)+Linear+Voltage+Regulators-_-2988508&matchtype=&pla-302356913516&gclid=CjwKCAiAo5qABhBdEiwAOtGmbg7tuEvVQIAG1wTDop1IJoNiwtXcKgqFSBNvbamjBCqnsQrGesIdEBoCXyoQAvD_BwE&gclsrc=aw.ds)      | add description...       |
+|[JOY-IT DPS 5005 DPS](https://www.reichelt.com/nl/de/dps-labornetzgeraet-0-50-v-0-5-a-joy-it-dps-5005-p239863.html?r=1)|This programmable module for controlling voltage with a constant voltage and constant current.|
+|[Adafruit STEMMA Soil Sensor - I2C Capacitive Moisture Sensor](https://www.adafruit.com/product/4026)|Alternative moisture sensor, multiple can be connected if using ESP2866.|
+|[ELEGOO Elektronische Fun Kit](https://www.amazon.nl/ELEGOO-Elektronische-Condensator-Potentiometer-Elektronica/dp/B0855QCZ17/ref=pd_sbs_2?pd_rd_w=atFmt&pf_rd_p=12014d1e-55f2-42ac-9c37-83c84018946d&pf_rd_r=KZCBGMV7AQW7666A8QA1&pd_rd_r=cf540411-506d-4944-98dc-96d1e29668a4&pd_rd_wg=NMPIm&pd_rd_i=B0855QCZ17&psc=1)|An electronics starter kit for exploring further.|
+|[Raspberry Pi 4B – Ultimate starter kit](https://www.freva.com/product/raspberry-pi-4b-ultimate-starter-kit-4gb/)|Starter kit for expanding further.|
+|[AZDelivery 16 in 1 Kit](https://www.amazon.nl/dp/B071GV6L41/?coliid=IU1O5OOOZJRKR&colid=LCA4LPMQ3AWU&psc=1&ref_=lv_ov_lig_dp_it)| Expanded sensors kit|
 
 #### South African Hobby Electronic Suppliers
 
@@ -196,3 +204,78 @@ First attempt playing with the arduino enviroment working with embedded c++
 
 - [SeedsForAfrica](https://www.seedsforafrica.co.za/)
 - [Hortishop](https://hydroponic.co.za/hydro/hortishop/)
+=======
+
+
+## Troubleshooting
+
+
+### Prep troubleshooting
+- If your USB port does not show up in Tools > Port, you may need the driver.
+  - If your board has a square chip next to the USB port then use [this driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) for the usb-uart. (CP2102 Chipset)
+  - If your board has a rectangular chip next to the USB port then use [this driver](https://sparks.gogo.co.nz/ch340.html) for the usb-uart. (CH340 Chipset)
+  - When that doesn't solve the problem, (this seems to happen when using a MacBook with an USB-C adapter) check this [forum](https://apple.stackexchange.com/questions/334311/connection-of-esp32-esp8266-not-recognized-using-macbook-pro).
+  - If you're still stuck, let us know in the Slack Channel so we can help you get it to work!
+- If you see a `Fatal Error Failed to connect to ESP8266: Timed out waiting for packet header` (this might not happen on the first time but in subsequent uploads): disconnect the external board and upload again, connecting the wires after this. [Reference](https://github.com/espressif/esptool/issues/490).
+  - For some people this does not work, as an alternative, you need to force the label (D4) to a [low state](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/), or maybe use a different label
+
+
+### Struggling to connect to Wifi
+
+The Arduino's Wifi antenna is very small and not very strong, so you might need to move it closer to the Wifi.
+
+You can use [this program](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/examples/WiFi/list_wifi.ino) to find SSID's and check signal strength.
+
+### Mac users unable to get your Hello World up and running
+
+Solution submitted by Alex Siega
+
+1. Under Tools > Board, make sure to select "Generic ESP8266 Module." Mine defaults to "Arduino Uno" without actively selecting the right board.
+2. Install the drivers from the OfferZen Prep page. Make sure to give the drivers the correct permissions in the Security & Privacy area in System Preferences; it's at the end of the "General" tab.
+3. In Tools > Port, select /dev/cu.usbserial-1420 at the port. (No mention of "right" USB port, but hey, it works! :smile:)
+4. Last step -- when you go to upload blinkESP.ino, you may get a 'D4' was not declared in this scope error. Change D4 to 2 , making the first line # define LED 2
+
+This results in a blue light flashing every second, which I believe is the "hello world" described in the prep document!
+
+Paolo Brizzolari > @Alex Siega it’s cool that you got it working. Just a couple of points:
+
+Using the generic 8266 doesn’t guarantee that all the pins will have the right numbers so I’d advise choosing the NodeMCU board once you’ve added the json url to the boards manager
+The alias D4 that disappeared was because of the above. For each board there is an import happening in the background
+If you check the esp8266 libraries you can go into variants/nodemcu/pins_arduino.h [and see the following](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/snippets/pins_arduino.h).
+
+### Mac OSX: Big Sur upload errors
+
+If when trying to upload a sketch to your board you get the following error, then try the steps below.
+
+**pyserial or esptool directories not found next to this upload.py tool.
+
+1. Open ~/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/pyserial/serial/tools/list_ports_osx.py
+2. Comment out lines 29 and 30 and append these lines:
+```
+iokit = ctypes.cdll.LoadLibrary('/System/Library/Frameworks/IOKit.framework/IOKit')
+cf = ctypes.cdll.LoadLibrary('/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation')
+```
+
+If the error is still occurring.
+1. Edit ~/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/esptool/esptool.py
+2. Find the block of code below and comment it out by adding # to the start of each line:
+```
+#try:
+#    import serial.tools.list_ports as list_ports
+#except ImportError:
+#    print("The installed version (%s) of pyserial appears to be too old for esptool.py (Python interpreter %s). "
+#          "Check the README for installation instructions." % (sys.VERSION, sys.executable))
+#    raise
+```
+
+### Windows: USB Driver issues
+
+**Problem**
+Can’t seem to find any that work for me. The ones recommended on the guide don’t help and the “port” option stays grayed out in the arduino ide.
+
+**Solution - Adam Hillier**
+I had the same issue. I installed the driver from here: https://sparks.gogo.co.nz/ch340.html. It worked for me.
+
+### My pump isn't working
+
+Try connect it to a 3V+ battery to test it.
