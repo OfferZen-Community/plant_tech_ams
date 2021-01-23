@@ -183,8 +183,8 @@ You can find code and projects and advice submitted by the community here. Pleas
 ### Additional equipment
 
 To shop for equipment see suppliers lists in your country:
-- [South Africa](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/south_africa_electronics_suppliers.md)
-- [Netherlands](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/netherlands_electronics_suppliers.md)
+- [South Africa](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/south_africa_equipment_suppliers.md)
+- [Netherlands](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/netherlands_equipment_suppliers.md)
 
 
 Here's a list of equipment that has come up as ideas for extending the project further.
