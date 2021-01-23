@@ -193,6 +193,20 @@ You can find code and projects and advice submitted by the community here. Pleas
 |[Raspberry Pi 4B – Ultimate starter kit](https://www.freva.com/product/raspberry-pi-4b-ultimate-starter-kit-4gb/)|Starter kit for expanding further.|
 |[AZDelivery 16 in 1 Kit](https://www.amazon.nl/dp/B071GV6L41/?coliid=IU1O5OOOZJRKR&colid=LCA4LPMQ3AWU&psc=1&ref_=lv_ov_lig_dp_it)| Expanded sensors kit|
 
+#### South African Hobby Electronic Suppliers
+
+- [DIYElectronics](https://www.diyelectronics.co.za/store/)
+- [MicroRobotics](https://www.robotics.org.za/)
+- [PiShop](https://www.pishop.co.za/store/)
+- [RS Components](https://za.rs-online.com/web/)
+
+#### South African Seed/Nutrient Suppliers
+
+- [SeedsForAfrica](https://www.seedsforafrica.co.za/)
+- [Hortishop](https://hydroponic.co.za/hydro/hortishop/)
+=======
+
+
 ## Troubleshooting
 
 
