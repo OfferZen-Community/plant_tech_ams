@@ -17,10 +17,10 @@ void setup() {
 
 void loop() {
   digitalWrite(LED, HIGH);  // Turn the LED off because the LED is active low
-  Serial.println("ON");
+  Serial.println("OFF");
   delay(1000);            // Wait a second
   digitalWrite(LED, LOW);   // Turn the LED on because the LED is active low
-  Serial.println("OFF");
+  Serial.println("ON");
   delay(1000);              // Wait a second
 }
 
