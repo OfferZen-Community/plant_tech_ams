@@ -27,6 +27,10 @@ Now it's time to plug the ESP8266 board in your computer, and see how to blink a
 - Clone (or download, or simply copy-paste to your Arduino IDE window) the [BlinkESP](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/BlinkESP.ino) code and run it in Arduino IDE by clicking 'Upload'.
 - After compiling and uploading, the LED on your ESP8266 board should start flashing. You did it!
 
+### Big Sur compatability issue:
+
+If you're getting this issue `pyserial or esptool directories not found next to this upload.py tool` when uploading your sketch on Big Sur, [click here](https://forum.arduino.cc/index.php?topic=702144.0#msg4793318) for the work around.
+
 <img src="https://media.giphy.com/media/3ohryhNgUwwZyxgktq/giphy.gif" alt="seven" width="300"/>
 
 ### Troubleshooting
