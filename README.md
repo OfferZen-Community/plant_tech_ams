@@ -207,13 +207,15 @@ Here's a list of equipment that has come up as ideas for extending the project f
 ## Troubleshooting
 
 
-### Prep troubleshooting
+### USB port not showing in Tools > Port
 - If your USB port does not show up in Tools > Port, you may need the driver.
   - If your board has a square chip next to the USB port then use [this driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) for the usb-uart. (CP2102 Chipset)
   - If your board has a rectangular chip next to the USB port then use [this driver](https://sparks.gogo.co.nz/ch340.html) for the usb-uart. (CH340 Chipset)
   - When that doesn't solve the problem, (this seems to happen when using a MacBook with an USB-C adapter) check this [forum](https://apple.stackexchange.com/questions/334311/connection-of-esp32-esp8266-not-recognized-using-macbook-pro).
   - If you're still stuck, let us know in the Slack Channel so we can help you get it to work!
-- If you see a `Fatal Error Failed to connect to ESP8266: Timed out waiting for packet header` (this might not happen on the first time but in subsequent uploads): disconnect the external board and upload again, connecting the wires after this. [Reference](https://github.com/espressif/esptool/issues/490).
+
+### "Fatal Error Failed to connect"
+If you see a `Fatal Error Failed to connect to ESP8266: Timed out waiting for packet header` (this might not happen on the first time but in subsequent uploads): disconnect the external board and upload again, connecting the wires after this. [Reference](https://github.com/espressif/esptool/issues/490).
   - For some people this does not work, as an alternative, you need to force the label (D4) to a [low state](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/), or maybe use a different label
 
 
