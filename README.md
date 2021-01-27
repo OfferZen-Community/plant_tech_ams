@@ -201,9 +201,6 @@ Here's a list of equipment that has come up as ideas for extending the project f
 |[AZDelivery 16 in 1 Kit](https://www.amazon.nl/dp/B071GV6L41/?coliid=IU1O5OOOZJRKR&colid=LCA4LPMQ3AWU&psc=1&ref_=lv_ov_lig_dp_it)| Expanded sensors kit|
 
 
-=======
-
-
 ## Troubleshooting
 
 
@@ -224,6 +221,8 @@ If you see a `Fatal Error Failed to connect to ESP8266: Timed out waiting for pa
 3. release the "RST" button, the ESP will boot in program mode
 4. release the program button
 5. upload the sketch
+
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/esp_reset_and_flash_buttons.jpg?raw=true" width=200></img>
 
 
 ### Struggling to connect to Wifi
