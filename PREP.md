@@ -6,7 +6,11 @@ Makers that are well prepared get the most out of their experience. Before you a
 
 Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software). Alternatively you can use [Micropython](https://github.com/OfferZen-Make/plant_tech_ams#micropython-submitted-by-michiel-erasmus)
 
-## Step 2 - Set up your system
+## Step 2 - Test your water pump
+
+Sometimes the pumps have a few issues and can take a while to get working, so it's a good idea to test if yours is working before the evening. If it doesn't work see [troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working).
+
+## Step 3 - Set up your system
 
 We will begin by installing the ESP8266 (that thingy in your box with the micro-USB port) support for the Arduino IDE:
 
@@ -18,7 +22,7 @@ We will begin by installing the ESP8266 (that thingy in your box with the micro-
 - Go to Tools > Board > Boards Manager...
 - Navigate to esp8266 by esp8266 community and install the software for Arduino.
 
-## Step 3 - Connect your ESP8266
+## Step 4 - Connect your ESP8266
 
 Now it's time to plug the ESP8266 board in your computer, and see how to blink an LED (the Hello World in the electronics):
 
@@ -37,7 +41,7 @@ If you're getting this issue `pyserial or esptool directories not found next to 
 
 All project troubleshooting is here https://github.com/OfferZen-Make/plant_tech_ams/wiki
 
-## Step 4 - Take a photo of your setup and share it!
+## Step 5 - Take a photo of your setup and share it!
 
 Please help us spread the word about Make events so that we can grow the community and keep helping devs learn new tech 🚀 💦 🌱.
 
@@ -62,7 +66,7 @@ Here's a fabulous example from @hendrikdelarey
 
 And if you abhor all social medias and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂 Thank you, it really helps to keep the lights on 💡. See you soon <3
 
-## Step 5 - Chart a course for self-watering plant mastery
+## Step 6 - Chart a course for self-watering plant mastery
 
 Read through the [Plant Tech readme](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md) including [project extensions](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md#project-extensions), [community contributions](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md#community-contributions) and [useful resources](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md#useful-resources) to get an idea for where you want to take your self-watering plant project on the evening of the event.
 
