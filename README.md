@@ -283,4 +283,6 @@ I had the same issue. I installed the driver from here: https://sparks.gogo.co.n
 
 ### My pump isn't working
 
-Try connect it to a 3V+ battery to test it.
+- Connect it to a 3V+ battery to test.
+- You might need to hit it quite hard on the table.
+- You may need to strip the wires quite a lot more.
