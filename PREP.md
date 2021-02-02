@@ -4,7 +4,7 @@ Makers that are well prepared get the most out of their experience. Before you a
 
 ## Step 1 - Arduino IDE
 
-Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software). Alternatively you can use [Micropython](https://github.com/OfferZen-Make/plant_tech_ams#micropython-submitted-by-michiel-erasmus)
+Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software). Alternatively you can use [Micropython](https://github.com/OfferZen-Make/plant_tech_ams#micropython-submitted-by-michiel-erasmus) or [Eclipse](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md#sloeber-a-free-open-source-eclipse-ide-submitted-by-robin-gilham)
 
 ## Step 2 - Test your water pump
 
