@@ -10,6 +10,8 @@ Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software).
 
 It's a good idea to test that your pump runs before the event as they sometimes struggle to start. It may feel like they're broken, but quite often it takes a bit of trial and error to get them working.
 
+<a href="https://www.youtube.com/watch?v=izZDVhpdPzs&amp;ab_channel=LahisTech" ><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/test_water_pump.png?raw=true"><img></a>
+
 If it doesn't work see [troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working).
 
 ## Step 3 - Set up your system
