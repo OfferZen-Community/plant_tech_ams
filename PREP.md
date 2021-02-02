@@ -13,6 +13,7 @@ It's a good idea to test that your pump runs before the event as they sometimes 
 How to test it:
 - Strip some of the provided wires and press them directly onto a 3v+ battery. We've had instances where people didn't the strip wires enough.
 - You might need to hit it quite hard on the table - sometimes the lubricant dries up so it gets stuck.
+- If you're using the transistor then try switching the wires around - if it's connected the wrong way around it won't work. The metal part must be flat on your desk and facing away from you on the desk and it will match the diagram.
 
 <a href="https://www.youtube.com/watch?v=izZDVhpdPzs&amp;ab_channel=LahisTech" ><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/test_water_pump.png?raw=true"><img></a>
 
