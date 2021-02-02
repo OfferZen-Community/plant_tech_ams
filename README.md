@@ -214,7 +214,7 @@ Here's a list of equipment that has come up as ideas for extending the project f
 ### "Fatal Error Failed to connect"
 If you see a `Fatal Error Failed to connect to ESP8266: Timed out waiting for packet header` (this might not happen on the first time but in subsequent uploads): disconnect the external board and upload again, connecting the wires after this. [Reference](https://github.com/espressif/esptool/issues/490).
   - For some people this does not work, as an alternative, you need to force the label (D4) to a [low state](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/), or maybe use a different label. To do this follow these steps:
-  
+
 #### Booting into program mode
 1. press and hold the "RST" button
 2. press and hold the "FLASH" button
@@ -224,6 +224,15 @@ If you see a `Fatal Error Failed to connect to ESP8266: Timed out waiting for pa
 
 <img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/esp_reset_and_flash_buttons.jpg?raw=true" width=200></img>
 
+### Board keeps switching on and off
+
+Most laptop USB ports can only supply limited current, generally 500mA (USB-3 is 2.5A) - so when the pump is connected and drawing power it overloads the circuitry and trips the power.
+
+Fixes.
+
+- Use USB hub with external power
+- Use a USB power supply
+- Power the pump separately
 
 ### Struggling to connect to Wifi
 
