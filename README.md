@@ -164,6 +164,13 @@ You can find code and projects and advice submitted by the community here. Pleas
 
 ## Useful resources
 
+### Sloeber: a free, open source, Eclipse IDE submitted by Robin Gilham
+
+- Proper IDE with code completion, refactoring, syntax highlighting
+- GitHub integration
+
+[Download the product, unpack and play!](https://eclipse.baeyens.it/)
+
 ### Micropython submitted by Michiel Erasmus
 
 - Ditch the Arduino IDE.
