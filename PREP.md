@@ -8,7 +8,9 @@ Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software).
 
 ## Step 2 - Test your water pump
 
-Sometimes the pumps have a few issues and can take a while to get working, so it's a good idea to test if yours is working before the evening. If it doesn't work see [troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working).
+It's a good idea to test that your pump runs before the event as they sometimes struggle to start. It may feel like they're broken, but quite often it takes a bit of trial and error to get them working.
+
+If it doesn't work see [troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working).
 
 ## Step 3 - Set up your system
 
