@@ -1,4 +1,4 @@
-South African Electronics Suppliers List
+🇿🇦 South African Electronics Suppliers List 🇿🇦
 
 #### South African Hobby Electronic Suppliers
 - [Robotics](https://www.robotics.org.za/)
@@ -10,6 +10,7 @@ South African Electronics Suppliers List
 - [Botshop](https://www.botshop.co.za/)
 - [Mantech](https://www.mantech.co.za/)
 - [Netram](https://www.netram.co.za/)
+- [Hobbytronics](https://www.hobbytronics.co.za/)
 
 #### South African Seed/Nutrient Suppliers
 
