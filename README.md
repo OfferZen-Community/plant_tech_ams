@@ -160,6 +160,8 @@ You can find code and projects and advice submitted by the community here. Pleas
 |[Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje)|First attempt playing with the arduino enviroment working with embedded c++ |by @ronaldf2000.|
 |[OfferZen Plantfeeder](https://github.com/rvt/offerzen-plantfeeder)|Has a web interface for MQTT configuration as well as WIFI configuration. |by @ries.|
 |[Self watering plant](https://github.com/cokceken/Self-watering-plant)|Code for Connecting to local wifi, Creating a web server, Managing MQTT connection, Managing sensors.|by @semih çokçeken|
+|[Self-watering plant code](https://github.com/roaldnefs/basil)|checkout the GitHub actions workflow if you wish to test if your Arduino code actually compiles before pushing it to your plant 🌱|@Roald Nefs|
+
 
 
 ## Useful resources
@@ -186,6 +188,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 - [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
 - [ ] [Arduino IDE for Visual Studio (Visual Micro) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)
 - [ ] [Node-RED](https://nodered.org/) - Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
+- [ ] [Flash code to other devices](https://github.com/espressif/esptool)
 
 ### Additional equipment
 
