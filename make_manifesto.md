@@ -12,9 +12,11 @@ Being founded in South-Africa, we have hosted over 60 [Make Days](https://makeda
 ## The Plan
 
 ### Netherlands
-The goal is to create and offer a simulation environment where devs can play and develop their own IP in fields like machine learning, blockchain, and IoT, around concepts like image recognition, fleet/swarm control, computer vision, with hardware like Raspberry Pi’s, Arduino boards, and drones, Sphero’s, or other robots. 
+Currently we're hosting 2 sessions a week. The goal is to create and offer a virtual environment where devs can play and develop their own IP in fields like machine learning, blockchain, and IoT, around concepts like image recognition, fleet/swarm control, computer vision, with hardware like Raspberry Pi’s, Arduino boards, and drones, Sphero’s, or other robots. 
 
-We will host Make Days every Thursday from 18:00 - 20:30. Fifteen people can sign up per session. Every maker will receive the necessary materials depending on the evening’s course. After a short introduction, makers will be teaming up and start building their idea. Anything goes. All makers get added to the Make community on Slack, allowing them to further develop their projects or help others build theirs.
+### South Africa
+
+Currently we're hosting 7 events a month, as part of the  [Programmable Banking Dev Community collaboration by OfferZen and Investec](https://www.youtube.com/watch?v=PcU0aT5ckDM&ab_channel=OfferZen). Although self-watering plants don't have much to do with Programmable Banking - it's a great way to focus the community members on having fun together and getting to know each other.
 
 ## We need you
 To make the Make sessions a success, we need Makers just like you. You just need to be a somewhat experienced software developer in order to attend. We will give you the necessary tools to build a project with us and your fellow Makers, and you get to keep all of it. What we ask in return is for you to help us continuously iterate on Make, allowing us to make it a bit better every session. Also, please spread the word, so that we can grow our Make community and facilitate more people learning new things :)
