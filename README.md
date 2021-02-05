@@ -160,8 +160,8 @@ You can find code and projects and advice submitted by the community here. Pleas
 |[Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje)|First attempt playing with the arduino enviroment working with embedded c++ |by @ronaldf2000.|
 |[OfferZen Plantfeeder](https://github.com/rvt/offerzen-plantfeeder)|Has a web interface for MQTT configuration as well as WIFI configuration. |by @ries.|
 |[Self watering plant](https://github.com/cokceken/Self-watering-plant)|Code for Connecting to local wifi, Creating a web server, Managing MQTT connection, Managing sensors.|by @semih çokçeken|
+|[Self watering plant using MicroPython](https://github.com/mmphego/uPython-Plant-Irrigation-System)| MicroPython based plant irrigation system running on an esp8266 with Slack and Ubidots support. | by @mmphego|
 |[Self-watering plant code](https://github.com/roaldnefs/basil)|checkout the GitHub actions workflow if you wish to test if your Arduino code actually compiles before pushing it to your plant 🌱|@Roald Nefs|
-
 
 
 ## Useful resources
