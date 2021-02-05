@@ -1,7 +1,7 @@
 # Make: a Manifesto
 [“We come together to get better at what we care about: making better software.”](https://www.ted.com/talks/eduardo_briceno_how_to_get_better_at_the_things_you_care_about/footnotes?referrer=playlist-the_most_actionable_ted_talks)
 
-Make is a community of software developers backed by [OfferZen](https://www.offerzen.com/nl). OfferZen believes that true potential is unlocked when software developers are free to play with tech - so that's why they're investing in building the Make community.
+Make is a community of software developers backed by [OfferZen](https://www.offerzen.com/nl). OfferZen believes that true potential is unlocked when software developers are free to play with tech - hence the investment in building the Make community.
 
 ## What we believe
 With Make, we aim to equip developers to create the next generation of software. To do this, we create more rounded developers, with a wider skill set, bigger resource base and more confidence to tackle things differently.
