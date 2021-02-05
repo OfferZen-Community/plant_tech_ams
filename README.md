@@ -273,7 +273,7 @@ If when trying to upload a sketch to your board you get the following error, the
 
 **pyserial or esptool directories not found next to this upload.py tool.
 
-1. Open ~/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/pyserial/serial/tools/list_ports_osx.py
+1. Open Users/?????/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/pyserial/serial/tools/list_ports_osx.py
 2. Comment out lines 29 and 30 and append these lines:
 ```
 iokit = ctypes.cdll.LoadLibrary('/System/Library/Frameworks/IOKit.framework/IOKit')
