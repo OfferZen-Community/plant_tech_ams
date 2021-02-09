@@ -11,7 +11,7 @@ Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software).
 It's a good idea to test that your pump runs before the event as they sometimes struggle to start. It may feel like they're broken, but quite often it takes a bit of trial and error to get them working.
 
 How to test it:
-- Strip some of the provided wires and press them directly onto a 3v+ battery. We've had instances where people didn't the strip wires enough.
+- Strip some of the provided wires and press them directly onto a 3v+ battery or 2 x 1.5v batteries in series or a vape battery! We've had instances where people didn't the strip wires enough, so make sure they're properly exposed.
 - You might need to hit it quite hard on the table - sometimes the lubricant dries up so it gets stuck.
 - If you're using the transistor then try switching the wires around - if it's connected the wrong way around it won't work. The metal part must be flat on your desk and facing away from you on the desk and it will match the diagram.
 
