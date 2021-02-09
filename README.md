@@ -80,6 +80,8 @@ The pump has a GND output to be connected to the ESP8266 and receives power from
 
 Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and please watch out for water spills ;)
 
+Your self-watering plant is set up! You can now simply plug it directly into the mains using a usb adaptor / cellphone charger with a 5v output and it will keep your plant watered.
+
 ### Part 4 - Time to play! 🥳
 
 Now that the basics of your system are up and running, it's time to play around a bit! You can put your moisture sensor in your plant and attach the PVC tubing to the water pump (potentially use the cable tie to prevent leaking) with one end, and lay the other end in the plant.
