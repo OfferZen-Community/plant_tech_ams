@@ -11,6 +11,10 @@
 - [Useful resources](#useful-resources)
 - [Troubleshooting](#troubleshooting)
 
+## What we're all about
+
+If you're interested in the bigger picture, please take a minute to read the [Make Manifesto](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/make_manifesto.md).
+
 ## Before the event
 We're excited to have you join this course, where you'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
 
