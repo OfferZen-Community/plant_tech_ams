@@ -32,7 +32,7 @@ Now it's time to plug the ESP8266 board in your computer, and see how to blink a
 
 - Strip the red and black wires of the pump.
 - Plug the ESP8266 into your laptop or a cellhpone charge using the MicroUSB cable.
-- From your water pump press the red wire onto the 3V3 pin and black to GND pin (you can use the dupont wire.
+- From your water pump press the red wire onto the 3V3 pin and black to GND pin or hook them up using the dupont wires.
 - You should hear the motor of the pump spinning.
 
 <a href="https://www.youtube.com/watch?v=0SQNkLzuTr8"> <img src="https://raw.githubusercontent.com/OfferZen-Make/plant_tech_ams/master/course_media/test_pump.png" width="300"/></a>
