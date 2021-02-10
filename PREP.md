@@ -6,20 +6,7 @@ Makers that are well prepared get the most out of their experience. Before you a
 
 Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software). Alternatively you can use [Micropython](https://github.com/OfferZen-Make/plant_tech_ams#micropython-submitted-by-michiel-erasmus) or [Eclipse](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md#sloeber-a-free-open-source-eclipse-ide-submitted-by-robin-gilham)
 
-## Step 2 - Test your water pump
-
-It's a good idea to test that your pump runs before the event as they sometimes struggle to start. It may feel like they're broken, but quite often it takes a bit of trial and error to get them working.
-
-How to test it:
-- Strip some of the provided wires and press them directly onto a 3v+ battery or 2 x 1.5v batteries in series or a vape battery! We've had instances where people didn't the strip wires enough, so make sure they're properly exposed.
-- You might need to hit it quite hard on the table - sometimes the lubricant dries up so it gets stuck.
-- If you're using the transistor then try switching the wires around - if it's connected the wrong way around it won't work. The metal part must be flat on your desk and facing away from you on the desk and it will match the diagram.
-
-<a href="https://www.youtube.com/watch?v=izZDVhpdPzs&amp;ab_channel=LahisTech" ><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/test_water_pump.png?raw=true"><img></a>
-
-If it doesn't work see [troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working).
-
-## Step 3 - Set up your system
+## Step 2 - Set up your system
 
 We will begin by installing the ESP8266 (that thingy in your box with the micro-USB port) support for the Arduino IDE:
 
@@ -31,7 +18,7 @@ We will begin by installing the ESP8266 (that thingy in your box with the micro-
 - Go to Tools > Board > Boards Manager...
 - Navigate to esp8266 by esp8266 community and install the software for Arduino.
 
-## Step 4 - Connect your ESP8266
+## Step 3 - Connect your ESP8266
 
 Now it's time to plug the ESP8266 board in your computer, and see how to blink an LED (the Hello World in the electronics):
 
@@ -40,6 +27,19 @@ Now it's time to plug the ESP8266 board in your computer, and see how to blink a
 - If Port is not available in Win10 (https://sparks.gogo.co.nz/ch340.html)
 - Clone (or download, or simply copy-paste to your Arduino IDE window) the [BlinkESP](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/BlinkESP.ino) code and run it in Arduino IDE by clicking 'Upload'.
 - After compiling and uploading, the LED on your ESP8266 board should start flashing. You did it!
+
+## Step 4 - Test your water pump
+
+It's a good idea to test that your pump runs before the event as they sometimes struggle to start. It may feel like they're broken, but quite often it takes a bit of trial and error to get them working.
+
+How to test it:
+- Strip some of the provided wires and press them directly onto a 3v+ battery or 2 x 1.5v batteries in series or a vape battery! We've had instances where people didn't the strip wires enough, so make sure they're properly exposed.
+- You might need to hit it quite hard on the table - sometimes the lubricant dries up so it gets stuck.
+- If you're using the transistor then try switching the wires around - if it's connected the wrong way around it won't work. The metal part must be flat on your desk and facing away from you on the desk and it will match the diagram.
+
+<a href="https://www.youtube.com/watch?v=izZDVhpdPzs&amp;ab_channel=LahisTech" ><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/test_water_pump.png?raw=true"><img></a>
+
+If it doesn't work see [troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working).
 
 ### Big Sur compatability issue:
 
