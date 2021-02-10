@@ -30,12 +30,19 @@ Now it's time to plug the ESP8266 board in your computer, and see how to blink a
 
 ## Step 4 - Test your water pump
 
-It's a good idea to test that your pump runs before the event as they sometimes struggle to start. It may feel like they're broken, but quite often it takes a bit of trial and error to get them working.
+- Strip the red and black wires of the pump.
+- Plug the ESP8266 into your laptop or a cellhpone charge using the MicroUSB cable.
+- From your water pump press the red wire onto the 3V3 pin and black to GND pin (you can use the dupont wire.
+- You should hear the motor of the pump spinning.
 
-How to test it:
-- Strip some of the provided wires and press them directly onto a 3v+ battery or 2 x 1.5v batteries in series or a vape battery! We've had instances where people didn't the strip wires enough, so make sure they're properly exposed.
+<a href="https://www.youtube.com/watch?v=0SQNkLzuTr8"> <img src="https://raw.githubusercontent.com/OfferZen-Make/plant_tech_ams/master/course_media/test_pump.png" width="300"/></a>
+
+Alternatively
+- Use a 3V battery and press the wires directly onto it.
+
+Troubleshooting
+- We've had instances where people didn't the strip wires enough, so make sure they're properly exposed.
 - You might need to hit it quite hard on the table - sometimes the lubricant dries up so it gets stuck.
-- If you're using the transistor then try switching the wires around - if it's connected the wrong way around it won't work. The metal part must be flat on your desk and facing away from you on the desk and it will match the diagram.
 
 <a href="https://www.youtube.com/watch?v=izZDVhpdPzs&amp;ab_channel=LahisTech" ><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/test_water_pump.png?raw=true"><img></a>
 
