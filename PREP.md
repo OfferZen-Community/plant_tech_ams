@@ -44,8 +44,6 @@ Troubleshooting
 - Ensure the wires are stripped enough.
 - The lubricant can dry up. You can try heating the pump to liquify the lubricant, or you can bash it really hard on the table which sometimes loosens it up.
 
-<a href="https://www.youtube.com/watch?v=izZDVhpdPzs&amp;ab_channel=LahisTech" ><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/test_water_pump.png?raw=true"><img></a>
-
 ### Big Sur compatability issue:
 
 If you're getting this issue `pyserial or esptool directories not found next to this upload.py tool` when uploading your sketch on Big Sur, [click here](https://forum.arduino.cc/index.php?topic=702144.0#msg4793318) for the work around.
