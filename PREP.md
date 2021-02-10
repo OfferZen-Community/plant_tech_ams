@@ -41,12 +41,10 @@ Alternatively
 - Use a 3V battery and press the wires directly onto it.
 
 Troubleshooting
-- We've had instances where people didn't the strip wires enough, so make sure they're properly exposed.
-- You might need to hit it quite hard on the table - sometimes the lubricant dries up so it gets stuck.
+- Ensure the wires are stripped enough.
+- The lubricant can dry up. You can try heating the pump to liquify the lubricant, or you can bash it really hard on the table which sometimes loosens it up.
 
 <a href="https://www.youtube.com/watch?v=izZDVhpdPzs&amp;ab_channel=LahisTech" ><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/test_water_pump.png?raw=true"><img></a>
-
-If it doesn't work see [troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working).
 
 ### Big Sur compatability issue:
 
