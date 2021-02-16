@@ -31,7 +31,7 @@ Now it's time to plug the ESP8266 board in your computer, and see how to blink a
 ## Step 4 - Test your water pump
 
 - Strip the red and black wires of the pump.
-- Plug the ESP8266 into your laptop or a cellhpone charge using the MicroUSB cable.
+- Plug the ESP8266 into your laptop or a cellphone charge using the MicroUSB cable.
 - From your water pump press the red wire onto the 3V3 pin and black to GND pin or hook them up using the dupont wires.
 - You should hear the motor of the pump spinning.
 
@@ -42,11 +42,11 @@ Alternatively
 
 Troubleshooting
 - Ensure the wires are stripped enough.
-- The lubricant can dry up. You can try heating the pump to liquify the lubricant, or you can bash it really hard on the table which sometimes loosens it up.
+- The lubricant can dry up. You can try heating the pump to liquefy the lubricant, or you can bash it really hard on the table which sometimes loosens it up.
 
-### Big Sur compatability issue:
+### Big Sur compatibility issue:
 
-If you're getting this issue `pyserial or esptool directories not found next to this upload.py tool` when uploading your sketch on Big Sur, [click here](https://forum.arduino.cc/index.php?topic=702144.0#msg4793318) for the work around.
+If you're getting this issue `pyserial or esptool directories not found next to this upload.py tool` when uploading your sketch on Big Sur, [click here](https://forum.arduino.cc/index.php?topic=702144.0#msg4793318) for the workaround.
 
 <img src="https://media.giphy.com/media/3ohryhNgUwwZyxgktq/giphy.gif" alt="seven" width="300"/>
 
@@ -77,7 +77,7 @@ Here's a fabulous example from @hendrikdelarey
 
 ### If you don't do social media...
 
-And if you abhor all social medias and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂 Thank you, it really helps to keep the lights on 💡. See you soon <3
+And if you abhor all social media and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂 Thank you, it really helps to keep the lights on 💡. See you soon <3
 
 ## Step 6 - Chart a course for self-watering plant mastery
 
