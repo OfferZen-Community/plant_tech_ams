@@ -69,11 +69,15 @@ If you don't have Twitter you can share it on LinkedIn. Steps:
 * Copy this message: `I'm setup and ready to go for my #offerzenmake event with @offerzen! `.
 * Upload a photo of your setup and the message above to [LinkedIn](https://www.linkedin.com/).
 
-### Fabulous example
+### Fabulous examples
 
 Here's a fabulous example from @hendrikdelarey
 
 [<img src="https://i.imgur.com/seoUZT8.png"/>](https://twitter.com/hendrikdelarey/status/1336696671556825091?s=20)
+
+And another example from @NickBensonZA
+
+[<img src="https://imgur.com/2jxtTcd"/>](https://twitter.com/NickBensonZA/status/1361974922436874245?s=20)
 
 ### If you don't do social media...
 
