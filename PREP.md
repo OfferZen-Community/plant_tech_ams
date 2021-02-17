@@ -20,7 +20,7 @@ We will begin by installing the ESP8266 (that thingy in your box with the micro-
 
 ## Step 3 - Connect your ESP8266
 
-Now it's time to plug the ESP8266 board in your computer, and see how to blink an LED (the Hello World in the electronics):
+Now it's time to plug the ESP8266 board into your computer, (**Pro Tip**: remember to remove the board from the styrofoam it came on - it’s mildly conductive and can short the board!⚡) and see how to blink an LED (the Hello World in the electronics):
 
 - Navigate to Tools > ESP8266 Boards (2.7.4) > NodeMCU 1.0 (ESP-12E Module)
 - Select the right USB port from Tools > Port
@@ -69,7 +69,7 @@ If you don't have Twitter you can share it on LinkedIn. Steps:
 * Copy this message: `I'm setup and ready to go for my #offerzenmake event with @offerzen! `.
 * Upload a photo of your setup and the message above to [LinkedIn](https://www.linkedin.com/).
 
-### Fabulous examples
+### A few fabulous examples
 
 Here's a fabulous example from @hendrikdelarey
 
@@ -77,7 +77,7 @@ Here's a fabulous example from @hendrikdelarey
 
 And another example from @NickBensonZA
 
-[<img src="https://imgur.com/2jxtTcd"/>](https://twitter.com/NickBensonZA/status/1361974922436874245?s=20)
+[<img src="https://imgur.com/2jxtTcd.png"/>](https://twitter.com/NickBensonZA/status/1361974922436874245?s=20)
 
 ### If you don't do social media...
 
