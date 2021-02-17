@@ -77,7 +77,7 @@ Here's a fabulous example from @hendrikdelarey
 
 And another example from @NickBensonZA
 
-[<img src="https://imgur.com/2jxtTcd"/>](https://twitter.com/NickBensonZA/status/1361974922436874245?s=20)
+[<img src="https://i.imgur.com/2jxtTcd.png"/>](https://twitter.com/NickBensonZA/status/1361974922436874245?s=20)
 
 ### If you don't do social media...
 
