@@ -20,8 +20,9 @@ We will begin by installing the ESP8266 (that thingy in your box with the micro-
 
 ## Step 3 - Connect your ESP8266
 
-Now it's time to plug the ESP8266 board in your computer, and see how to blink an LED (the Hello World in the electronics):
+First up we're going to connect your Arduino ESP8266 and get it to run some code that blinks it's LED light.
 
+- Remove the ESP8266 from it's packet and from the styrofoam and plug it into your computer. If you don't remove it from the styrofoam it might short!
 - Navigate to Tools > ESP8266 Boards (2.7.4) > NodeMCU 1.0 (ESP-12E Module)
 - Select the right USB port from Tools > Port
 - If Port is not available in Win10 (https://sparks.gogo.co.nz/ch340.html)
