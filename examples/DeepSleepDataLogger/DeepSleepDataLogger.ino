@@ -17,7 +17,7 @@
 #define PASSWORD "your-wifi-password" // Add your Wifi password Here
 
 //Settings 
-String urlWebhookData = "your-googlesheet-webhook-url";
+String urlWebhookData = "your-googlesheet-webhook-url"; //make sure you use http instead of htpps!
 String urlWebhookNotification = "your-notification-webhook-url";
 double analogValue = 0.0;
 int amountOfMeasurements = 10; //how many times to measure
