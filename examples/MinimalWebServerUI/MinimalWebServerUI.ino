@@ -37,6 +37,10 @@ void setup() {
   // pull the pump low to disable it from the beginning
   digitalWrite(PUMP, false);
 
+  // just to be sure to disable the Access Point, see https://forum.arduino.cc/index.php?topic=557669.0
+  // We will activate it later if the router is not reachable
+  WiFi.softAPdisconnect(true);
+
   // Connect to WiFi
   //connect to your local wi-fi network
   WiFi.begin(ssidST, passwordST);
