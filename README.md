@@ -162,6 +162,7 @@ Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/ard
 ### Other things to do with Arduino
 
 - [17 Cool Arduino Projects for DIY Enthusiasts](https://itsfoss.com/cool-arduino-projects/)
+- [ESP8266 mini projects that you can use to enhance your self watering planter](https://lastminuteengineers.com/electronics/esp8266-projects/)
 
 ## Community Project Repos
 
