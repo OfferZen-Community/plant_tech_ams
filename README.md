@@ -151,7 +151,16 @@ Finally, re-open your Arduino IDE
 ### RGB LED
 Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
 
-### 3D printed enclosure
+### 3D printed enclosures
+
+## OfferZen Enclosue Mod by @Pieter Linde
+
+Pieter Linde modified an existing plant enclosure with "OfferZen" :) You can access the printer file [here](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE).
+
+[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_design_plant_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
+[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_printed_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
+
+## Other enclosures
 
 [<img src="https://cdn.thingiverse.com/assets/d4/de/02/49/e8/featured_preview_Planter.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
 [<img src="https://cdn.thingiverse.com/assets/38/d4/28/c7/98/featured_preview_Frame_1-min_1.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
