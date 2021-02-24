@@ -179,6 +179,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 
 | Repo      | Description | Author |
 | ----------- | ----------- | ----------- |
+|[Add multiple sensors and pumps to your make kit](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/expansions/multiple_sensors_and_pumps_by_AnriGoosen.md)|The circuit works by converting the output from 3 digital output pins to binary through the 3-8 converter and using that to switch on each sensor or pump one by one. Readings are taken from the sensors one at a time through the analog pin. The NAND gate is used to determine if the sensors or the pumps must be switched on. In theory, this can be expanded to connect up to 24 sensors and pumps to one ESP8266 NodeMCU board|by [GoosenA](https://github.com/GoosenA)|
 |[Automatic pid water portion control](https://github.com/ikilledmypc/plantwaterer)|This project uses 2 humidity levels one for the night/morning and one for the afternoon/midday. You can set your timezone-offset and humidity levels in the web interface. I'm in the process of testing it on a live plant though so I won't take any blame for drowned plants. It does have a watchdog timer for safety.|by @ikilledmypc.|
 |[Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje)|First attempt playing with the arduino enviroment working with embedded c++ |by @ronaldf2000.|
 |[OfferZen Plantfeeder](https://github.com/rvt/offerzen-plantfeeder)|Has a web interface for MQTT configuration as well as WIFI configuration. |by @ries.|
