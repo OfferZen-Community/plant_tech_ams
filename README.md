@@ -199,13 +199,9 @@ You can find code and projects and advice submitted by the community here. Pleas
 
 ### Micropython submitted by Michiel Erasmus
 
-- Ditch the Arduino IDE.
-- 😊 Micropython = Python 3.4. No need to recompile your code. Run your code by pressing F5 (in Thonny) to run.
-- Runs on ESP8266, ESP32-platforms. Has a filesystem so you can copy files to it from Mac/Win/Linux. 
-- Interfaces with a huuuuuuge number of sensors.
-- CircuitPython is a fork of Micropython. Go check out Micropython.
-- Lotsa tutorials online available, otherwise let me know if/how I can help (@MIchiel Erasmus on OfferZen Community Slack). 
-- Use https://thonny.org as editor.
+Micropython = Python 3.4. No need to recompile your code. Run your code by pressing F5 (in Thonny) to run. Runs on ESP8266, ESP32-platforms. Has a filesystem so you can copy files to it from Mac/Win/Linux. Interfaces with a huuuuuuge number of sensors. CircuitPython is a fork of Micropython. Go check out Micropython. Lotsa tutorials online available, otherwise let me know if/how I can help (@MIchiel Erasmus on OfferZen Community Slack). Use https://thonny.org as editor.
+
+In Python you can access the pins using code in the following format `pump = Pin(12, Pin.OUT)`.
 
 ### Other
 - [ ] Check out #project-adruino-plant on Slack
