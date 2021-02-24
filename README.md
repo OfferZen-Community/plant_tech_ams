@@ -186,7 +186,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 |[Self watering plant](https://github.com/cokceken/Self-watering-plant)|Code for Connecting to local wifi, Creating a web server, Managing MQTT connection, Managing sensors.|by @semih çokçeken|
 |[Self watering plant using MicroPython](https://github.com/mmphego/uPython-Plant-Irrigation-System)| MicroPython based plant irrigation system running on an esp8266 with Slack and Ubidots support. | by @mmphego|
 |[Self-watering plant code](https://github.com/roaldnefs/basil)|checkout the GitHub actions workflow if you wish to test if your Arduino code actually compiles before pushing it to your plant 🌱|@Roald Nefs|
-|[JSON MQTT WIFI](https://github.com/rvdende/offerzenSmartPlant) | Simple realtime mqtt + json controller so you can remotely control and monitor the smartplant device. | by @rvdende
+|[JSON MQTT WIFI](https://github.com/rvdende/offerzenSmartPlant) | Simple realtime mqtt + json controller so you can remotely control and monitor the smartplant device. | by @rvdende|
 
 ## Useful resources
 
@@ -201,7 +201,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 
 Micropython = Python 3.4. No need to recompile your code. Run your code by pressing F5 (in Thonny) to run. Runs on ESP8266, ESP32-platforms. Has a filesystem so you can copy files to it from Mac/Win/Linux. Interfaces with a huuuuuuge number of sensors. CircuitPython is a fork of Micropython. Go check out Micropython. Lotsa tutorials online available, otherwise let me know if/how I can help (@MIchiel Erasmus on OfferZen Community Slack). Use https://thonny.org as editor.
 
-In Python you can access the pins using code in the following format `pump = Pin(12, Pin.OUT)`.
+@lee penrose was kind enough to submit his Python code for his self watering plant project so you can check it out to [here](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/snippets/plant_watering_system.py) - try write your own!
 
 ### Other
 - [ ] Check out #project-adruino-plant on Slack
