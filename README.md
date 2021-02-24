@@ -94,9 +94,10 @@ See what analog value would be a good threshhold of dryness. Implement this in y
 
 If you are confident that your very own automated watering system is fully working, you can check out the repos below for some inspiration on how to communicate with your system via your phone :)
 
-<img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
+- [Project extensions](#project-extensions)
+- [Community Contributions](#community-project-repos)
 
-## After the event
+<img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
 ### NB! Giving feedback
 
@@ -149,24 +150,21 @@ Move the ESPAsyncTCP folder to your Arduino IDE installation libraries folder
 Finally, re-open your Arduino IDE
 
 ### RGB LED
-Extend you project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
+Extend your project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
 
 ### 3D printed enclosures
 
-## OfferZen Enclosue Mod by @Pieter Linde
+#### OfferZen 3D Printed Enclosure Mod by @Pieter Linde
 
 Pieter Linde modified an existing plant enclosure with "OfferZen" :) You can access the printer file [here](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE).
 
 [<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_design_plant_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
 [<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_printed_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
 
-## Other enclosures
+#### Other enclosures
 
 [<img src="https://cdn.thingiverse.com/assets/d4/de/02/49/e8/featured_preview_Planter.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
 [<img src="https://cdn.thingiverse.com/assets/38/d4/28/c7/98/featured_preview_Frame_1-min_1.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
-
-### Deep Sleep Data logger by [SamLoys](https://github.com/SamLoysa)
-[deep sleep data logger](./examples/DeepSleepDataLogger/README.md) - This script will enable deep sleep and turns your plant into a data logger. This means that it will significantly use less power and saves the analogue value in a google sheet.
 
 ### Other things to do with Arduino
 
@@ -179,7 +177,9 @@ You can find code and projects and advice submitted by the community here. Pleas
 
 | Repo      | Description | Author |
 | ----------- | ----------- | ----------- |
+|[deep sleep data logger](./examples/DeepSleepDataLogger/README.md)| This script will enable deep sleep and turns your plant into a data logger. This means that it will significantly use less power and saves the analogue value in a google sheet.|by [SamLoys](https://github.com/SamLoysa)|
 |[Add multiple sensors and pumps to your make kit](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/expansions/multiple_sensors_and_pumps_by_AnriGoosen.md)|The circuit works by converting the output from 3 digital output pins to binary through the 3-8 converter and using that to switch on each sensor or pump one by one. Readings are taken from the sensors one at a time through the analog pin. The NAND gate is used to determine if the sensors or the pumps must be switched on. In theory, this can be expanded to connect up to 24 sensors and pumps to one ESP8266 NodeMCU board|by [GoosenA](https://github.com/GoosenA)|
+|[OfferZenSelfWateringPlant](https://github.com/TLCoetzer/OfferZenSelfWateringPlant)|basic implimentation from the event evening. It reads the sensor values, then if greater than 400 it turns the pump on for 2 seconds, then off again for 10 seconds to give the water chance to absorb. It then reads again. If the water is reading is <= 400 then it just blinks the light on for 2 seconds and the off for 2 seconds before taking another reading. It just keeps looping like this forever.|by [TLCoetzer](https://github.com/TLCoetzer)|
 |[Automatic pid water portion control](https://github.com/ikilledmypc/plantwaterer)|This project uses 2 humidity levels one for the night/morning and one for the afternoon/midday. You can set your timezone-offset and humidity levels in the web interface. I'm in the process of testing it on a live plant though so I won't take any blame for drowned plants. It does have a watchdog timer for safety.|by @ikilledmypc.|
 |[Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje)|First attempt playing with the arduino enviroment working with embedded c++ |by @ronaldf2000.|
 |[OfferZen Plantfeeder](https://github.com/rvt/offerzen-plantfeeder)|Has a web interface for MQTT configuration as well as WIFI configuration. |by @ries.|
