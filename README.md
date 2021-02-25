@@ -242,15 +242,15 @@ Here's a list of equipment that has come up as ideas for extending the project f
   - If you're still stuck, let us know in the Slack Channel so we can help you get it to work!
 
 ### "Fatal Error Failed to connect"
-If you see a `Fatal Error Failed to connect to ESP8266: Timed out waiting for packet header` (this might not happen on the first time but in subsequent uploads): disconnect the external board and upload again, connecting the wires after this. [Reference](https://github.com/espressif/esptool/issues/490).
-  - For some people this does not work, as an alternative, you need to force the label (D4) to a [low state](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/), or maybe use a different label. To do this follow these steps:
+If you see a `Fatal Error Failed to connect to ESP8266: Timed out waiting for packet header` (this might not happen on the first time but in subsequent uploads): disconnect the external board and upload again, connecting the wires after this.
+
+If this doesn't work you may need to reset your board following these steps.
 
 #### Booting into program mode
-1. press and hold the "RST" button
-2. press and hold the "FLASH" button
-3. release the "RST" button, the ESP will boot in program mode
-4. release the program button
-5. upload the sketch
+1. Ensure serial monitor is closed.
+2. Reset board in flash mode by holding down FLASH button, pressing RST button and releasing FLASH.
+3. Hit upload and accept that it will fail the first time.
+4. Hit upload again and it works.
 
 <img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/esp_reset_and_flash_buttons.jpg?raw=true" width=200></img>
 
