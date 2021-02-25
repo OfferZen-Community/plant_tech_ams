@@ -187,6 +187,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 |[Self watering plant using MicroPython](https://github.com/mmphego/uPython-Plant-Irrigation-System)| MicroPython based plant irrigation system running on an esp8266 with Slack and Ubidots support. | by @mmphego|
 |[Self-watering plant code](https://github.com/roaldnefs/basil)|checkout the GitHub actions workflow if you wish to test if your Arduino code actually compiles before pushing it to your plant 🌱|@Roald Nefs|
 |[JSON MQTT WIFI](https://github.com/rvdende/offerzenSmartPlant) | Simple realtime mqtt + json controller so you can remotely control and monitor the smartplant device. | by @rvdende|
+|[Plantspy](https://github.com/ahoydave/plantspy) | Quick and dirty python web app to record and chart smartplant moisture and pump state over time | by @ahoydave |
 
 ## Useful resources
 
