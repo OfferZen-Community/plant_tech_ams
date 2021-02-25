@@ -248,7 +248,7 @@ If this doesn't work you may need to reset your board following these steps.
 
 #### Booting into program mode
 1. Ensure serial monitor is closed.
-2. Reset board in flash mode by holding down FLASH button, pressing RST button and releasing FLASH.
+2. While uploading your script, reset board in flash mode by holding down FLASH button, pressing RST button and releasing FLASH.
 3. Hit upload and accept that it will fail the first time.
 4. Hit upload again and it works.
 
