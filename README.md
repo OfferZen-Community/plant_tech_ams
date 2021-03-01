@@ -1,5 +1,7 @@
 # Plant Tech
 
+If you want to apply to join a Make session or know any devs that would be interested please go to https://www.offerzen.com/nl/make
+
 **🌱 Table of Contents 🌱**
 - [Before the event](#before-the-event)
   - [Preparing for the Make Event](#preparing-for-the-make-event)
