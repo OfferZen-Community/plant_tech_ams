@@ -2,7 +2,7 @@
 
 Keen to join a Make Session? Go to: https://www.offerzen.com/nl/make
 
-**🌱 Table of Contents 🌱**
+## **🌱 Table of Contents 🌱**
 - [Before the event](#before-the-event)
   - [Preparing for the Make Event](#preparing-for-the-make-event)
 - [At the event](#at-the-event)
