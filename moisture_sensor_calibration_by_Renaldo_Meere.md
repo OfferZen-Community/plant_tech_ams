@@ -63,7 +63,7 @@ Tested on the following boards:
 
 ESP8266 serial behaviour might prevent initial outputs from being delivered to serial even after the call to (!Serial). Not necessarily a problem if initial readings do not appear for ESP8266. You can proceed to dip the probe and see if values are updated on screen. This was not a problem on other Arduino boards and seems to be isolated to the way the ESP8266 serial behaviour is handled in particular.
 
-In rare cases your sensor readings might be inverted so that 0 means it is completely wet. The map() function will still work in these instances to indicate the moisture but you'd need to consider that it displays "wetness" instead of "dryness".
+In rare cases your sensor readings might be inverted so that 0 means it is completely dry. The map() function will still work in these instances to indicate the moisture but you'd need to consider that it displays "wetness" instead of "dryness".
 
 ## Troubleshooting
 ### No readings when dipping probe into liquid
