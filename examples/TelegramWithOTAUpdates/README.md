@@ -2,6 +2,7 @@
 
 ## Summary
 This script will enable you to interact with your self watering plant by using a telegram bot.
+
 You will also be able to update your code by sending new code to your arduino, using this telegram bot.
 
 # Mandatory prerequisites
@@ -9,15 +10,19 @@ The following steps need to be done for this script to work.
 
 ## Filling the WiFi DEFINES
 Set the SSID and Password of the WiFi your Arduino needs to connect to in WIFISSID and WIFIPASSWORD.
+
 We need WiFi with internet access for this to work (obviously).
 
 ## Creating a telegram bot
 Talk to the botfather (https://t.me/botfather), and create a new bot (/newbot)
+
 It will talk you through it, and at the end, you will get a token for your bot.
+
 This token needs to be set in the Arduino code (TELEGRAMBOTID).
 
 ## Finding your Telegram ID for admin functions
 Talk to the userinfobot (https://t.me/userinfobot), and it will give you your account info.
+
 Your Id needs to be set in the Arduino code (TELEGRAMUSERID).
 
 Make sure to start a conversation with your bot, otherwise it won't be able to send messages to you.
@@ -41,7 +46,11 @@ Not every Digital pin is suitable for this, as if some digital pins are connecte
 
 # How to send code updates using Telegram?
 Manually change the code to send when someone requests /version (This is also very useful to see if your new code is actually running!)
+
 Export your code as a binary file by going to Menu => Sketch => Export compiled binary.
+
 It will be saved as a .bin in the same folder as your .ino files (Check preferences to see the location).
+
 Send the .bin file to your bot, with the caption /fw_update
+
 The bot will inform you about its progress and reboot once it is done updating.
