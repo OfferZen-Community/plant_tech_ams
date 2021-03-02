@@ -23,8 +23,9 @@ Your Id needs to be set in the Arduino code (TELEGRAMUSERID).
 Make sure to start a conversation with your bot, otherwise it won't be able to send messages to you.
 
 ## Rewiring moisture sensor (To prevent Corrosion)
-## (credit to https://github.com/SamLoys, copied from DeepSleepDataLogger).
-This a very easy and useful
+(credit to https://github.com/SamLoys, copied from DeepSleepDataLogger).
+
+This a very easy and useful.
 
 ### How?
 The only thing we need to do is changing the wire that goes from `VVC` to the `3.3v` to `VVC` to `D1`. With this method, we can see the `Digital 1`pin to HIGH when we need to sensor and put it to LOW when we don't need this.
