@@ -8,7 +8,7 @@ You will also be able to update your code by sending new code to your arduino, u
 The following steps need to be done for this script to work.
 
 ## Filling the WiFi DEFINES
-Set the SSID and Password of the WiFi your Arduino needs to connect to in WIFISSID and PASSWORD.
+Set the SSID and Password of the WiFi your Arduino needs to connect to in WIFISSID and WIFIPASSWORD.
 We need WiFi with internet access for this to work (obviously).
 
 ## Creating a telegram bot
