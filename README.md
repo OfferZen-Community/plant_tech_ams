@@ -155,14 +155,24 @@ Finally, re-open your Arduino IDE
 ### RGB LED
 Extend your project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
 
-### 3D printed enclosures
+### 3D printed tools
 
-#### OfferZen 3D Printed Enclosure Mod by @Pieter Linde
+#### Enclosure Mod by @Pieter Linde
 
 Pieter Linde modified an existing plant enclosure with "OfferZen" :) You can access the printer file [here](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE).
 
 [<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_design_plant_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
 [<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_printed_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
+
+#### Water distributor by Ries
+
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_ries.png?raw=true" width="300">
+
+#### Water distributor by Morne Lotze
+
+[STL File](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pot%20water%20ring.stl)
+
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_morne_lotze.gif?raw=true" width="300">
 
 #### Other enclosures
 
