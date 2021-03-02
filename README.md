@@ -32,6 +32,7 @@ Please see [Troubleshooting](#troubleshooting) if you run into issues.
 
 * Tall glass or container with water to test the sensor and water pump
 * Laptop/PC with USB-A port or adaptor
+* Optional: small pair of pliers for crimping wire connectors
 
 ### What will be available for you on the evening
 
