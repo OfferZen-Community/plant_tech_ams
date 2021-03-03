@@ -56,6 +56,8 @@ Please see [Troubleshooting](#troubleshooting) if you run into issues.
 
 Add 300 ml water to the bag with pressed soil, forming ~1 liter of compost. Make a few small (1cm deep) holes in the soil and place the basil seeds in them, covering with a bit of loose soil.
 
+Pro tip: drill some holes in the bottom of your pot to drain water coming in otherwise the roots might rot.
+
 #### 🇿🇦 South African Teams
 - Fill your pot most of the way with soil
 - Sprinkle your seeds on top
