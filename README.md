@@ -77,6 +77,8 @@ Upload your code to your system, wait untill the upload is done - the terminal s
 
 Put your sensor (only the two large exposed pads) in the compost of your plant, or simply put it in a glass of water, to do some readings!
 
+Side mission! If you want to calibrate your moisture sensor, check out [Renaldo Meere's moisture sensor calibration utility](https://github.com/OfferZen-Make/plant_tech_ams/tree/master/utilities).
+
 ### Part 3 - Mini Water Pump ⛽️
 
 The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor - [Watch: What's the point of the three wires on the transistor, relays and pulse width modulation?](https://www.youtube.com/watch?v=sf9B6eeQTUE&amp%3Bfeature=youtu.be&amp%3Bab_channel=OfferZen) Use the connector (white block with four inlets) to do so. The two wires of the pump go in one side, the other side takes your Dupont wires. By gently pulling off the plastic bit of one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
