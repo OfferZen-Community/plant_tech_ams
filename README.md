@@ -3,8 +3,7 @@
 Keen to join a Make Session? Go to: https://www.offerzen.com/nl/make
 
 ## **🌱 Table of Contents 🌱**
-- [Before the event](#before-the-event)
-  - [Preparing for the Make Event](#preparing-for-the-make-event)
+- [Preparing for the event](#preparing-for-the-event)
 - [At the event](#at-the-event)
 - [After the event](#after-the-event)
   - [NB! Giving feedback](#nb-giving-feedback)
@@ -15,24 +14,21 @@ Keen to join a Make Session? Go to: https://www.offerzen.com/nl/make
 
 ## What we're all about
 
-If you're interested in the bigger picture, please take a minute to read the [Make Manifesto](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/make_manifesto.md).
+Welcome to the community, we're excited to have you join us! Please read take a minute to read what we're all about: [Make Manifesto](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/make_manifesto.md).
 
-## Before the event
-We're excited to have you join this course, where you'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
-
-### Preparing for the Make Event
+## Preparing for the event
+You'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things - you should be challenging yourself and leaning on the community for support.
 
 **👉 Before the event, complete the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md) to get your LED blinking and ensure you are setup for the event.**
 
-Please see [Troubleshooting](#troubleshooting) if you run into issues.
+*Please see [Troubleshooting](#troubleshooting) if you run into issues.*
 
-## At the event
-
-### Bring your own
-
+For the event you will need to ensure you have:
 * Tall glass or container with water to test the sensor and water pump
 * Laptop/PC with USB-A port or adaptor
 * Optional: small pair of pliers for crimping wire connectors
+
+## At the event
 
 ### What will be available for you on the evening
 
@@ -159,35 +155,6 @@ Finally, re-open your Arduino IDE
 ### RGB LED
 Extend your project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
 
-### 3D printed tools
-
-#### Enclosure Mod by @Pieter Linde
-
-Pieter Linde modified an existing plant enclosure with "OfferZen" :) You can access the printer file [here](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE).
-
-[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_design_plant_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
-[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_printed_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
-
-#### Water distributor by Ries
-
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_ries.png?raw=true" width="300">
-
-#### Water distributor by Morne Lotze
-
-[STL File](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pot%20water%20ring.stl)
-
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_morne_lotze.gif?raw=true" width="300">
-
-#### Other enclosures
-
-[<img src="https://cdn.thingiverse.com/assets/d4/de/02/49/e8/featured_preview_Planter.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
-[<img src="https://cdn.thingiverse.com/assets/38/d4/28/c7/98/featured_preview_Frame_1-min_1.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
-
-### Other things to do with Arduino
-
-- [17 Cool Arduino Projects for DIY Enthusiasts](https://itsfoss.com/cool-arduino-projects/)
-- [ESP8266 mini projects that you can use to enhance your self watering planter](https://lastminuteengineers.com/electronics/esp8266-projects/)
-
 ## Community Project Repos
 
 You can find code and projects and advice submitted by the community here. Please submit your code for inclusion :)
@@ -223,9 +190,35 @@ Micropython = Python 3.4. No need to recompile your code. Run your code by press
 
 @lee penrose was kind enough to submit his Python code for his self watering plant project so you can check it out to [here](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/snippets/plant_watering_system.py) - try write your own!
 
-### Other
-- [ ] Check out #project-adruino-plant on Slack
-- [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
+
+### 3D printed tools
+
+#### Enclosure Mod by @Pieter Linde
+
+Pieter Linde modified an existing plant enclosure with "OfferZen" :) You can access the printer file [here](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE).
+
+[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_design_plant_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
+[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_printed_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
+
+#### Water distributor by Ries
+
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_ries.png?raw=true" width="300">
+
+#### Water distributor by Morne Lotze
+
+[STL File](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pot%20water%20ring.stl)
+
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_morne_lotze.gif?raw=true" width="300">
+
+#### Other enclosures
+
+[<img src="https://cdn.thingiverse.com/assets/d4/de/02/49/e8/featured_preview_Planter.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
+[<img src="https://cdn.thingiverse.com/assets/38/d4/28/c7/98/featured_preview_Frame_1-min_1.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
+
+### Other things to do with Arduino
+
+- [17 Cool Arduino Projects for DIY Enthusiasts](https://itsfoss.com/cool-arduino-projects/)
+- [ESP8266 mini projects that you can use to enhance your self watering planter](https://lastminuteengineers.com/electronics/esp8266-projects/)
 - [ ] [Arduino IDE for Visual Studio (Visual Micro) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)
 - [ ] [Node-RED](https://nodered.org/) - Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
 - [ ] [Flash code to other devices](https://github.com/espressif/esptool)
