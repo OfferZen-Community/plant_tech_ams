@@ -83,7 +83,7 @@ The pump is water submersible, sucks in water from the hole on the opposite end 
 
 <img src="Dupont F2F to F2M.png" alt="moisture" width="500"/>
 
-<img src="Submersible Pump Pinout.png" alt="pump" width="300"/> <img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="300"/> <a href="https://www.youtube.com/watch?v=sf9B6eeQTUE&amp%3Bfeature=youtu.be&amp%3Bab_channel=OfferZen"><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/youtube_transistors_relays_PWM.png?raw=true" width="300"></img></a>
+<img src="Submersible Pump Pinout.png" alt="pump" width="300"/> <img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="300"/> 
 
 The pump has a GND output to be connected to the ESP8266 and receives power from the emitter pin of the transistor. The transistor gets its power through its collector pin from the ESP8266's 3V3 pin. Finally, connect the base to the D6 pin to be able to control the pump.
 
@@ -91,7 +91,7 @@ Write some code (or check the code from the [complete watering system](https://g
 
 Your self-watering plant is set up! You can now simply plug it directly into the mains using a usb adaptor / cellphone charger with a 5v output and it will keep your plant watered.
 
-Additional learning: [Watch - "What's the point of the three wires on the transistor, relays and pulse width modulation?"](https://www.youtube.com/watch?v=sf9B6eeQTUE&ab_channel=OfferZen)
+*Additional learning: [Watch - "What's the point of the three wires on the transistor, relays and pulse width modulation?"](https://www.youtube.com/watch?v=sf9B6eeQTUE&ab_channel=OfferZen)*
 
 ### Part 4 - Time to play! 🥳
 
