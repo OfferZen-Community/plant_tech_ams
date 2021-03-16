@@ -79,7 +79,7 @@ Side mission! If you want to calibrate your moisture sensor, check out [Renaldo 
 
 ### Part 3 - Mini Water Pump ⛽️
 
-The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor - [Watch: What's the point of the three wires on the transistor, relays and pulse width modulation?](https://www.youtube.com/watch?v=sf9B6eeQTUE&amp%3Bfeature=youtu.be&amp%3Bab_channel=OfferZen) Use the connector (white block with four inlets) to do so. The two wires of the pump go in one side, the other side takes your Dupont wires. By lifting the plastic clip (see below) of one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
+The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor. Use the connector (white block with four inlets) to do so. The two wires of the pump go in one side, the other side takes your Dupont wires. By lifting the plastic clip (see below) of one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
 
 <img src="Dupont F2F to F2M.png" alt="moisture" width="500"/>
 
@@ -90,6 +90,8 @@ The pump has a GND output to be connected to the ESP8266 and receives power from
 Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and please watch out for water spills ;)
 
 Your self-watering plant is set up! You can now simply plug it directly into the mains using a usb adaptor / cellphone charger with a 5v output and it will keep your plant watered.
+
+Additional learning: [Watch - "What's the point of the three wires on the transistor, relays and pulse width modulation?"](https://www.youtube.com/watch?v=sf9B6eeQTUE&ab_channel=OfferZen)
 
 ### Part 4 - Time to play! 🥳
 
