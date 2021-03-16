@@ -79,7 +79,11 @@ Side mission! If you want to calibrate your moisture sensor, check out [Renaldo 
 
 ### Part 3 - Mini Water Pump ⛽️
 
-The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor. Use the connector (white block with four inlets) to do so. The two wires of the pump go in one side, the other side takes your Dupont wires. By lifting the plastic clip (see below) of one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
+The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor. The two wires of the pump go in one side, the other side takes your Dupont wires.
+
+🇳🇱 Netherlands Community: use the connector - white block with four inlets - to do so. By lifting the plastic clip (see below) off one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
+
+🇿🇦 South African Community: break the silver metal crimps off the tab they come on, strip the pump wires and crimp them onto the pump wires.
 
 <img src="Dupont F2F to F2M.png" alt="moisture" width="500"/>
 
