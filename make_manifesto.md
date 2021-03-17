@@ -6,6 +6,8 @@ Make is a community of software developers backed by [OfferZen](https://www.offe
 ## What we believe
 With Make, we aim to equip developers to create the next generation of software. To do this, we create more rounded developers, with a wider skill set, bigger resource base and more confidence to tackle things differently.
 
+The starting point is our [Make event](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md#the-purpose-of-make) experience - which serves as an introdcution to the OfferZen Make Community.
+
 ## Guiding principles
 Being founded in South-Africa, we have hosted over 60 [Make Days](https://makedays.offerzen.com/), and successfully built a community with 2500 makers. Make has learnt through rapid iteration that the best framework for developers to learn new technologies is by actually getting their hands dirty and building something with that tech. Make brings developers into the same room to build exciting projects together using the most exciting new technologies. Through this low-pressure collaborative experience, they learn a curated set of new technologies at an accelerated rate.
 
