@@ -144,8 +144,6 @@ Telling your plant to water itself - by speech! [Blogpost + code](https://codebu
 
 Example
 https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/
-If when trying to upload a sketch to your board you get the following error, then try the steps below.
-
 
 Important: if you want to use the ESP8266 WEB Server in this example you will need to downloand the following two libraries. These libraries are not available in the library manager.
 
