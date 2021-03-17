@@ -56,34 +56,22 @@ If you're getting this issue `pyserial or esptool directories not found next to 
 
 All project troubleshooting is here https://github.com/OfferZen-Make/plant_tech_ams/wiki
 
-## Step 5 - Take a photo of your setup and share it!
+## Step 5 - Help us grow the community by sharing a pic 🌱🙏
 
 Please help us spread the word about Make events so that we can grow the community and keep helping devs learn new tech 🚀 💦 🌱.
 
 ### Share photo on Twitter
 
-1. Take a photo of your set up
-2. Click here to [📸  -> Share on Twitter](https://twitter.com/intent/tweet?url=&text=I'm%20setup%20and%20ready%20to%20go%20for%20my%20%23offerzenmake%20event%20with%20%40offerzen!) with a message
+Please help us grow by spreading the word about Make within your social networks :)
 
-### && / || Share photo on LinkedIn
+1. Use the phrase ` #OfferZenMake with @offerzen.`
+2. Share a photo or story on: [Twitter](https://twitter.com/search?q=%23OfferZenMake&src=typeahead_click&f=live), [LinkedIn](https://www.linkedin.com/feed/hashtag/offerzenmake/), [Instagram](https://www.instagram.com/offerzen/?hl=en) or [Facebook](https://www.facebook.com/hashtag/offerzenmake)
 
-If you don't have Twitter you can share it on LinkedIn. Steps:
-* Copy this message: `I'm setup and ready to go for my #offerzenmake event with @offerzen! `.
-* Upload a photo of your setup and the message above to [LinkedIn](https://www.linkedin.com/).
-
-### A few fabulous examples
+See you online soon <3
 
 Here's a fabulous example from @hendrikdelarey
 
 [<img src="https://i.imgur.com/seoUZT8.png"/>](https://twitter.com/hendrikdelarey/status/1336696671556825091?s=20)
-
-And another example from @NickBensonZA
-
-[<img src="https://imgur.com/2jxtTcd.png"/>](https://twitter.com/NickBensonZA/status/1361974922436874245?s=20)
-
-### If you don't do social media...
-
-And if you abhor all social media and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂 Thank you, it really helps to keep the lights on 💡. See you soon <3
 
 ## Step 6 - Chart a course for self-watering plant mastery
 
