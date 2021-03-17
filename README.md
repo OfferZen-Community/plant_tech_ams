@@ -16,8 +16,13 @@ Keen to join a Make Session? Go to: https://www.offerzen.com/nl/make
 
 Welcome to the community, we're excited to have you join us!
 
-- The Make event is all about making cool things and meeting even cooler people. It serves as an onboarding into the OfferZen Make Community and should help you get started on your journey of becoming a Maker, or if you are already an advanced Maker, it puts you in contact with other devs that you can help.
-- You can read a bit more about our philosophy here: [Make Manifesto](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/make_manifesto.md).
+- The Make event is all about making cool things and meeting even cooler people.
+- It serves as an onboarding into the OfferZen Make Community.
+- It should help you get started on your journey of becoming a Maker or,
+- if you are already an advanced Maker, it puts you in contact with other devs that you can help along their journeys.
+- You can read a bit more in-depth into our philosophy here: [Make Manifesto](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/make_manifesto.md).
+
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/image%20(15).png?raw=true" width="400">
 
 ## Preparing for the event
 You'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things - you should be challenging yourself and leaning on the community for support.
