@@ -30,6 +30,9 @@ Now it's time to plug the ESP8266 board into your computer, and see how to blink
 - Clone (or download, or simply copy-paste to your Arduino IDE window) the [BlinkESP](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/BlinkESP.ino) code and run it in Arduino IDE by clicking 'Upload'.
 - After compiling and uploading, the LED on your ESP8266 board should start flashing. You did it!
 
+Troubleshooting:
+- [Mac Big Sur upload issues](https://github.com/OfferZen-Make/plant_tech_ams#mac-osx-big-sur-upload-errors)
+
 ## Step 4 - Test your water pump
 
 - Strip the red and black wires of the pump.
@@ -42,27 +45,12 @@ Now it's time to plug the ESP8266 board into your computer, and see how to blink
 Alternatively
 - Use a 3V battery and press the wires directly onto it.
 
-Troubleshooting
-- Ensure the wires are stripped enough.
-- The lubricant can dry up. You can try heating the pump to liquefy the lubricant, or you can bash it really hard on the table which sometimes loosens it up.
-
-### Big Sur compatibility issue:
-
-If you're getting this issue `pyserial or esptool directories not found next to this upload.py tool` when uploading your sketch on Big Sur, [click here](https://forum.arduino.cc/index.php?topic=702144.0#msg4793318) for the workaround.
-
-<img src="https://media.giphy.com/media/3ohryhNgUwwZyxgktq/giphy.gif" alt="seven" width="300"/>
-
-### Troubleshooting
-
-All project troubleshooting is here https://github.com/OfferZen-Make/plant_tech_ams/wiki
+Troubleshooting:
+- [My pump isn't working](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working)
 
 ## Step 5 - Help us grow the community by sharing a pic 🌱🙏
 
 Please help us spread the word about Make events so that we can grow the community and keep helping devs learn new tech 🚀 💦 🌱.
-
-### Share photo on Twitter
-
-Please help us grow by spreading the word about Make within your social networks :)
 
 1. Use the phrase ` #OfferZenMake with @offerzen.`
 2. Share a photo or story on: [Twitter](https://twitter.com/search?q=%23OfferZenMake&src=typeahead_click&f=live), [LinkedIn](https://www.linkedin.com/feed/hashtag/offerzenmake/), [Instagram](https://www.instagram.com/offerzen/?hl=en) or [Facebook](https://www.facebook.com/hashtag/offerzenmake)
