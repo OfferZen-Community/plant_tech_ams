@@ -318,7 +318,7 @@ If you check the esp8266 libraries you can go into variants/nodemcu/pins_arduino
 
 ### Mac OSX: Big Sur upload errors
 
-If you're trying to upload a sketch to your board you get the following error:
+If you get the following error while trying to upload a sketch to your board:
 
 ```
 pyserial or esptool directories not found next to this upload.py tool.
