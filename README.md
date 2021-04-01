@@ -218,7 +218,9 @@ Pieter Linde modified an existing plant enclosure with "OfferZen" :) You can acc
 
 #### Water distributor by Ries
 
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_ries.png?raw=true" width="300">
+<a href="https://github.com/rvt/offerzen-plantfeeder/tree/master/box"><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_ries.png?raw=true" width="300"> <img src="https://github.com/rvt/offerzen-plantfeeder/raw/master/box/box.jpg" width="300"></a>
+
+You can find instructions on building this [here](https://github.com/rvt/offerzen-plantfeeder/tree/master/box).
 
 #### Water distributor by Morne Lotze
 
