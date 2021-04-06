@@ -177,6 +177,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 
 | Repo      | Description | Author |
 | ----------- | ----------- | ----------- |
+|[Mobile app to monitor moisture](https://github.com/sid-zip/moniter-moisture-level)|Connecting ESP device with the [Blynk](https://blynk.io/) mobile application to remotely retrieve sensor values in real-time.|[@sid-zip](https://github.com/sid-zip)|
 |[Prometheus exporter](http://linkode.org/#piYml2vuWQLjiHCk0b4k05)|Connect to your WiFi and have a small webserver running there. Here is my prometheus exporter.|[@gilgamezh](https://github.com/gilgamezh/)|
 |[deep sleep data logger](./examples/DeepSleepDataLogger/README.md)| This script will enable deep sleep and turns your plant into a data logger. This means that it will significantly use less power and saves the analogue value in a google sheet.|by [SamLoys](https://github.com/SamLoysa)|
 |[Add multiple sensors and pumps to your make kit](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/expansions/multiple_sensors_and_pumps_by_AnriGoosen.md)|The circuit works by converting the output from 3 digital output pins to binary through the 3-8 converter and using that to switch on each sensor or pump one by one. Readings are taken from the sensors one at a time through the analog pin. The NAND gate is used to determine if the sensors or the pumps must be switched on. In theory, this can be expanded to connect up to 24 sensors and pumps to one ESP8266 NodeMCU board|by [GoosenA](https://github.com/GoosenA)|
