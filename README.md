@@ -118,13 +118,23 @@ If you are confident that your very own automated watering system is fully worki
 
 <img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
-### NB! Giving feedback
+### NB! Giving back
 
+#### Giving feedback
 After the event we only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
 - [🇳🇱 Netherlands](https://forms.gle/NZ6FT3DuhXuW6MuG9)
 - [🇿🇦 South Africa Feedback](https://docs.google.com/forms/d/e/1FAIpQLSc-JSOmKebYERO_tBQ18r8Ns89_u6GeP27yr6w9Vfl6dzV8sw/viewform)
 
 🎁 We want to give you the gift of giving! please refer people that you think would love to attend one of our next sessions and get the Make @ Home Box delivered to their door. You can do so via the same form! 🎁 
+
+#### Contributing to this repo
+
+These are the steps to contribute to a project:
+
+1. Fork the main project 👉 https://github.com/OfferZen-Make/plant_tech_ams
+2. Edit the forked version. Example: https://github.com/benblaine/plant_tech_ams
+3. Create a “Pull Request” from your fork back into the main project. Example: https://github.com/OfferZen-Make/plant_tech_ams/pull/38
+
 
 ## Project extensions
 
