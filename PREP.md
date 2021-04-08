@@ -30,6 +30,9 @@ Now it's time to plug the ESP8266 board into your computer, and see how to blink
 - Clone (or download, or simply copy-paste to your Arduino IDE window) the [BlinkESP](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/BlinkESP.ino) code and run it in Arduino IDE by clicking 'Upload'.
 - After compiling and uploading, the LED on your ESP8266 board should start flashing. You did it!
 
+Troubleshooting:
+- [Mac Big Sur upload issues](https://github.com/OfferZen-Make/plant_tech_ams#mac-osx-big-sur-upload-errors)
+
 ## Step 4 - Test your water pump
 
 - Strip the red and black wires of the pump.
@@ -42,48 +45,21 @@ Now it's time to plug the ESP8266 board into your computer, and see how to blink
 Alternatively
 - Use a 3V battery and press the wires directly onto it.
 
-Troubleshooting
-- Ensure the wires are stripped enough.
-- The lubricant can dry up. You can try heating the pump to liquefy the lubricant, or you can bash it really hard on the table which sometimes loosens it up.
+Troubleshooting:
+- [My pump isn't working](https://github.com/OfferZen-Make/plant_tech_ams#my-pump-isnt-working)
 
-### Big Sur compatibility issue:
-
-If you're getting this issue `pyserial or esptool directories not found next to this upload.py tool` when uploading your sketch on Big Sur, [click here](https://forum.arduino.cc/index.php?topic=702144.0#msg4793318) for the workaround.
-
-<img src="https://media.giphy.com/media/3ohryhNgUwwZyxgktq/giphy.gif" alt="seven" width="300"/>
-
-### Troubleshooting
-
-All project troubleshooting is here https://github.com/OfferZen-Make/plant_tech_ams/wiki
-
-## Step 5 - Take a photo of your setup and share it!
+## Step 5 - Help us grow the community by sharing a pic 🌱🙏
 
 Please help us spread the word about Make events so that we can grow the community and keep helping devs learn new tech 🚀 💦 🌱.
 
-### Share photo on Twitter
+1. Use the phrase ` #OfferZenMake with @offerzen.`
+2. Share a photo or story on: [Twitter](https://twitter.com/search?q=%23OfferZenMake&src=typeahead_click&f=live), [LinkedIn](https://www.linkedin.com/feed/hashtag/offerzenmake/), [Instagram](https://www.instagram.com/offerzen/?hl=en) or [Facebook](https://www.facebook.com/hashtag/offerzenmake)
 
-1. Take a photo of your set up
-2. Click here to [📸  -> Share on Twitter](https://twitter.com/intent/tweet?url=&text=I'm%20setup%20and%20ready%20to%20go%20for%20my%20%23offerzenmake%20event%20with%20%40offerzen!) with a message
-
-### && / || Share photo on LinkedIn
-
-If you don't have Twitter you can share it on LinkedIn. Steps:
-* Copy this message: `I'm setup and ready to go for my #offerzenmake event with @offerzen! `.
-* Upload a photo of your setup and the message above to [LinkedIn](https://www.linkedin.com/).
-
-### A few fabulous examples
+See you online soon <3
 
 Here's a fabulous example from @hendrikdelarey
 
 [<img src="https://i.imgur.com/seoUZT8.png"/>](https://twitter.com/hendrikdelarey/status/1336696671556825091?s=20)
-
-And another example from @NickBensonZA
-
-[<img src="https://imgur.com/2jxtTcd.png"/>](https://twitter.com/NickBensonZA/status/1361974922436874245?s=20)
-
-### If you don't do social media...
-
-And if you abhor all social media and don't do any of that then please share it on the #project-arduino-plant channel in Slack 😂 Thank you, it really helps to keep the lights on 💡. See you soon <3
 
 ## Step 6 - Chart a course for self-watering plant mastery
 

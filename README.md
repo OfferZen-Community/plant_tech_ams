@@ -3,8 +3,7 @@
 Keen to join a Make Session? Go to: https://www.offerzen.com/nl/make
 
 ## **🌱 Table of Contents 🌱**
-- [Before the event](#before-the-event)
-  - [Preparing for the Make Event](#preparing-for-the-make-event)
+- [Preparing for the event](#preparing-for-the-event)
 - [At the event](#at-the-event)
 - [After the event](#after-the-event)
   - [NB! Giving feedback](#nb-giving-feedback)
@@ -13,26 +12,31 @@ Keen to join a Make Session? Go to: https://www.offerzen.com/nl/make
 - [Useful resources](#useful-resources)
 - [Troubleshooting](#troubleshooting)
 
-## What we're all about
+## The purpose of Make
 
-If you're interested in the bigger picture, please take a minute to read the [Make Manifesto](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/make_manifesto.md).
+Welcome to the community, we're excited to have you join us!
 
-## Before the event
-We're excited to have you join this course, where you'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things. You don't need to achieve specific goals. The structure caters for varying levels of experience; different Makers will learn different things by playing with the same tools!
+- The Make event is all about making cool things and meeting even cooler people.
+- It serves as an onboarding into the OfferZen Make Community.
+- It should help you get started on your journey of becoming a Maker or,
+- if you are already an advanced Maker, it puts you in contact with other devs that you can help along their journeys.
+- You can read a bit more in-depth into our philosophy here: [Make Manifesto](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/make_manifesto.md).
 
-### Preparing for the Make Event
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/image%20(15).png?raw=true" width="400">
+
+## Preparing for the event
+You'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things - you should be challenging yourself and leaning on the community for support.
 
 **👉 Before the event, complete the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md) to get your LED blinking and ensure you are setup for the event.**
 
-Please see [Troubleshooting](#troubleshooting) if you run into issues.
+*Please see [Troubleshooting](#troubleshooting) if you run into issues.*
 
-## At the event
-
-### Bring your own
-
+For the event you will need to ensure you have:
 * Tall glass or container with water to test the sensor and water pump
 * Laptop/PC with USB-A port or adaptor
 * Optional: small pair of pliers for crimping wire connectors
+
+## At the event
 
 ### What will be available for you on the evening
 
@@ -83,15 +87,23 @@ Side mission! If you want to calibrate your moisture sensor, check out [Renaldo 
 
 ### Part 3 - Mini Water Pump ⛽️
 
-The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor - [Watch: What's the point of the three wires on the transistor, relays and pulse width modulation?](https://www.youtube.com/watch?v=sf9B6eeQTUE&amp%3Bfeature=youtu.be&amp%3Bab_channel=OfferZen) Use the connector (white block with four inlets) to do so. The two wires of the pump go in one side, the other side takes your Dupont wires. By gently pulling off the plastic bit of one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
+The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor. The two wires of the pump go in one side, the other side takes your Dupont wires.
 
-<img src="Submersible Pump Pinout.png" alt="pump" width="300"/> <img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="300"/> <a href="https://www.youtube.com/watch?v=sf9B6eeQTUE&amp%3Bfeature=youtu.be&amp%3Bab_channel=OfferZen"><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/youtube_transistors_relays_PWM.png?raw=true" width="300"></img></a>
+🇳🇱 Netherlands Community: use the connector - white block with four inlets - to do so. By lifting the plastic clip (see below) off one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
+
+🇿🇦 South African Community: break the silver metal crimps off the tab they come on, strip the pump wires and crimp them onto the pump wires.
+
+<img src="Dupont F2F to F2M.png" alt="moisture" width="500"/>
+
+<img src="Submersible Pump Pinout.png" alt="pump" width="300"/> <img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="300"/> 
 
 The pump has a GND output to be connected to the ESP8266 and receives power from the emitter pin of the transistor. The transistor gets its power through its collector pin from the ESP8266's 3V3 pin. Finally, connect the base to the D6 pin to be able to control the pump.
 
 Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and please watch out for water spills ;)
 
 Your self-watering plant is set up! You can now simply plug it directly into the mains using a usb adaptor / cellphone charger with a 5v output and it will keep your plant watered.
+
+*Additional learning: [Watch - "What's the point of the three wires on the transistor, relays and pulse width modulation?"](https://www.youtube.com/watch?v=sf9B6eeQTUE&ab_channel=OfferZen)*
 
 ### Part 4 - Time to play! 🥳
 
@@ -106,13 +118,23 @@ If you are confident that your very own automated watering system is fully worki
 
 <img src="https://media.giphy.com/media/uuxcAmIzAbKlvz4kZS/giphy.gif" alt="unbox" width="300"/>
 
-### NB! Giving feedback
+### NB! Giving back
 
+#### Giving feedback
 After the event we only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
 - [🇳🇱 Netherlands](https://forms.gle/NZ6FT3DuhXuW6MuG9)
 - [🇿🇦 South Africa Feedback](https://docs.google.com/forms/d/e/1FAIpQLSc-JSOmKebYERO_tBQ18r8Ns89_u6GeP27yr6w9Vfl6dzV8sw/viewform)
 
 🎁 We want to give you the gift of giving! please refer people that you think would love to attend one of our next sessions and get the Make @ Home Box delivered to their door. You can do so via the same form! 🎁 
+
+#### Contributing to this repo
+
+These are the steps to contribute to a project:
+
+1. Fork the main project 👉 https://github.com/OfferZen-Make/plant_tech_ams
+2. Edit the forked version. Example: https://github.com/benblaine/plant_tech_ams
+3. Create a “Pull Request” from your fork back into the main project. Example: https://github.com/OfferZen-Make/plant_tech_ams/pull/38
+
 
 ## Project extensions
 
@@ -159,41 +181,13 @@ Finally, re-open your Arduino IDE
 ### RGB LED
 Extend your project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
 
-### 3D printed tools
-
-#### Enclosure Mod by @Pieter Linde
-
-Pieter Linde modified an existing plant enclosure with "OfferZen" :) You can access the printer file [here](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE).
-
-[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_design_plant_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
-[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_printed_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
-
-#### Water distributor by Ries
-
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_ries.png?raw=true" width="300">
-
-#### Water distributor by Morne Lotze
-
-[STL File](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pot%20water%20ring.stl)
-
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_morne_lotze.gif?raw=true" width="300">
-
-#### Other enclosures
-
-[<img src="https://cdn.thingiverse.com/assets/d4/de/02/49/e8/featured_preview_Planter.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
-[<img src="https://cdn.thingiverse.com/assets/38/d4/28/c7/98/featured_preview_Frame_1-min_1.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
-
-### Other things to do with Arduino
-
-- [17 Cool Arduino Projects for DIY Enthusiasts](https://itsfoss.com/cool-arduino-projects/)
-- [ESP8266 mini projects that you can use to enhance your self watering planter](https://lastminuteengineers.com/electronics/esp8266-projects/)
-
 ## Community Project Repos
 
 You can find code and projects and advice submitted by the community here. Please submit your code for inclusion :)
 
 | Repo      | Description | Author |
 | ----------- | ----------- | ----------- |
+|[Mobile app to monitor moisture](https://github.com/sid-zip/moniter-moisture-level)|Connecting ESP device with the [Blynk](https://blynk.io/) mobile application to remotely retrieve sensor values in real-time.|[@sid-zip](https://github.com/sid-zip)|
 |[Prometheus exporter](http://linkode.org/#piYml2vuWQLjiHCk0b4k05)|Connect to your WiFi and have a small webserver running there. Here is my prometheus exporter.|[@gilgamezh](https://github.com/gilgamezh/)|
 |[deep sleep data logger](./examples/DeepSleepDataLogger/README.md)| This script will enable deep sleep and turns your plant into a data logger. This means that it will significantly use less power and saves the analogue value in a google sheet.|by [SamLoys](https://github.com/SamLoysa)|
 |[Add multiple sensors and pumps to your make kit](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/expansions/multiple_sensors_and_pumps_by_AnriGoosen.md)|The circuit works by converting the output from 3 digital output pins to binary through the 3-8 converter and using that to switch on each sensor or pump one by one. Readings are taken from the sensors one at a time through the analog pin. The NAND gate is used to determine if the sensors or the pumps must be switched on. In theory, this can be expanded to connect up to 24 sensors and pumps to one ESP8266 NodeMCU board|by [GoosenA](https://github.com/GoosenA)|
@@ -223,9 +217,37 @@ Micropython = Python 3.4. No need to recompile your code. Run your code by press
 
 @lee penrose was kind enough to submit his Python code for his self watering plant project so you can check it out to [here](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/snippets/plant_watering_system.py) - try write your own!
 
-### Other
-- [ ] Check out #project-adruino-plant on Slack
-- [ ] Read our [Make Manifesto](https://docs.google.com/document/d/12OtTltO-ozhGd7OzDswgLoRMLtfd3_i8_Pxw1Dx551U/edit)
+
+### 3D printed tools
+
+#### Enclosure Mod by @Pieter Linde
+
+Pieter Linde modified an existing plant enclosure with "OfferZen" :) You can access the printer file [here](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE).
+
+[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_design_plant_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
+[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_printed_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
+
+#### Water distributor by Ries
+
+<a href="https://github.com/rvt/offerzen-plantfeeder/tree/master/box"><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_ries.png?raw=true" width="300"> <img src="https://github.com/rvt/offerzen-plantfeeder/raw/master/box/box.jpg" width="300"></a>
+
+You can find instructions on building this [here](https://github.com/rvt/offerzen-plantfeeder/tree/master/box).
+
+#### Water distributor by Morne Lotze
+
+[STL File](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pot%20water%20ring.stl)
+
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_morne_lotze.gif?raw=true" width="300">
+
+#### Other enclosures
+
+[<img src="https://cdn.thingiverse.com/assets/d4/de/02/49/e8/featured_preview_Planter.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
+[<img src="https://cdn.thingiverse.com/assets/38/d4/28/c7/98/featured_preview_Frame_1-min_1.jpg" alt="3dprintedencls" width="300"/>](https://www.thingiverse.com/thing:4699025)
+
+### Other things to do with Arduino
+
+- [17 Cool Arduino Projects for DIY Enthusiasts](https://itsfoss.com/cool-arduino-projects/)
+- [ESP8266 mini projects that you can use to enhance your self watering planter](https://lastminuteengineers.com/electronics/esp8266-projects/)
 - [ ] [Arduino IDE for Visual Studio (Visual Micro) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)
 - [ ] [Node-RED](https://nodered.org/) - Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
 - [ ] [Flash code to other devices](https://github.com/espressif/esptool)
@@ -309,9 +331,13 @@ If you check the esp8266 libraries you can go into variants/nodemcu/pins_arduino
 
 ### Mac OSX: Big Sur upload errors
 
-If when trying to upload a sketch to your board you get the following error, then try the steps below.
+If you get the following error while trying to upload a sketch to your board:
 
-**pyserial or esptool directories not found next to this upload.py tool.
+```
+pyserial or esptool directories not found next to this upload.py tool.
+```
+
+Then try the steps below:
 
 1. Open Users/?????/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/pyserial/serial/tools/list_ports_osx.py
 2. Comment out lines 29 and 30 and append these lines:
