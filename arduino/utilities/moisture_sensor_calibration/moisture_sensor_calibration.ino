@@ -43,7 +43,7 @@
 */
 
 #include <Arduino.h>
-#include "state.h"
+//#include "state.h"
 
 #define SENSOR_ANALOG_PIN A0
 
