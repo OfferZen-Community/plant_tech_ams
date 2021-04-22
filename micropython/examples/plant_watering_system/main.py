@@ -1,8 +1,9 @@
-from plant_watering_system import plant_watering_system
+from plant_watering_system import SystemController
 from utils import read_config
 
 if __name__ == "__main__":
     filename = "config.json"
     config = read_config(filename)
-    plant_watering_system(config)
-    plant_watering_system.run()
+    pws = SystemController(config)
+    pws.run()
+    # plant_watering_system.blink()

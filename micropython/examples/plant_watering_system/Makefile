@@ -16,8 +16,8 @@ help:
 
 # Serial port
 # Linux Debian/Ubuntu
-PORT=ttyUSB0
-SPEED=460800
+PORT=cu.usbserial-310
+SPEED=115200
 
 # Path to programs
 # Install with `sudo pip install -U mpfshell esptool`
@@ -56,7 +56,7 @@ firmware:
 	@bash -c "[ -f $(FIRMWARE) ] || wget -O ./firmware.bin http://micropython.org/resources/firmware/"$(FIRMWAREVERSION)
 
 # Upload all
-upload_all:
+upload:
 	for f in $(FILES); do \
 		echo installing $$f; \
 		$(MPFSHELL) -nc rm $$f > /dev/null 2>&1; \
@@ -72,4 +72,4 @@ check:
 repl:
 	$(MPFSHELL) -c repl
 
-bootstrap: install erase flash check upload_all
+bootstrap: install erase flash check upload
