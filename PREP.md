@@ -6,6 +6,8 @@ Makers that are well prepared get the most out of their experience. Before you a
 
 Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software). Alternatively you can use [Micropython](https://github.com/OfferZen-Make/plant_tech_ams#micropython-submitted-by-michiel-erasmus) or [Eclipse](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/README.md#sloeber-a-free-open-source-eclipse-ide-submitted-by-robin-gilham)
 
+For advanced users, you can use `arduino-cli`, you can set it up following [these instructions](prep-arduino-cli.md).
+
 ## Step 2 - Set up your system
 
 We will begin by installing the ESP8266 (that thingy in your box with the micro-USB port) support for the Arduino IDE:
