@@ -1,0 +1,13 @@
+.full-height {
+    min-height: 100vh;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+    .row>* {
+        margin-bottom: 1em;
+    }
+}
