@@ -28,11 +28,11 @@ It also allows you to test the readings after the range has been identified to m
 3. Dip the moisture sensor probe in the glass of water and confirm that the values printed in serial monitor change as the probe is inserted and removed. *NB: be careful to not insert the probe too far past the portion where the metal circuit is exposed on the circuit board. Inserting it up to the point where the jumper is connected could cause a short circuit. Stop before reaching this point*
 4. If you are getting readings of 100 down to 0 when doing this then you probably don’t need to calibrate your setup.
 5. To start calibrating, use the serial monitor and send the character ‘R’ (without ‘) to the board. You should get a message telling you that the board has entered a RECORDING state.
-6. Repeat step 3 a few times. Generally once or twice is enough.
+6. Repeat step 4 a few times. Generally once or twice is enough.
 7. Once you are satisfied that the sensor was immersed completely a few times you can use the serial monitor again and send the character ‘S’.
 8. Your board will exit the RECORDING state and display the new bounds that were discovered. Write down these values because they indicate the upper and lower bounds of your particular setup.
 9. The firmware will also update the variables used in the map function to reflect these new values. *NB: These values reset to original values when the board is reset. They are not retained because the starting values are flashed as part of the firmware. You need to repeat from Step 1 if you reset the board*
-10. Repeat step 3 to make sure that you are able to get readings between 0%-5% and 95%- 100%.
+10. Repeat step 4 to make sure that you are able to get readings between 0%-5% and 95%- 100%.
 
 ## Reading the moisture value
 The moisture value is mapped as a range between 0 and 100 and indicates how dry the sensor is. This is achieved by using the map() function built into the standard Arduino library.
