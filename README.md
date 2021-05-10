@@ -40,7 +40,7 @@ For the event you will need to ensure you have:
 
 ### What will be available for you on the evening
 
-<img src="big_picture.png" alt="complete" width="900"/>
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/big_picture.png" alt="complete" width="900"/>
 
 **In the diagram**
 1. ESP8266 module - [how it works](https://lastminuteengineers.com/esp8266-nodemcu-arduino-tutorial/)
@@ -93,7 +93,7 @@ The pump is water submersible, sucks in water from the hole on the opposite end 
 
 🇿🇦 South African Community: break the silver metal crimps off the tab they come on, strip the pump wires and crimp them onto the pump wires.
 
-<img src="Dupont F2F to F2M.png" alt="moisture" width="500"/>
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/Dupont F2F to F2M.png" alt="moisture" width="500"/>
 
 <img src="Submersible Pump Pinout.png" alt="pump" width="300"/> <img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="300"/> 
 
