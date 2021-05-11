@@ -201,6 +201,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 |[JSON MQTT WIFI](https://github.com/rvdende/offerzenSmartPlant) | Simple realtime mqtt + json controller so you can remotely control and monitor the smartplant device. | by @rvdende|
 |[Plantspy](https://github.com/ahoydave/plantspy) | Quick and dirty python web app to record and chart smartplant moisture and pump state over time | by @ahoydave |
 |[Teach your plant to Tweet!](https://github.com/JacksonIsaac/basil-van-bunnik) | Introduce your lovely plant to the cute blue little bird! | by <a href="https://github.com/JacksonIsaac">@JacksonIsaac</a> |
+|[Self Watering Plant](https://github.com/hirebarend/self-watering-plant) | Self Watering Plant with StatsD Integration | by <a href="https://github.com/hirebarend">@hirebarend</a> |
 
 ## Useful resources
 
