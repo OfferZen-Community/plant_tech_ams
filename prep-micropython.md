@@ -27,7 +27,7 @@ sudo usermod -aG dialout my_username
 
 Remember to log out and back in for the changes in the user groups to take effect.
 
-# Create a sketch with the example code
+# Create a program with the example code
 
 Next, let's try to upload the blink sample code. You will see that the code is all contained in a boot.py script. This is because the micropython firmware will automatically try to run the code in a boot.py file once it is uploaded to the board.
 
@@ -37,7 +37,7 @@ mpfshell --open cu.usbserial-310 -nc put boot.py;
 
 *note:* If you have not followed the steps for user permissions in the beginning of this guide, here is where you will find out. If you are getting permission denied, reffer back to the first session of the guide for information.
 
-4. You are done! The LED should have started bliking. You can go back to the [main guide](PREP.md) and follow that from step 4 onwards!
+4. You are done! The LED should have started blinking. You can go back to the [main guide](PREP.md) and follow that from step 4 onwards!
 
 # Bonus
 
