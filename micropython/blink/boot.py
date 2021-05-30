@@ -10,9 +10,9 @@ if __name__ == "__main__":
     while True:
         if current:
             led.on()
-            print("LED On")
+            print("LED Off")
         else:
             led.off()
-            print("LED Off")
+            print("LED On")
         current = not current
         time.sleep(1)

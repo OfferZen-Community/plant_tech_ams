@@ -2,6 +2,7 @@
 #define ANA A0
 //Digital pin (Moisture Sensor)
 #define DIGI D5
+#define SENSOR D7
 
 //Power pin (Pump via transistor)
 #define POMPOUT D6
@@ -15,15 +16,18 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(ANA, INPUT);
   pinMode(DIGI, INPUT);
+  pinMode(SENSOR, OUTPUT);
   pinMode(POMPOUT, OUTPUT);
   Serial.begin(115200);
-  Serial.println("Paolo Test");
 }
 void loop() {
   if(millis()>nextCheckAt)
   {
+    digitalWrite(SENSOR, HIGH);
+    delay(100);
     analogValue = analogRead(ANA);
     digitalValue = digitalRead(DIGI);
+    digitalWrite(SENSOR, LOW);
 
     // Serial data
     Serial.print("Analog raw: ");

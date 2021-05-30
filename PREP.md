@@ -8,6 +8,8 @@ Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software).
 
 For advanced users, you can use `arduino-cli`, you can set it up following [these instructions](prep-arduino-cli.md).
 
+For interested users, you can also use `micropython`, you can set it up following [these instructions](prep-micropython.md).
+
 ## Step 2 - Set up your system
 
 We will begin by installing the ESP8266 (that thingy in your box with the micro-USB port) support for the Arduino IDE:
