@@ -56,7 +56,11 @@ sketch:
 arduino-cli core update-index
 ```
 
-4. Install the board libraries
+4. Download the configuration file from here https://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+- Copy it under your `~/.arduino15` directory (for MacBooks, it should go under `[user_home]/Library/Arduino15`)
+
+5. Install the board libraries
 
 ```
 arduino-cli core install esp8266:esp8266
