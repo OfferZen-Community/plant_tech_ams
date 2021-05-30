@@ -6,7 +6,6 @@ Follow the [guide](https://docs.micropython.org/en/v1.15/esp8266/tutorial/intro.
 You will need a way to view the serial terminal so it's best to make sure you have screen installed or something similar.
 
 This [guide](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html) will help with that part.
-arduino-cli --help
 
 For uploading and working with the board I use [mpfshell](https://github.com/wendlers/mpfshell) which you can install as follows:
 pip install mpfshell
