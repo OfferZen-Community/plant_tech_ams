@@ -14,15 +14,15 @@ WiFiClientSecure client;
 // Pins.
 #define ANA A0
 #define POMPOUT D6
-#define SENSORPOWER D1
+#define SENSORPOWER D7
 
 // WiFi settings.
-#define WIFISSID "YOURWIFISSID" // Add your WiFi SSID Here.
-#define WIFIPASSWORD "YOURWIFIPASSWORD" // Add your Wifi password Here.
+#define WIFISSID "brizzolarihome" // Add your WiFi SSID Here.
+#define WIFIPASSWORD "morpheus1" // Add your Wifi password Here.
 
 // Telegram settings.
-#define TELEGRAMBOTID "XXXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // Your Bot's Telegram ID.
-#define TELEGRAMUSERID "XXXXXXXXX;" // Your Telegram ID.
+#define TELEGRAMBOTID "1375505747:AAEFOB9H1aHsb1kIjp4DhGUgvNwzY4V414c" // Your Bot's Telegram ID.
+#define TELEGRAMUSERID "1165956992" // Your Telegram ID.
 
 // Time variables.
 #define SECS_PER_MIN  (60UL)
@@ -171,7 +171,7 @@ void loop() {
           replyStatus += timePassed;
           telegramBot.sendMessage(msg, replyStatus);
         // Pump water will check if water pumping is allowed, and if it is, it will show buttons to water the plant.
-        } else if (msg.text.equalsIgnoreCase("/PUMP_WATER")) {
+        } else if (msg.text.equalsIgnoreCase("/PUMP")) {
           if (analogValue > manualPumpThreshold) {
             if (currentMillis - lastPumpTime >= sleepTimePumpCheck) {
               telegramBot.sendMessage(msg, "Choose how long you wish to water:", waterBoard);
@@ -196,7 +196,7 @@ void loop() {
           replyStatus += "%).";
           telegramBot.sendTo(atoi(TELEGRAMUSERID), replyStatus);
         // Force pump water forces water to be pumped to your plant for the default amount of seconds.
-        } else if (msg.text.equalsIgnoreCase("/FORCE_PUMP_WATER") && msg.sender.id == atoi(TELEGRAMUSERID)) {
+        } else if (msg.text.equalsIgnoreCase("/FORCE_PUMP") && msg.sender.id == atoi(TELEGRAMUSERID)) {
           pumpWater(msg, pumpTime, true);
         // Start will show all accepted commands, including admin commands if the admin requests this.
         } else if (msg.text.equalsIgnoreCase("/START")) {
@@ -207,14 +207,14 @@ void loop() {
           reply += "- /status\n";
           reply += "- /water_status\n";
           reply += "- /pump_status\n";
-          reply += "- /pump_water\n";
+          reply += "- /pump\n";
           reply += "- /version\n";
           reply += "- More to come!\n";
           // Show admin functions to the admin.
           if (msg.sender.id == atoi(TELEGRAMUSERID)) {
             reply += "\nAdmin commands:\n";
             reply += "- /force_check_status\n";
-            reply += "- /force_pump_water\n";
+            reply += "- /force_pump\n";
             reply += "Or send a firmware update file with caption /fw_update.";
           }
           telegramBot.sendMessage(msg, reply);
