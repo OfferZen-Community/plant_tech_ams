@@ -121,7 +121,7 @@ If you did everything correctly thus far, you should be able to compile the code
 1. Compile
 
 ```
-arduino-cli compile --fqbn esp8266:esp8266:nodemcuv2 EspBlink
+arduino-cli compile --fqbn esp8266:esp8266:nodemcuv2 BlinkESP
 ```
 
 2. Plug in the board, if you haven't already done so. Next, run the following utility to determine where your board is
@@ -135,7 +135,7 @@ On linux It should be something similar to `/dev/ttyUSB0`. On windows you should
 3. Upload the compiled code to the port we discovered on the previous step.
 
 ```
-arduino-cli upload -p /dev/ttyUSB0 --fqbn esp8266:esp8266:nodemcuv2 EspBlink
+arduino-cli upload -p /dev/ttyUSB0 --fqbn esp8266:esp8266:nodemcuv2 BlinkESP
 ```
 
 *note:* If you have not followed the steps for user permissions in the beginning of this guide, here is where you will find out. If you are getting permission denied, reffer back to the first session of the guide for information.
