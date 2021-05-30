@@ -54,7 +54,7 @@ Troubleshooting:
 
 Please help us spread the word about Make events so that we can grow the community and keep helping devs learn new tech 🚀 💦 🌱.
 
-1. Use the phrase ` #OfferZenMake with @offerzen.`
+1. Use the phrase ` #OfferZenSwag with @offerzen.`
 2. Share a photo or story on: [Twitter](https://twitter.com/search?q=%23OfferZenMake&src=typeahead_click&f=live), [LinkedIn](https://www.linkedin.com/feed/hashtag/offerzenmake/), [Instagram](https://www.instagram.com/offerzen/?hl=en) or [Facebook](https://www.facebook.com/hashtag/offerzenmake)
 
 See you online soon <3

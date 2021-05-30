@@ -77,7 +77,7 @@ Connect the ESP8266 with your PC and start up the Arduino IDE. Sometimes the ESP
 
 <img src="https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png?ssl=1" alt="ESP8266" width="400"/>
 
-Try writing a little programme to print the sensor's moisture values (analog is more interesting here as it gives you a value from a wetness-range). If coding isn't your strong suit, you can use the code provided in this repo for the [Moisture Sensor](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/MoistureSensor.ino).
+Try writing a little programme to print the sensor's moisture values (analog is more interesting here as it gives you a value from a wetness-range). If coding isn't your strong suit, you can use the code provided in this repo for the [Moisture Sensor](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/arduino/MoistureSensor/MoistureSensor.ino).
 
 Upload your code to your system, wait untill the upload is done - the terminal should read: "Leaving... Hard resetting via RTS pin..." - and open the monitor (Tools > Serial Monitor) to see your printed values. Make sure that the Baud rate in the program and your serial monitor window are the same. If you used the code from the repo above, select the 115200 BAUD option for upload speed, otherwise your readings are not printed.
 
@@ -95,11 +95,11 @@ The pump is water submersible, sucks in water from the hole on the opposite end 
 
 <img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/Dupont F2F to F2M.png" alt="moisture" width="500"/>
 
-<img src="Submersible Pump Pinout.png" alt="pump" width="300"/> <img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="300"/> 
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/Submersible%20Pump%20Pinout.png?raw=true" alt="pump" width="300"/> <img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="300"/> 
 
 The pump has a GND output to be connected to the ESP8266 and receives power from the emitter pin of the transistor. The transistor gets its power through its collector pin from the ESP8266's 3V3 pin. Finally, connect the base to the D6 pin to be able to control the pump.
 
-Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and please watch out for water spills ;)
+Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/arduino/plant_watering_system/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and please watch out for water spills ;)
 
 Your self-watering plant is set up! You can now simply plug it directly into the mains using a usb adaptor / cellphone charger with a 5v output and it will keep your plant watered.
 
@@ -201,6 +201,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 |[JSON MQTT WIFI](https://github.com/rvdende/offerzenSmartPlant) | Simple realtime mqtt + json controller so you can remotely control and monitor the smartplant device. | by @rvdende|
 |[Plantspy](https://github.com/ahoydave/plantspy) | Quick and dirty python web app to record and chart smartplant moisture and pump state over time | by @ahoydave |
 |[Teach your plant to Tweet!](https://github.com/JacksonIsaac/basil-van-bunnik) | Introduce your lovely plant to the cute blue little bird! | by <a href="https://github.com/JacksonIsaac">@JacksonIsaac</a> |
+|[Self Watering Plant](https://github.com/hirebarend/self-watering-plant) | Self Watering Plant with StatsD Integration | by <a href="https://github.com/hirebarend">@hirebarend</a> |
 
 ## Useful resources
 
