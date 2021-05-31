@@ -31,7 +31,7 @@ Now it's time to plug the ESP8266 board into your computer, and see how to blink
 - Navigate to Tools > ESP8266 Boards (2.7.4) > NodeMCU 1.0 (ESP-12E Module)
 - Select the right USB port from Tools > Port
 - If Port is not available in Win10 (https://sparks.gogo.co.nz/ch340.html) or any other errors, check [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#troubleshooting)
-- Clone (or download, or simply copy-paste to your Arduino IDE window) the [BlinkESP](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/BlinkESP.ino) code and run it in Arduino IDE by clicking 'Upload'.
+- Clone (or download, or simply copy-paste to your Arduino IDE window) the [BlinkESP](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/arduino/BlinkESP/BlinkESP.ino) code and run it in Arduino IDE by clicking 'Upload'.
 - After compiling and uploading, the LED on your ESP8266 board should start flashing. You did it!
 
 Troubleshooting:
