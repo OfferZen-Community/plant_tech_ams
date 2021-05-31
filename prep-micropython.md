@@ -56,7 +56,7 @@ Alternatively
 - Use a 3V battery and press the wires directly onto it.
 
 Troubleshooting:
-- [My pump isn't working](https://github.com/OfferZen-Make/plant_tech_ams/new/master/micropython#my-pump-isnt-working)
+- [My pump isn't working](https://github.com/OfferZen-Make/plant_tech_ams/tree/master/micropython#my-pump-isnt-working)
 
 ## Help us grow the community by sharing a pic 🌱🙏
 
