@@ -1,18 +1,24 @@
 # Installation
 
-Make sure that you have screen or a similar 
-Follow the [guide](https://docs.micropython.org/en/v1.15/esp8266/tutorial/intro.html) to get the basic firmware installation done.
+## Step 1 - Getting started with MicroPython on the ESP8266
+
+*   Plug in the device to your computer
+*   Run `ls /dev/tty*` in your terminal to find out the USB-path of the ESP8266
+    *   if you have difficulties finding the correct path you can run the command twice; once with the ESP connected, once without
+*   Follow the [guide](https://docs.micropython.org/en/v1.15/esp8266/tutorial/intro.html) to get the basic firmware installation done.
+
+**NOTE:** The installation assumes that the port name of device is `/dev/ttyUSB0`, use the port name you found with `ls /dev/tty*` instead. Also make sure to change the firmware directory to the one you downloaded (we tested with `esp8266-20170108-v1.8.7.bin`).
+
+## Step 2 - Serial Terminal
 
 You will need a way to view the serial terminal so it's best to make sure you have screen installed or something similar.
 
 This [guide](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html) will help with that part.
 
 For uploading and working with the board I use [mpfshell](https://github.com/wendlers/mpfshell) which you can install as follows:
-pip install mpfshell
+`pip install mpfshell`
 
-# Configuration
-
-## Grant appropriate permissions
+### LINUX ONLY - Grant appropriate permissions 
 
 If you are using linux, you will have to grant permission to your user to access the serial. 
 You can simply add your user to the `uucp` or `dialout` group in order to do so.
@@ -24,11 +30,11 @@ sudo usermod -aG dialout my_username
 
 Remember to log out and back in for the changes in the user groups to take effect.
 
-# Create a program with the example code
+## Step 3 - Create a program with the example code
 
 Next, let's try to upload the blink sample code. You will see that the code is all contained in a boot.py script. This is because the micropython firmware will automatically try to run the code in a boot.py file once it is uploaded to the board.
 
-Replace the `cu.usbserial-310` with the appropriate usb device on your system.
+Replace the `cu.usbserial-310` with the appropriate usb port on your system (remove the `/dev/` part of the path you've been using at step 1).
 ```
 mpfshell --open cu.usbserial-310 -nc put boot.py;
 ```
@@ -37,7 +43,7 @@ mpfshell --open cu.usbserial-310 -nc put boot.py;
 
 You are done! The LED should have started blinking
 
-## Test your water pump
+## Step - Test your water pump
 
 - Strip the red and black wires of the pump.
 - Plug the ESP8266 into your laptop or a cellphone charge using the MicroUSB cable.
