@@ -10,8 +10,6 @@ This [guide](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html) 
 For uploading and working with the board I use [mpfshell](https://github.com/wendlers/mpfshell) which you can install as follows:
 pip install mpfshell
 
-```
-
 # Configuration
 
 ## Grant appropriate permissions
@@ -31,6 +29,7 @@ Remember to log out and back in for the changes in the user groups to take effec
 Next, let's try to upload the blink sample code. You will see that the code is all contained in a boot.py script. This is because the micropython firmware will automatically try to run the code in a boot.py file once it is uploaded to the board.
 
 Replace the `cu.usbserial-310` with the appropriate usb device on your system.
+```
 mpfshell --open cu.usbserial-310 -nc put boot.py;
 ```
 
