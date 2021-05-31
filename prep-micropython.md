@@ -36,7 +36,35 @@ mpfshell --open cu.usbserial-310 -nc put boot.py;
 
 *note:* If you have not followed the steps for user permissions in the beginning of this guide, here is where you will find out. If you are getting permission denied, reffer back to the first session of the guide for information.
 
-4. You are done! The LED should have started blinking. You can go back to the [main guide](PREP.md) and follow that from step 4 onwards!
+You are done! The LED should have started blinking
+
+## Test your water pump
+
+- Strip the red and black wires of the pump.
+- Plug the ESP8266 into your laptop or a cellphone charge using the MicroUSB cable.
+- From your water pump press the red wire onto the 3V3 pin and black to GND pin or hook them up using the dupont wires.
+- You should hear the motor of the pump spinning.
+
+<a href="https://www.youtube.com/watch?v=0SQNkLzuTr8"> <img src="https://raw.githubusercontent.com/OfferZen-Make/plant_tech_ams/master/course_media/test_pump.png" width="300"/></a>
+
+Alternatively
+- Use a 3V battery and press the wires directly onto it.
+
+Troubleshooting:
+- [My pump isn't working](https://github.com/OfferZen-Make/plant_tech_ams/new/master/micropython#my-pump-isnt-working)
+
+## Help us grow the community by sharing a pic 🌱🙏
+
+Please help us spread the word about Make events so that we can grow the community and keep helping devs learn new tech 🚀 💦 🌱.
+
+1. Use the phrase ` #OfferZenSwag with @offerzen.`
+2. Share a photo or story on: [Twitter](https://twitter.com/search?q=%23OfferZenMake&src=typeahead_click&f=live), [LinkedIn](https://www.linkedin.com/feed/hashtag/offerzenmake/), [Instagram](https://www.instagram.com/offerzen/?hl=en) or [Facebook](https://www.facebook.com/hashtag/offerzenmake)
+
+See you online soon <3
+
+Here's a fabulous example from @hendrikdelarey
+
+[<img src="https://i.imgur.com/seoUZT8.png"/>](https://twitter.com/hendrikdelarey/status/1336696671556825091?s=20)
 
 # Bonus
 
