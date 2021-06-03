@@ -7,7 +7,7 @@
     *   if you have difficulties finding the correct path you can run the command twice; once with the ESP connected, once without
 *   Follow the [guide](https://docs.micropython.org/en/v1.15/esp8266/tutorial/intro.html) to get the basic firmware installation done.
 
-**NOTE:** The installation assumes that the port name of device is `/dev/ttyUSB0`, use the port name you found with `ls /dev/tty*` instead. Also make sure to change the firmware directory to the one you downloaded (we tested with `esp8266-20170108-v1.8.7.bin`).
+**NOTE:** The installation assumes that the port name of device is `/dev/ttyUSB0`, use the port name you found with `ls /dev/tty*` instead. Also make sure to change the firmware directory to the one you downloaded (we tested with `esp8266-20210418-v1.15.bin`).
 
 ## Step 2 - Serial Terminal
 
