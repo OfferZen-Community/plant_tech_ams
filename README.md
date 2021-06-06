@@ -83,7 +83,7 @@ Upload your code to your system, wait untill the upload is done - the terminal s
 
 Put your sensor (only the two large exposed pads) in the compost of your plant, or simply put it in a glass of water, to do some readings!
 
-Side mission! If you want to calibrate your moisture sensor, check out [Renaldo Meere's moisture sensor calibration utility](https://github.com/OfferZen-Make/plant_tech_ams/tree/master/utilities).
+Side mission! If you want to calibrate your moisture sensor, check out [Renaldo Meere's moisture sensor calibration utility](https://github.com/OfferZen-Make/plant_tech_ams/tree/master/arduino/utilities).
 
 ### Part 3 - Mini Water Pump ⛽️
 
