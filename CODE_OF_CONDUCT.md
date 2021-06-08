@@ -9,6 +9,10 @@ If you have a concern to raise or issue to report regarding member conduct pleas
 
 @emwkempen, @NickBensonZA, @benblaine (myself) are all on those email addys.
 
+## Working with Partner Communities
+
+In the case where a partner community runs an OfferZen Make sponsored event the partner communities CoC will also apply. It is up to the partner's management team to handle cases relating to their community members and CoC.
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
