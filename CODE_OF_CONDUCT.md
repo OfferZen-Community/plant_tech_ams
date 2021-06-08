@@ -1,6 +1,14 @@
 
 # Contributor Covenant Code of Conduct
 
+## tl;dr
+
+Please be friendly and help each other build cool things - and try not to make people feel uncomfortable or unwelcome.
+
+If you have a concern to raise or issue to report regarding member conduct please email the OfferZen Commuhnity team at make@offerzen.com (for OfferZen Make related issues) or community@offerzen.com for non-OfferZen Make related issues.
+
+@emwkempen, @NickBensonZA, @benblaine (myself) are all on those email addys.
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
