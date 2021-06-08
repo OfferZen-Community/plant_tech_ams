@@ -1,6 +1,7 @@
 # Plant Tech
 
-Keen to join a Make Session? Go to: https://www.offerzen.com/nl/make
+Keen to join a Make Session? Go to: https://www.offerzen.com/nl/make.
+
 Our code of conduct is a work in progress, available [here](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/code_of_conduct.md).
 
 ## **🌱 Table of Contents 🌱**
