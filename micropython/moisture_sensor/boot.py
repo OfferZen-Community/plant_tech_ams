@@ -5,7 +5,7 @@ from machine import ADC
 
 ana = ADC(0)
 digi = Pin(14, Pin.IN)
-
+seconds = 1
 if __name__ == "__main__":
     esp.osdebug(None)
     current = False
@@ -13,8 +13,8 @@ if __name__ == "__main__":
         nextCheck=0
         while True:
             if(time.ticks_ms()>nextCheck):
-                analogValue = self.ana.read()
-                digitalValue = self.digi.value()
+                analogValue = ana.read()
+                digitalValue = digi.value()
                 print("Analog raw: "+str(analogValue))
                 print("Digital raw: "+str(digitalValue))
 
