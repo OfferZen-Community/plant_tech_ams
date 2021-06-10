@@ -24,12 +24,8 @@ if __name__ == "__main__":
     collector.off()
 
     print("Both diodes should be high for the forward bias diode test (1)")
-  
-    print("The collector diode is ")
-    print(collector_diode_forward)
-
-    print("The emitter diode is ")
-    print(emitter_diode_forward)
+    print("The collector diode is:", collector_diode_forward)
+    print("The emitter diode is:", emitter_diode_forward)
 
     if (collector_diode_forward and emitter_diode_forward):
         print("Forward bias diode test successful")
@@ -38,11 +34,8 @@ if __name__ == "__main__":
 
     print("Both diodes should be low for the reverse bias diode test (0)")
   
-    print("The collector diode is ")
-    print(collector_diode_reverse)
-
-    print("The emitter diode is ")
-    print(emitter_diode_reverse)
+    print("The collector diode is:", collector_diode_forward)
+    print("The emitter diode is:", emitter_diode_forward)
 
     if (not collector_diode_reverse and not emitter_diode_reverse):
         print("Reverse bias diode test successful")
