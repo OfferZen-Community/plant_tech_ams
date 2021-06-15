@@ -1,6 +1,6 @@
 # Plant Tech
 
-Keen to join a Make Session? Go to: https://www.offerzen.com/nl/make.
+>Keen to join a Make Session? Visit: https://www.offerzen.com/nl/make.
 
 ## **🌱 Table of Contents 🌱**
 - [Preparing for the event](#preparing-for-the-event)
@@ -17,24 +17,22 @@ Keen to join a Make Session? Go to: https://www.offerzen.com/nl/make.
 Welcome to the community, we're excited to have you join us!
 
 - The Make event is all about making cool things and meeting even cooler people.
-- It serves as an onboarding into the OfferZen Make Community.
-- It should help you get started on your journey of becoming a Maker or,
-- if you are already an advanced Maker, it puts you in contact with other devs that you can help along their journeys.
+- It should help you kickstart your Maker journey or (if you are already an advanced Maker) it connects you with other devs within our community to learn from.
 - You can read a bit more in-depth into our philosophy here: [Make Manifesto](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/make_manifesto.md).
 
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/image%20(15).png?raw=true" width="400">
+<img src="https://pbs.twimg.com/media/EsGMcZyXUAEr1EB.jpg" width="300">
 
 ## Preparing for the event
-You'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make Days is to explore and learn new things - you should be challenging yourself and leaning on the community for support.
+You'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make is to explore and learn new things - challenge yourself and lean on the community for support.
 
 **👉 Before the event, complete the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md) to get your LED blinking and ensure you are setup for the event.**
 
 *Please see [Troubleshooting](#troubleshooting) if you run into issues.*
 
-For the event you will need to ensure you have:
-* Tall glass or container with water to test the sensor and water pump
-* Laptop/PC with USB-A port or adaptor
-* Optional: small pair of pliers for crimping wire connectors
+For the event make sure you have:
+* A tall glass or container with water: *to test the sensor and water pump*
+* A laptop/PC with USB-A port or adaptor
+* *Optional: small pair of pliers for crimping wire connectors*
 
 ## At the event
 
@@ -56,16 +54,9 @@ For the event you will need to ensure you have:
 
 ### Part 1 - Set up your plant 🌱
 
-#### 🇳🇱 Netherlands Teams
-
 Add 300 ml water to the bag with pressed soil, forming ~1 liter of compost. Make a few small (1cm deep) holes in the soil and place the basil seeds in them, covering with a bit of loose soil.
 
-Pro tip: drill some holes in the bottom of your pot to drain water coming in otherwise the roots might rot.
-
-#### 🇿🇦 South African Teams
-- Fill your pot most of the way with soil
-- Sprinkle your seeds on top
-- Cover with ±1 cm soil
+**Pro tip:** drill holes in the bottom of your pot to drain water coming in otherwise the roots might rot.
 
 ### Part 2 - Moisture Sensor 💦
 
@@ -81,21 +72,19 @@ Try writing a little programme to print the sensor's moisture values (analog is 
 
 Upload your code to your system, wait untill the upload is done - the terminal should read: "Leaving... Hard resetting via RTS pin..." - and open the monitor (Tools > Serial Monitor) to see your printed values. Make sure that the Baud rate in the program and your serial monitor window are the same. If you used the code from the repo above, select the 115200 BAUD option for upload speed, otherwise your readings are not printed.
 
-Put your sensor (only the two large exposed pads) in the compost of your plant, or simply put it in a glass of water, to do some readings!
+> Put your sensor (only the two large exposed pads) in the compost of your plant, or simply put it in a glass of water, to do some readings!
 
-Side mission! If you want to calibrate your moisture sensor, check out [Renaldo Meere's moisture sensor calibration utility](https://github.com/OfferZen-Make/plant_tech_ams/tree/master/arduino/utilities).
+**💡 Side mission!** If you want to calibrate your moisture sensor, check out [Renaldo Meere's moisture sensor calibration utility](https://github.com/OfferZen-Make/plant_tech_ams/tree/master/arduino/utilities).
 
 ### Part 3 - Mini Water Pump ⛽️
 
 The pump is water submersible, sucks in water from the hole on the opposite end of the wires, and pumps it through the little outlet. In order to switch the pump on and off, it needs to be connected to the ESP8266 with the TIP31C Transistor. The two wires of the pump go in one side, the other side takes your Dupont wires.
 
-🇳🇱 Netherlands Community: use the connector - white block with four inlets - to do so. By lifting the plastic clip (see below) off one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
+Ue the connector - white block with four inlets - to do so. By lifting the plastic clip (see below) off one side of the Dupont wire, exposing the metal, you can put it in the other side of the connector.
 
-🇿🇦 South African Community: break the silver metal crimps off the tab they come on, strip the pump wires and crimp them onto the pump wires.
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/741bc81a59ac822b68d081d81f4137f0fee4c452/course_media/Dupont%20F2F%20to%20F2M.png" alt="moisture" width="500"/>
 
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/Dupont F2F to F2M.png" alt="moisture" width="500"/>
-
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/Submersible%20Pump%20Pinout.png?raw=true" alt="pump" width="300"/> <img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="300"/> 
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/741bc81a59ac822b68d081d81f4137f0fee4c452/course_media/Submersible%20Pump%20Pinout.png" alt="pump" width="300"/> <img src="https://www.componentsinfo.com/wp-content/uploads/2020/08/tip31c-pinout-equivalent.gif" alt="tip31c" width="300"/> 
 
 The pump has a GND output to be connected to the ESP8266 and receives power from the emitter pin of the transistor. The transistor gets its power through its collector pin from the ESP8266's 3V3 pin. Finally, connect the base to the D6 pin to be able to control the pump.
 
@@ -111,7 +100,7 @@ Now that the basics of your system are up and running, it's time to play around 
 
 See what analog value would be a good threshhold of dryness. Implement this in your code to start activating your pump as soon as this threshold is reached. Also try to implement some delays in your code to stop the pump after a few seconds, as it takes some time for the soil to get moist and the sensor to pick this up.
 
-If you are confident that your very own automated watering system is fully working, you can check out the repos below for some inspiration on how to communicate with your system via your phone :)
+If you are confident that your automated watering system is fully working, you can check out the repos below for some inspiration on how to communicate with your system via your phone :)
 
 - [Project extensions](#project-extensions)
 - [Community Contributions](#community-project-repos)
@@ -121,11 +110,10 @@ If you are confident that your very own automated watering system is fully worki
 ### NB! Giving back
 
 #### Giving feedback
-After the event we only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the forms below 🙏
-- [🇳🇱 Netherlands](https://forms.gle/NZ6FT3DuhXuW6MuG9)
-- [🇿🇦 South Africa Feedback](https://docs.google.com/forms/d/e/1FAIpQLSc-JSOmKebYERO_tBQ18r8Ns89_u6GeP27yr6w9Vfl6dzV8sw/viewform)
+After the event we only ask one further thing: please help us keep these going and growing by giving us feedback and inviting friends using the form below 🙏
+- [Netherlands](https://www.offerzen.com/nl/make-event-feedback)
 
-🎁 We want to give you the gift of giving! please refer people that you think would love to attend one of our next sessions and get the Make @ Home Box delivered to their door. You can do so via the same form! 🎁 
+> Help us make the circle bigger! Please refer people that you think would love to attend one of our next sessions and get the Make @ Home Box delivered to their door. You can do so via the form above 🎁 
 
 #### Contributing to this repo
 
@@ -144,39 +132,32 @@ You can find extensions for the project here.
 Connect your ESP8266 with [your Wi-Fi](https://www.instructables.com/IoT-ESP8266-Series-1-Connect-to-WIFI-Router/)
 
 ### Build a chatbot
-Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/mariuspot/plant_tech_ams/blob/master/webcontrol.ino)
-
-Send messages on [slack or telegram](http://blog.danishjoshi.com/2019/11/06/sending-messages-to-a-slack-or-telegram-channel-using-esp8266/).
-
-Telling your plant to water itself - by speech! [Blogpost + code](https://codeburst.io/home-automation-using-google-assistant-dialogflow-firebase-esp8266-wemos-part-1-800c4dc15ad9)
+* Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/mariuspot/plant_tech_ams/blob/master/webcontrol.ino)
+* Send messages on [slack or telegram](http://blog.danishjoshi.com/2019/11/06/sending-messages-to-a-slack-or-telegram-channel-using-esp8266/).
+* Telling your plant to water itself - by speech! [Blogpost + code](https://codeburst.io/home-automation-using-google-assistant-dialogflow-firebase-esp8266-wemos-part-1-800c4dc15ad9)
 
 ### Set up a web server
 
-Example
+**Example:** 
 https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/
 
-Important: if you want to use the ESP8266 WEB Server in this example you will need to downloand the following two libraries. These libraries are not available in the library manager.
+**Important:** if you want to use the ESP8266 WEB Server in this example you will need to downloand the following two libraries. These libraries are not available in the library manager.
 
 #### Installing the ESPAsyncWebServer library
 The ESPAsyncWebServer library is not available to install in the Arduino IDE Library Manager. So, you need to install it manually.
 
-Follow the next steps to install the ESPAsyncWebServer library:
-
-https://github.com/me-no-dev/ESPAsyncWebServer/archive/master.zip
-
-Unzip the .zip folder and you should get ESPAsyncWebServer-master folder
-Rename your folder from ESPAsyncWebServer-master to ESPAsyncWebServer
-Move the ESPAsyncWebServer folder to your Arduino IDE installation libraries folder
+Follow these steps to [install the ESPAsyncWebServer library](https://github.com/me-no-dev/ESPAsyncWebServer/archive/master.zip)
+* Unzip the .zip folder and you should get ESPAsyncWebServer-master folder
+* Rename your folder from ESPAsyncWebServer-master to ESPAsyncWebServer
+* Move the ESPAsyncWebServer folder to your Arduino IDE installation libraries folder
 
 #### Installing the ESPAsync TCP Library
-The ESPAsyncWebServer library requires the ESPAsyncTCP library to work. Follow the next steps to install that library:
+The ESPAsyncWebServer library requires the ESPAsyncTCP library to work. Follow [these steps to install that library](https://github.com/me-no-dev/ESPAsyncTCP/archive/master.zip)
 
-https://github.com/me-no-dev/ESPAsyncTCP/archive/master.zip
-
-Unzip the .zip folder and you should get ESPAsyncTCP-master folder
-Rename your folder from ESPAsyncTCP-master to ESPAsyncTCP
-Move the ESPAsyncTCP folder to your Arduino IDE installation libraries folder
-Finally, re-open your Arduino IDE
+* Unzip the .zip folder and you should get ESPAsyncTCP-master folder
+* Rename your folder from ESPAsyncTCP-master to ESPAsyncTCP
+* Move the ESPAsyncTCP folder to your Arduino IDE installation libraries folder
+* Finally, re-open your Arduino IDE
 
 ### RGB LED
 Extend your project with an [RGB LED](https://howtomechatronics.com/tutorials/arduino/how-to-use-a-rgb-led-with-arduino/) to indicate moisture levels with colors.
@@ -225,12 +206,16 @@ Micropython = Python 3.4. No need to recompile your code. Run your code by press
 
 Pieter Linde modified an existing plant enclosure with "OfferZen" :) You can access the printer file [here](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE).
 
-[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_design_plant_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
-[<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pieter_linde_3d_printed_enclosure.png?raw=true" alt="3dprintedencls" width="300"/>](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/741bc81a59ac822b68d081d81f4137f0fee4c452/course_media/pieter_linde_3d_design_plant_enclosure.png" alt="3dprintedencls" width="300"/>
+
+[Reference here](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
+
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/741bc81a59ac822b68d081d81f4137f0fee4c452/course_media/pieter_linde_3d_printed_enclosure.png" alt="3dprintedencls" width="300"/>
+
+[Reference here](https://www.tinkercad.com/things/bFTDSzWcusm-fabulous-rottis/edit?sharecode=lSyWL2UxdobV3gDx9X6cHZBx-7pwOPdmfentWH5Z9hE)
 
 #### Water distributor by Ries
-
-<a href="https://github.com/rvt/offerzen-plantfeeder/tree/master/box"><img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_ries.png?raw=true" width="300"> <img src="https://github.com/rvt/offerzen-plantfeeder/raw/master/box/box.jpg" width="300"></a>
+<img src="https://github.com/rvt/offerzen-plantfeeder/raw/master/box/box.jpg" width="300"></a>
 
 You can find instructions on building this [here](https://github.com/rvt/offerzen-plantfeeder/tree/master/box).
 
@@ -238,7 +223,7 @@ You can find instructions on building this [here](https://github.com/rvt/offerze
 
 [STL File](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/pot%20water%20ring.stl)
 
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/water_distributor_by_morne_lotze.gif?raw=true" width="300">
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/741bc81a59ac822b68d081d81f4137f0fee4c452/course_media/water_distributor_by_morne_lotze.gif" width="300">
 
 #### Other enclosures
 
@@ -249,9 +234,9 @@ You can find instructions on building this [here](https://github.com/rvt/offerze
 
 - [17 Cool Arduino Projects for DIY Enthusiasts](https://itsfoss.com/cool-arduino-projects/)
 - [ESP8266 mini projects that you can use to enhance your self watering planter](https://lastminuteengineers.com/electronics/esp8266-projects/)
-- [ ] [Arduino IDE for Visual Studio (Visual Micro) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)
-- [ ] [Node-RED](https://nodered.org/) - Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
-- [ ] [Flash code to other devices](https://github.com/espressif/esptool)
+- 👉 [Arduino IDE for Visual Studio (Visual Micro) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)
+- 👉 [Node-RED](https://nodered.org/) - Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
+- 👉 [Flash code to other devices](https://github.com/espressif/esptool)
 
 ### Additional equipment
 
@@ -276,6 +261,11 @@ Here's a list of equipment that has come up as ideas for extending the project f
 
 ## Troubleshooting
 
+### My pump isn't working
+
+- Strip some of the provided wires and press them directly onto a 3v+ battery. We've had instances where people didn't the strip wires enough.
+- You might need to hit it quite hard on the table - sometimes the lubricant dries up so it gets stuck.
+- If you're using the transistor then try switching the wires around - if it's connected the wrong way around it won't work. The metal part must be flat on your desk and facing away from you on the desk and it will match the diagram.
 
 ### USB port not showing in Tools > Port
 - If your USB port does not show up in Tools > Port, you may need the driver.
@@ -295,13 +285,11 @@ If this doesn't work you may need to reset your board following these steps.
 3. Hit upload and accept that it will fail the first time.
 4. Hit upload again and it works.
 
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/master/course_media/esp_reset_and_flash_buttons.jpg?raw=true" width=200></img>
+<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/741bc81a59ac822b68d081d81f4137f0fee4c452/course_media/esp_reset_and_flash_buttons.jpg" width=200></img>
 
 ### Board keeps switching on and off
 
-Most laptop USB ports can only supply limited current, generally 500mA (USB-3 is 2.5A) - so when the pump is connected and drawing power it overloads the circuitry and trips the power.
-
-Fixes.
+Most laptop USB ports can only supply limited current, generally 500mA (USB-3 is 2.5A) - so when the pump is connected and drawing power it overloads the circuitry and trips the power. Fixes:
 
 - Use USB hub with external power
 - Use a USB power supply
@@ -315,7 +303,7 @@ You can use [this program](https://github.com/OfferZen-Make/plant_tech_ams/blob/
 
 ### Mac users unable to get your Hello World up and running
 
-Solution submitted by Alex Siega
+*Solution submitted by Alex Siega*
 
 1. Under Tools > Board, make sure to select "Generic ESP8266 Module." Mine defaults to "Arduino Uno" without actively selecting the right board.
 2. Install the drivers from the OfferZen Prep page. Make sure to give the drivers the correct permissions in the Security & Privacy area in System Preferences; it's at the end of the "General" tab.
@@ -366,9 +354,3 @@ Can’t seem to find any that work for me. The ones recommended on the guide don
 
 **Solution - Adam Hillier**
 I had the same issue. I installed the driver from here: https://sparks.gogo.co.nz/ch340.html. It worked for me.
-
-### My pump isn't working
-
-- Strip some of the provided wires and press them directly onto a 3v+ battery. We've had instances where people didn't the strip wires enough.
-- You might need to hit it quite hard on the table - sometimes the lubricant dries up so it gets stuck.
-- If you're using the transistor then try switching the wires around - if it's connected the wrong way around it won't work. The metal part must be flat on your desk and facing away from you on the desk and it will match the diagram.
