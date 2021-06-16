@@ -40,7 +40,7 @@ For the event you will need to ensure you have:
 
 ### What will be available for you on the evening
 
-<img src="https://github.com/OfferZen-Make/plant_tech_ams/blob/0614b0bfd892185ca7d357898836be4f137b23a5/Fritzing/ResistiveMoistureSensorCurrrent.png" alt="complete" width="900"/>
+<img src="Fritzing/ResistiveMoistureSensorCurrrent.png" alt="complete" width="900"/>
 
 **In the diagram**
 1. ESP8266 module - [how it works](https://lastminuteengineers.com/esp8266-nodemcu-arduino-tutorial/)
