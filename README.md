@@ -325,8 +325,10 @@ If you get the following error while trying to upload a sketch to your board:
 ```
 pyserial or esptool directories not found next to this upload.py tool.
 ```
+Then first try to upgrade the ESP8266 package from 2.7.4 to 3.0 (in Tools -> Boards Manager).
+This may get rid of the `pyserial` error. 
 
-Then try the steps below:
+If not, then try the steps below:
 
 1. Open Users/?????/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/pyserial/serial/tools/list_ports_osx.py
 2. Comment out lines 29 and 30 and append these lines:
