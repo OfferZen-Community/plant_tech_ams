@@ -27,7 +27,7 @@ We will begin by installing the ESP8266 (that thingy in your box with the micro-
 Now it's time to plug the ESP8266 board into your computer, and see how to blink an LED (the Hello World in the electronics):
 
 
-- Remove the ESP8266 from it's packet. **Pro Tip**: remember to remove the board from the styrofoam it came on - it’s mildly conductive and can short the board!⚡
+- Remove the ESP8266 from it's packet.
 - Navigate to Tools > ESP8266 Boards (2.7.4) > NodeMCU 1.0 (ESP-12E Module)
 - Select the right USB port from Tools > Port
 - If Port is not available in Win10 (https://sparks.gogo.co.nz/ch340.html) or any other errors, check [Troubleshooting](https://github.com/OfferZen-Make/plant_tech_ams#troubleshooting)
