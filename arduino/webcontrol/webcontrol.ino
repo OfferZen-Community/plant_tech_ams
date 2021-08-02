@@ -13,8 +13,8 @@
 #define TELEGRAMID "***"
 
 #define MSAPIN A0 // Moisture sensor analog pin
-#define MSDPIN D0 // Moisture sensor digital pin
-#define MTRPIN D1 // Motor pin
+#define MSDPIN D5 // Moisture sensor digital pin
+#define MTRPIN D6 // Motor pin
 
 #define STATUSURL "http://flows.messagebird.com/flows/***/invoke"
 
