@@ -10,7 +10,7 @@
 
 #define SSID "***"
 #define PASSWORD "***"
-#define TELEGRAMID "***
+#define TELEGRAMID "***"
 
 #define MSAPIN A0 // Moisture sensor analog pin
 #define MSDPIN D0 // Moisture sensor digital pin
