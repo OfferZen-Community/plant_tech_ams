@@ -132,7 +132,7 @@ You can find extensions for the project here.
 Connect your ESP8266 with [your Wi-Fi](https://www.instructables.com/IoT-ESP8266-Series-1-Connect-to-WIFI-Router/)
 
 ### Build a chatbot
-* Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/mariuspot/plant_tech_ams/blob/main/webcontrol.ino)
+* Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/arduino/webcontrol/webcontrol.ino)
 * Send messages on [slack or telegram](http://blog.danishjoshi.com/sending-messages-to-a-slack-or-telegram-channel-using-esp8266/).
 * Telling your plant to water itself - by speech! [Blogpost + code](https://codeburst.io/home-automation-using-google-assistant-dialogflow-firebase-esp8266-wemos-part-1-800c4dc15ad9)
 
