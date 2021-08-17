@@ -18,14 +18,14 @@ Welcome to the community, we're excited to have you join us!
 
 - The Make event is all about making cool things and meeting even cooler people.
 - It should help you kickstart your Maker journey or (if you are already an advanced Maker) it connects you with other devs within our community to learn from.
-- You can read a bit more in-depth into our philosophy here: [Make Manifesto](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/make_manifesto.md).
+- You can read a bit more in-depth into our philosophy here: [Make Manifesto](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/make_manifesto.md).
 
 <img src="https://pbs.twimg.com/media/EsGMcZyXUAEr1EB.jpg" width="300">
 
 ## Preparing for the event
 You'll be working with plants, Arduino boards, moisture sensors and watering systems. The aim of Make is to explore and learn new things - challenge yourself and lean on the community for support.
 
-**👉 Before the event, complete the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/PREP.md) to get your LED blinking and ensure you are setup for the event.**
+**👉 Before the event, complete the [Make Preparation Manual](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/PREP.md) to get your LED blinking and ensure you are setup for the event.**
 
 *Please see [Troubleshooting](#troubleshooting) if you run into issues.*
 
@@ -68,13 +68,13 @@ Connect the ESP8266 with your PC and start up the Arduino IDE. Sometimes the ESP
 
 <img src="https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png?ssl=1" alt="ESP8266" width="400"/>
 
-Try writing a little programme to print the sensor's moisture values (analog is more interesting here as it gives you a value from a wetness-range). If coding isn't your strong suit, you can use the code provided in this repo for the [Moisture Sensor](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/arduino/MoistureSensor/MoistureSensor.ino).
+Try writing a little programme to print the sensor's moisture values (analog is more interesting here as it gives you a value from a wetness-range). If coding isn't your strong suit, you can use the code provided in this repo for the [Moisture Sensor](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/arduino/MoistureSensor/MoistureSensor.ino).
 
 Upload your code to your system, wait untill the upload is done - the terminal should read: "Leaving... Hard resetting via RTS pin..." - and open the monitor (Tools > Serial Monitor) to see your printed values. Make sure that the Baud rate in the program and your serial monitor window are the same. If you used the code from the repo above, select the 115200 BAUD option for upload speed, otherwise your readings are not printed.
 
 > Put your sensor (only the two large exposed pads) in the compost of your plant, or simply put it in a glass of water, to do some readings!
 
-**💡 Side mission!** If you want to calibrate your moisture sensor, check out [Renaldo Meere's moisture sensor calibration utility](https://github.com/OfferZen-Make/plant_tech_ams/tree/master/arduino/utilities).
+**💡 Side mission!** If you want to calibrate your moisture sensor, check out [Renaldo Meere's moisture sensor calibration utility](https://github.com/OfferZen-Make/plant_tech_ams/tree/main/arduino/utilities).
 
 ### Part 3 - Mini Water Pump ⛽️
 
@@ -88,7 +88,7 @@ Ue the connector - white block with four inlets - to do so. By lifting the plast
 
 The pump has a positive (red) wire that receives power from the 3V pin of the ESP8266. The negative (black) wire connects with the Collector pin from the transistor. The emitter pin from the transistor needs to be connected to GND on the ESP8266 board. Finally, connect the base to the D6 pin to be able to control the pump.
 
-Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/arduino/plant_watering_system/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and please watch out for water spills ;)
+Write some code (or check the code from the [complete watering system](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/arduino/plant_watering_system/plant_watering_system.ino) in this repo) to get the pump up and running. Before uploading the code, make sure to submerse the pump in your tall glass/container filled with water, as you do not want to overheat its motor - and please watch out for water spills ;)
 
 Your self-watering plant is set up! You can now simply plug it directly into the mains using a usb adaptor / cellphone charger with a 5v output and it will keep your plant watered.
 
@@ -132,8 +132,8 @@ You can find extensions for the project here.
 Connect your ESP8266 with [your Wi-Fi](https://www.instructables.com/IoT-ESP8266-Series-1-Connect-to-WIFI-Router/)
 
 ### Build a chatbot
-* Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/mariuspot/plant_tech_ams/blob/master/webcontrol.ino)
-* Send messages on [slack or telegram](http://blog.danishjoshi.com/2019/11/06/sending-messages-to-a-slack-or-telegram-channel-using-esp8266/).
+* Let your system update you, and feed it commands, via text/slack/whatsapp with the [MessageBird API](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/arduino/webcontrol/webcontrol.ino)
+* Send messages on [slack or telegram](http://blog.danishjoshi.com/sending-messages-to-a-slack-or-telegram-channel-using-esp8266/).
 * Telling your plant to water itself - by speech! [Blogpost + code](https://codeburst.io/home-automation-using-google-assistant-dialogflow-firebase-esp8266-wemos-part-1-800c4dc15ad9)
 
 ### Set up a web server
@@ -170,8 +170,8 @@ You can find code and projects and advice submitted by the community here. Pleas
 | ----------- | ----------- | ----------- |
 |[Mobile app to monitor moisture](https://github.com/sid-zip/moniter-moisture-level)|Connecting ESP device with the [Blynk](https://blynk.io/) mobile application to remotely retrieve sensor values in real-time.|[@sid-zip](https://github.com/sid-zip)|
 |[Prometheus exporter](http://linkode.org/#piYml2vuWQLjiHCk0b4k05)|Connect to your WiFi and have a small webserver running there. Here is my prometheus exporter.|[@gilgamezh](https://github.com/gilgamezh/)|
-|[deep sleep data logger](./examples/DeepSleepDataLogger/README.md)| This script will enable deep sleep and turns your plant into a data logger. This means that it will significantly use less power and saves the analogue value in a google sheet.|by [SamLoys](https://github.com/SamLoysa)|
-|[Add multiple sensors and pumps to your make kit](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/expansions/multiple_sensors_and_pumps_by_AnriGoosen.md)|The circuit works by converting the output from 3 digital output pins to binary through the 3-8 converter and using that to switch on each sensor or pump one by one. Readings are taken from the sensors one at a time through the analog pin. The NAND gate is used to determine if the sensors or the pumps must be switched on. In theory, this can be expanded to connect up to 24 sensors and pumps to one ESP8266 NodeMCU board|by [GoosenA](https://github.com/GoosenA)|
+|[deep sleep data logger](./arduino/examples/DeepSleepDataLogger/README.md)| This script will enable deep sleep and turns your plant into a data logger. This means that it will significantly use less power and saves the analogue value in a google sheet.|by [SamLoys](https://github.com/SamLoysa)|
+|[Add multiple sensors and pumps to your make kit](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/expansions/multiple_sensors_and_pumps_by_AnriGoosen.md)|The circuit works by converting the output from 3 digital output pins to binary through the 3-8 converter and using that to switch on each sensor or pump one by one. Readings are taken from the sensors one at a time through the analog pin. The NAND gate is used to determine if the sensors or the pumps must be switched on. In theory, this can be expanded to connect up to 24 sensors and pumps to one ESP8266 NodeMCU board|by [GoosenA](https://github.com/GoosenA)|
 |[OfferZenSelfWateringPlant](https://github.com/TLCoetzer/OfferZenSelfWateringPlant)|basic implimentation from the event evening. It reads the sensor values, then if greater than 400 it turns the pump on for 2 seconds, then off again for 10 seconds to give the water chance to absorb. It then reads again. If the water is reading is <= 400 then it just blinks the light on for 2 seconds and the off for 2 seconds before taking another reading. It just keeps looping like this forever.|by [TLCoetzer](https://github.com/TLCoetzer)|
 |[Automatic pid water portion control](https://github.com/ikilledmypc/plantwaterer)|This project uses 2 humidity levels one for the night/morning and one for the afternoon/midday. You can set your timezone-offset and humidity levels in the web interface. I'm in the process of testing it on a live plant though so I won't take any blame for drowned plants. It does have a watchdog timer for safety.|by @ikilledmypc.|
 |[Playing withb Arduino setup](https://github.com/ronaldf2000/basihetplantje)|First attempt playing with the arduino enviroment working with embedded c++ |by @ronaldf2000.|
@@ -197,7 +197,7 @@ You can find code and projects and advice submitted by the community here. Pleas
 
 Micropython = Python 3.4. No need to recompile your code. Run your code by pressing F5 (in Thonny) to run. Runs on ESP8266, ESP32-platforms. Has a filesystem so you can copy files to it from Mac/Win/Linux. Interfaces with a huuuuuuge number of sensors. CircuitPython is a fork of Micropython. Go check out Micropython. Lotsa tutorials online available, otherwise let me know if/how I can help (@MIchiel Erasmus on OfferZen Community Slack). Use https://thonny.org as editor.
 
-@lee penrose was kind enough to submit his Python code for his self watering plant project so you can check it out to [here](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/snippets/plant_watering_system.py) - try write your own!
+@lee penrose was kind enough to submit his Python code for his self watering plant project so you can check it out to [here](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/snippets/plant_watering_system.py) - try write your own!
 
 
 ### 3D printed tools
@@ -241,8 +241,8 @@ You can find instructions on building this [here](https://github.com/rvt/offerze
 ### Additional equipment
 
 To shop for equipment see suppliers lists in your country:
-- [South Africa](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/south_africa_equipment_suppliers.md)
-- [Netherlands](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/netherlands_equipment_suppliers.md)
+- [South Africa](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/south_africa_equipment_suppliers.md)
+- [Netherlands](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/netherlands_equipment_suppliers.md)
 
 
 Here's a list of equipment that has come up as ideas for extending the project further.
@@ -299,7 +299,7 @@ Most laptop USB ports can only supply limited current, generally 500mA (USB-3 is
 
 The Arduino's Wifi antenna is very small and not very strong, so you might need to move it closer to the Wifi.
 
-You can use [this program](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/examples/WiFi/list_wifi.ino) to find SSID's and check signal strength.
+You can use [this program](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/arduino/examples/WiFi/list_wifi/list_wifi.ino) to find SSID's and check signal strength.
 
 ### Mac users unable to get your Hello World up and running
 
@@ -316,7 +316,7 @@ Paolo Brizzolari > @Alex Siega it’s cool that you got it working. Just a coupl
 
 Using the generic 8266 doesn’t guarantee that all the pins will have the right numbers so I’d advise choosing the NodeMCU board once you’ve added the json url to the boards manager
 The alias D4 that disappeared was because of the above. For each board there is an import happening in the background
-If you check the esp8266 libraries you can go into variants/nodemcu/pins_arduino.h [and see the following](https://github.com/OfferZen-Make/plant_tech_ams/blob/master/snippets/pins_arduino.h).
+If you check the esp8266 libraries you can go into variants/nodemcu/pins_arduino.h [and see the following](https://github.com/OfferZen-Make/plant_tech_ams/blob/main/snippets/pins_arduino.h).
 
 ### Mac OSX: Big Sur upload errors
 

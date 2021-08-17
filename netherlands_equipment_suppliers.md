@@ -1,10 +1,15 @@
 # Small Suppliers
-- Tinytronics - https://www.tinytronics.nl/shop/nl
+- Electronica voor jou - https://elektronicavoorjou.nl/
+- Hobby Electronica - https://www.hobbyelectronica.nl/
 - Kiwi Electronics - https://www.kiwi-electronics.nl/
+- Otronic - https://www.otronic.nl/
+- Tinytronics - https://www.tinytronics.nl/shop/nl
 
 # Big Suppliers
-- Reichelt - https://www.reichelt.nl/
-- Digikey - https://www.digikey.nl/en
-- RS Electronics - https://nl.rs-online.com/web/
+- Bol.com - https://www.bol.com
+- Conrad - https://www.conrad.nl/
 - Distrelec - https://www.distrelec.nl/
 - Farnell - https://nl.farnell.com/
+- Digikey - https://www.digikey.nl/en
+- Reichelt - https://www.reichelt.nl/
+- RS Electronics - https://nl.rs-online.com/web/
